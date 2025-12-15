@@ -1,10 +1,13 @@
+
+    <script type="application/json" id="approved-devices-data">
+
 [
 
 
 
          {"id": "turis-uhpey3rg9","name": "one kucuk Turis tv"}, 
 
- {"id": "star-1mv4blw6w","name": "diger Turis tv"}, 
+ {"id": "turis-trjy5fdpq","name": "diger Turis tv"}, 
 
  {"id": "turis-lrw8j7t1f","name": "diger iptv githup"},  
 
@@ -148,7 +151,7 @@
 
   {"id": "star-fe3zupl1m","name": " Turis One Eski "},
 
-  {"id": "star-1mv4blw6w","name": " kodluk "},
+  {"id": "turis-lslol9ozt","name": " kodluk "},
 
   {"id": "turis-jszipovx7","name": " Bayram Evlice "},
 
@@ -171,3 +174,5 @@
   {"id": "turis-vawg7hzze","name": "Bilgisayar"}
 
 ]
+
+    </script>
