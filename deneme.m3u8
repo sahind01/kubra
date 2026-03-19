@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=2000000,NAME="1080p"
+#EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1920x1080,NAME="1080p"
 #EXTVLCOPT:http-referrer=https://www.elneswangy.com/
 https://vcdn.elneswangy.com/elnes/1000/1609/1609.mp4
