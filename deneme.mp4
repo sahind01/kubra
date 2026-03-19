@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" group-title="Video",1609 Video
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=2000000,NAME="1080p"
 #EXTVLCOPT:http-referrer=https://www.elneswangy.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
 https://vcdn.elneswangy.com/elnes/1000/1609/1609.mp4
