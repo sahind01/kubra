@@ -19,5 +19,10 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "functions": {
+    "**/*.py": {
+      "excludeFiles": "{**/*.py}"
+    }
+  }
 }
