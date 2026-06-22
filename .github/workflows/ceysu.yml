@@ -1,0 +1,37 @@
+name: Update Ceysu
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # Her 5 dakikada bir çalışır
+  workflow_dispatch: # Manuel tetikleme
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Run Ceysu Script
+        run: python ceysu.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          # Yula klasörünü ekle
+          git add yula/*.m3u8
+          git commit -m "Ceysu: Yula klasörü güncellendi" || exit 0
+          git push
