@@ -1,0 +1,59 @@
+#EXTM3U
+
+#KATEGORİ:Ulusal
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/showfhd.png" group-title="Ulusal",Show TV
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/starfhd.png" group-title="Ulusal",Star TV
+http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/atvfhd.png" group-title="Ulusal",Atv
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/kanaldfhd.png" group-title="Ulusal",Kanal D
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=da2109ea-5dfe-4107-89ab-23593336ed61
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/now.png" group-title="Ulusal",Now HD
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/beyaztvhd.png" group-title="Ulusal",Beyaz TV HD
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/kanal7hd.png" group-title="Ulusal",Kanal 7 HD
+https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/tv8fhd.png" group-title="Ulusal",TV 8 FHD
+https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/tv8.5fhd.png" group-title="Ulusal",TV8.5
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/dmaxhd.png" group-title="Ulusal",DMAX
+https://dogus.daioncdn.net/dmax/dmax_720p.m3u8?token=RWJtNmsxSEE5YXI5aWVvdVU0NlcyMjhaTFZXRy84cWcxWEZra3ZIV0pnND0=&sid=7u9skhbfndzh&app=5a02c599-d17e-4982-9b04-090934d51af7&ce=3
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/tlchd.png" group-title="Ulusal",TLC
+http://dygvideo.dygdigital.com/live/hls/tlctvdai?m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/tv2hd.png" group-title="Ulusal",Tv2 HD
+https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/a2hd.png" group-title="Ulusal",A2 HD
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/trt1fhd.png" group-title="Ulusal",Trt 1 FHD
+https://tv-trt1.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/trt2.png" group-title="Ulusal",Trt 2 HD
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/trtavaz.png" group-title="Ulusal",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/trtturkhd.png" group-title="Ulusal",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/tivi6.png" group-title="Ulusal",Tivi6
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/diyanet.png" group-title="Ulusal",Diyanet TV
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/360.png" group-title="Ulusal",360 HD
+https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/atvhd.png" group-title="Ulusal",Atv 480p
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/atvhd.png" group-title="Ulusal",Atv 720p
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/kanaldfhd.png" group-title="Ulusal",Kanal D (alt)
+https://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/kanal7avr.png" group-title="Ulusal",Kanal 7 Avrupa
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/kanal7hd.png" group-title="Ulusal",Kanal 7 720p
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/tv8inthd.png" group-title="Ulusal",TV8 INT
+https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=7c32lioncwib&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3&format=.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/eurod.png" group-title="Ulusal",Euro D
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://emkfiles.freesite.online/r/eurostar.png" group-title="Ulusal",Euro Star
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/estar.m3u8
