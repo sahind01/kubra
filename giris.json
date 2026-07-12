@@ -1,16 +1,13 @@
 {
   "users": [
     {
-      "username": "admin",
-      "password": "1234"
+      "username": "admin"
     },
     {
-      "username": "demo",
-      "password": "demo123"
+      "username": "demo"
     },
     {
-      "username": "mutlu",
-      "password": "tv2024"
+      "username": "mutlu"
     }
   ]
 }
