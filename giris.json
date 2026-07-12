@@ -1,4 +1,16 @@
-validUsers = [
-                    { username: 'admin', password: '1234' },
-                    { username: 'demo', password: 'demo' }
-                ];
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "1234"
+    },
+    {
+      "username": "demo",
+      "password": "demo123"
+    },
+    {
+      "username": "mutlu",
+      "password": "tv2024"
+    }
+  ]
+}
