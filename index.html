@@ -4,134 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Türkiye Hava Durumu</title>
+    <title>Gelişmiş Hava Durumu - Mutlu IPTV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background-color: #0f172a; color: #f8fafc; margin: 0; padding: 15px; }
         
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
+        /* Başlık Alanı */
+        .header { text-align: center; margin-bottom: 20px; }
+        .baslik { font-size: 24px; font-weight: 800; color: #0ea5e9; margin-bottom: 4px; }
+        .alt-baslik { font-size: 13px; color: #94a3b8; font-weight: 500; }
         
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
+        /* Şehir Seçici Dropdown */
+        .secici-kutu { text-align: center; margin-bottom: 25px; }
+        select { appearance: none; background-color: #1e293b; color: #f8fafc; border: 2px solid #334155; padding: 12px 40px 12px 20px; border-radius: 30px; font-size: 16px; font-weight: 600; outline: none; cursor: pointer; transition: 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.2); background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%230ea5e9%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.4-12.8z%22%2F%3E%3C%2Fsvg%3E"); background-repeat: no-repeat; background-position: right 15px top 50%; background-size: 12px auto; }
+        select:focus { border-color: #0ea5e9; }
         
-        h1 {
-            text-align: center;
-            color: white;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
+        /* Anlık Hava Durumu Ana Kart */
+        .ana-kart { background: linear-gradient(145deg, #1e293b, #0f172a); border-radius: 20px; padding: 30px 20px; text-align: center; border: 1px solid #334155; box-shadow: 0 10px 25px rgba(0,0,0,0.3); margin-bottom: 25px; }
+        #anlikIkon { font-size: 70px; line-height: 1; margin-bottom: 10px; display: block; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4)); }
+        #anlikSicaklik { font-size: 48px; font-weight: 800; color: #fff; margin-bottom: 5px; }
+        #anlikDurum { font-size: 18px; font-weight: 600; color: #0ea5e9; margin-bottom: 15px; }
+        #anlikRuzgar { font-size: 13px; color: #94a3b8; font-weight: 500; background: rgba(255,255,255,0.05); display: inline-block; padding: 6px 15px; border-radius: 20px; }
         
-        .update-time {
-            text-align: center;
-            color: rgba(255,255,255,0.8);
-            margin-bottom: 30px;
-            font-size: 1.1em;
-        }
+        /* 7 Günlük Tahmin Grid'i */
+        .haftalik-baslik { font-size: 16px; font-weight: 600; color: #cbd5e1; margin-bottom: 15px; border-bottom: 2px solid #334155; padding-bottom: 8px; display: inline-block; }
+        .haftalik-grid { display: flex; overflow-x: auto; gap: 12px; padding-bottom: 15px; scrollbar-width: none; }
+        .haftalik-grid::-webkit-scrollbar { display: none; }
         
-        .weather-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-        }
+        .gun-kart { min-width: 80px; background: #1e293b; border-radius: 16px; padding: 15px 10px; text-align: center; border: 1px solid #334155; flex-shrink: 0; }
+        .gun-isim { font-size: 13px; font-weight: 600; color: #94a3b8; margin-bottom: 8px; }
+        .gun-ikon { font-size: 28px; margin-bottom: 8px; }
+        .gun-dereceler { font-size: 14px; font-weight: 700; }
+        .derece-max { color: #f8fafc; }
+        .derece-min { color: #64748b; font-size: 12px; margin-left: 4px; }
         
-        .weather-card {
-            background: rgba(255,255,255,0.95);
-            border-radius: 15px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-            backdrop-filter: blur(10px);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .weather-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 40px rgba(0,0,0,0.3);
-        }
-        
-        .city-name {
-            font-size: 1.2em;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 5px;
-        }
-        
-        .temperature {
-            font-size: 2.2em;
-            font-weight: bold;
-            color: #2d3748;
-            margin: 5px 0;
-        }
-        
-        .weather-desc {
-            color: #4a5568;
-            font-size: 0.95em;
-            margin: 5px 0;
-        }
-        
-        .humidity, .wind {
-            color: #718096;
-            font-size: 0.85em;
-            margin: 3px 0;
-        }
-        
-        .weather-icon {
-            font-size: 2.5em;
-            margin: 5px 0;
-        }
-        
-        @media (max-width: 600px) {
-            .weather-grid {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                gap: 15px;
-            }
-            
-            h1 {
-                font-size: 1.8em;
-            }
-            
-            .temperature {
-                font-size: 1.8em;
-            }
-        }
-        
-        .error {
-            text-align: center;
-            color: white;
-            font-size: 1.5em;
-            padding: 50px;
-            background: rgba(255,0,0,0.3);
-            border-radius: 10px;
-        }
+        .footer { text-align: center; margin-top: 30px; font-size: 12px; color: #64748b; line-height: 1.6; padding-bottom: 20px; }
+        .marka { color: #0ea5e9; font-weight: bold; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🌤️ Türkiye Hava Durumu</h1>
-        <div class="update-time">📅 Son Güncelleme: 13.07.2026 18:00:41</div>
-        <div class="weather-grid">
 
-            <div class="weather-card">
-                <div class="city-name">Türkiye Cumhuriyeti</div>
-                <div class="weather-icon">🌤️</div>
-                <div class="temperature">24.9°C</div>
-                <div class="weather-desc">Az Bulutlu</div>
-                <div class="humidity">💧 Nem: %32</div>
-                <div class="wind">💨 Rüzgar: 3.6 km/s</div>
-            </div>
-
-        </div>
+    <div class="header">
+        <div class="baslik">☁️ HAVA DURUMU</div>
+        <div class="alt-baslik">Canlı & Haftalık Meteoroloji Paneli</div>
     </div>
+
+    <div class="secici-kutu">
+        <select id="sehirSelect" onchange="ekraniGuncelle()">
+            </select>
+    </div>
+
+    <div class="ana-kart">
+        <span id="anlikIkon">⏳</span>
+        <div id="anlikSicaklik">--°C</div>
+        <div id="anlikDurum">Yükleniyor...</div>
+        <div id="anlikRuzgar">💨 Rüzgar: -- km/s</div>
+    </div>
+
+    <div class="haftalik-baslik">📅 7 Günlük Tahmin</div>
+    <div class="haftalik-grid" id="haftalikKonteyner">
+        </div>
+
+    <div class="footer">
+        © 2026 <span class="marka">Mutlu IPTV</span> Özel Servisi<br>
+        Son Güncelleme: 13-07-2026 19:17
+    </div>
+
+    <script>
+        // Python'un çektiği tüm veriyi buraya gizli veritabanı olarak gömüyoruz
+        const havaVerileri = {"Doğubayazıt": {"anlik": {"sicaklik": 21, "ruzgar": 2.7, "ikon": "☀️", "durum": "Açık"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 29, "min": 18}, {"gun": "Sal", "ikon": "⛅", "max": 32, "min": 16}, {"gun": "Çar", "ikon": "⛅", "max": 30, "min": 15}, {"gun": "Per", "ikon": "🌧️", "max": 27, "min": 16}, {"gun": "Cum", "ikon": "🌧️", "max": 28, "min": 17}, {"gun": "Cts", "ikon": "⛅", "max": 29, "min": 17}, {"gun": "Paz", "ikon": "⛅", "max": 29, "min": 15}]}, "Ağrı Merkez": {"anlik": {"sicaklik": 20, "ruzgar": 6.0, "ikon": "☀️", "durum": "Açık"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 31, "min": 16}, {"gun": "Sal", "ikon": "🌫️", "max": 32, "min": 14}, {"gun": "Çar", "ikon": "⛅", "max": 29, "min": 12}, {"gun": "Per", "ikon": "⛅", "max": 29, "min": 14}, {"gun": "Cum", "ikon": "⛅", "max": 29, "min": 15}, {"gun": "Cts", "ikon": "⛅", "max": 30, "min": 16}, {"gun": "Paz", "ikon": "⛅", "max": 29, "min": 13}]}, "İstanbul": {"anlik": {"sicaklik": 23, "ruzgar": 8.7, "ikon": "⛅", "durum": "Parçalı Bulutlu"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 28, "min": 21}, {"gun": "Sal", "ikon": "🌧️", "max": 26, "min": 20}, {"gun": "Çar", "ikon": "⛅", "max": 30, "min": 19}, {"gun": "Per", "ikon": "⛅", "max": 30, "min": 21}, {"gun": "Cum", "ikon": "⛅", "max": 30, "min": 23}, {"gun": "Cts", "ikon": "⛅", "max": 32, "min": 22}, {"gun": "Paz", "ikon": "⛅", "max": 35, "min": 21}]}, "Ankara": {"anlik": {"sicaklik": 24, "ruzgar": 7.3, "ikon": "☀️", "durum": "Açık"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 32, "min": 17}, {"gun": "Sal", "ikon": "⛅", "max": 29, "min": 18}, {"gun": "Çar", "ikon": "⛅", "max": 29, "min": 14}, {"gun": "Per", "ikon": "⛅", "max": 30, "min": 16}, {"gun": "Cum", "ikon": "⛅", "max": 29, "min": 18}, {"gun": "Cts", "ikon": "⛅", "max": 30, "min": 17}, {"gun": "Paz", "ikon": "⛅", "max": 32, "min": 18}]}, "İzmir": {"anlik": {"sicaklik": 27, "ruzgar": 6.8, "ikon": "☀️", "durum": "Açık"}, "haftalik": [{"gun": "Bugün", "ikon": "☀️", "max": 34, "min": 23}, {"gun": "Sal", "ikon": "⛅", "max": 31, "min": 22}, {"gun": "Çar", "ikon": "☀️", "max": 34, "min": 21}, {"gun": "Per", "ikon": "☀️", "max": 36, "min": 22}, {"gun": "Cum", "ikon": "⛅", "max": 36, "min": 23}, {"gun": "Cts", "ikon": "☀️", "max": 35, "min": 23}, {"gun": "Paz", "ikon": "⛅", "max": 37, "min": 24}]}, "Bursa": {"anlik": {"sicaklik": 22, "ruzgar": 3.7, "ikon": "⛅", "durum": "Parçalı Bulutlu"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 29, "min": 18}, {"gun": "Sal", "ikon": "⛅", "max": 26, "min": 17}, {"gun": "Çar", "ikon": "⛅", "max": 30, "min": 18}, {"gun": "Per", "ikon": "⛅", "max": 32, "min": 19}, {"gun": "Cum", "ikon": "⛅", "max": 31, "min": 18}, {"gun": "Cts", "ikon": "⛅", "max": 34, "min": 19}, {"gun": "Paz", "ikon": "☀️", "max": 37, "min": 20}]}, "Antalya": {"anlik": {"sicaklik": 28, "ruzgar": 3.1, "ikon": "⛅", "durum": "Parçalı Bulutlu"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 31, "min": 26}, {"gun": "Sal", "ikon": "⛅", "max": 36, "min": 26}, {"gun": "Çar", "ikon": "⛅", "max": 36, "min": 27}, {"gun": "Per", "ikon": "⛅", "max": 37, "min": 27}, {"gun": "Cum", "ikon": "⛅", "max": 38, "min": 27}, {"gun": "Cts", "ikon": "⛅", "max": 37, "min": 28}, {"gun": "Paz", "ikon": "⛅", "max": 35, "min": 29}]}, "Adana": {"anlik": {"sicaklik": 27, "ruzgar": 5.0, "ikon": "⛅", "durum": "Parçalı Bulutlu"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 34, "min": 25}, {"gun": "Sal", "ikon": "⛅", "max": 35, "min": 25}, {"gun": "Çar", "ikon": "⛅", "max": 37, "min": 25}, {"gun": "Per", "ikon": "⛅", "max": 37, "min": 25}, {"gun": "Cum", "ikon": "⛅", "max": 36, "min": 25}, {"gun": "Cts", "ikon": "⛅", "max": 36, "min": 25}, {"gun": "Paz", "ikon": "⛅", "max": 36, "min": 26}]}, "Diyarbakır": {"anlik": {"sicaklik": 31, "ruzgar": 6.0, "ikon": "☀️", "durum": "Açık"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 40, "min": 22}, {"gun": "Sal", "ikon": "⛅", "max": 39, "min": 22}, {"gun": "Çar", "ikon": "⛅", "max": 40, "min": 24}, {"gun": "Per", "ikon": "⛅", "max": 40, "min": 26}, {"gun": "Cum", "ikon": "⛅", "max": 39, "min": 26}, {"gun": "Cts", "ikon": "⛅", "max": 39, "min": 24}, {"gun": "Paz", "ikon": "⛅", "max": 38, "min": 22}]}, "Gaziantep": {"anlik": {"sicaklik": 27, "ruzgar": 10.8, "ikon": "☀️", "durum": "Açık"}, "haftalik": [{"gun": "Bugün", "ikon": "☀️", "max": 36, "min": 25}, {"gun": "Sal", "ikon": "⛅", "max": 36, "min": 24}, {"gun": "Çar", "ikon": "⛅", "max": 37, "min": 25}, {"gun": "Per", "ikon": "⛅", "max": 36, "min": 25}, {"gun": "Cum", "ikon": "☀️", "max": 36, "min": 24}, {"gun": "Cts", "ikon": "⛅", "max": 35, "min": 24}, {"gun": "Paz", "ikon": "⛅", "max": 35, "min": 24}]}, "Konya": {"anlik": {"sicaklik": 26, "ruzgar": 3.6, "ikon": "⛅", "durum": "Parçalı Bulutlu"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 32, "min": 18}, {"gun": "Sal", "ikon": "⛅", "max": 30, "min": 20}, {"gun": "Çar", "ikon": "⛅", "max": 29, "min": 17}, {"gun": "Per", "ikon": "⛅", "max": 30, "min": 18}, {"gun": "Cum", "ikon": "⛅", "max": 30, "min": 18}, {"gun": "Cts", "ikon": "⛅", "max": 30, "min": 18}, {"gun": "Paz", "ikon": "⛅", "max": 33, "min": 20}]}, "Kayseri": {"anlik": {"sicaklik": 21, "ruzgar": 4.3, "ikon": "☀️", "durum": "Açık"}, "haftalik": [{"gun": "Bugün", "ikon": "☀️", "max": 31, "min": 15}, {"gun": "Sal", "ikon": "⛅", "max": 32, "min": 17}, {"gun": "Çar", "ikon": "⛅", "max": 29, "min": 17}, {"gun": "Per", "ikon": "⛅", "max": 30, "min": 14}, {"gun": "Cum", "ikon": "⛅", "max": 29, "min": 14}, {"gun": "Cts", "ikon": "⛅", "max": 29, "min": 14}, {"gun": "Paz", "ikon": "⛅", "max": 31, "min": 13}]}, "Samsun": {"anlik": {"sicaklik": 23, "ruzgar": 3.3, "ikon": "⛅", "durum": "Parçalı Bulutlu"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 26, "min": 20}, {"gun": "Sal", "ikon": "⛅", "max": 27, "min": 21}, {"gun": "Çar", "ikon": "⛅", "max": 26, "min": 21}, {"gun": "Per", "ikon": "⛅", "max": 27, "min": 21}, {"gun": "Cum", "ikon": "⛅", "max": 26, "min": 22}, {"gun": "Cts", "ikon": "⛅", "max": 27, "min": 20}, {"gun": "Paz", "ikon": "⛅", "max": 30, "min": 18}]}, "Trabzon": {"anlik": {"sicaklik": 24, "ruzgar": 3.6, "ikon": "⛅", "durum": "Parçalı Bulutlu"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 25, "min": 22}, {"gun": "Sal", "ikon": "⛅", "max": 26, "min": 22}, {"gun": "Çar", "ikon": "⛅", "max": 25, "min": 22}, {"gun": "Per", "ikon": "⛅", "max": 25, "min": 21}, {"gun": "Cum", "ikon": "⛅", "max": 24, "min": 20}, {"gun": "Cts", "ikon": "⛅", "max": 25, "min": 21}, {"gun": "Paz", "ikon": "⛅", "max": 26, "min": 20}]}, "Erzurum": {"anlik": {"sicaklik": 22, "ruzgar": 10.8, "ikon": "☀️", "durum": "Açık"}, "haftalik": [{"gun": "Bugün", "ikon": "⛅", "max": 29, "min": 16}, {"gun": "Sal", "ikon": "⛅", "max": 29, "min": 17}, {"gun": "Çar", "ikon": "⛅", "max": 26, "min": 15}, {"gun": "Per", "ikon": "⛅", "max": 26, "min": 14}, {"gun": "Cum", "ikon": "🌧️", "max": 24, "min": 14}, {"gun": "Cts", "ikon": "⛅", "max": 24, "min": 14}, {"gun": "Paz", "ikon": "⛅", "max": 27, "min": 14}]}, "Van": {"anlik": {"sicaklik": 20, "ruzgar": 9.0, "ikon": "☀️", "durum": "Açık"}, "haftalik": [{"gun": "Bugün", "ikon": "☀️", "max": 30, "min": 16}, {"gun": "Sal", "ikon": "☀️", "max": 30, "min": 16}, {"gun": "Çar", "ikon": "⛅", "max": 28, "min": 16}, {"gun": "Per", "ikon": "⛅", "max": 28, "min": 16}, {"gun": "Cum", "ikon": "⛅", "max": 29, "min": 18}, {"gun": "Cts", "ikon": "⛅", "max": 29, "min": 18}, {"gun": "Paz", "ikon": "☀️", "max": 27, "min": 15}]}};
+        
+        const sehirSelect = document.getElementById("sehirSelect");
+        const anlikIkon = document.getElementById("anlikIkon");
+        const anlikSicaklik = document.getElementById("anlikSicaklik");
+        const anlikDurum = document.getElementById("anlikDurum");
+        const anlikRuzgar = document.getElementById("anlikRuzgar");
+        const haftalikKonteyner = document.getElementById("haftalikKonteyner");
+
+        // Sayfa açıldığında select kutusunu şehirlerle doldur
+        function baslat() {
+            let ilkSehir = "Doğubayazıt"; // Senin şehrin varsayılan olarak seçili gelir
+            
+            for (let sehir in havaVerileri) {
+                let option = document.createElement("option");
+                option.value = sehir;
+                option.text = sehir;
+                if (sehir === ilkSehir) option.selected = true;
+                sehirSelect.appendChild(option);
+            }
+            
+            ekraniGuncelle(); // İlk veriyi ekrana bas
+        }
+
+        // Seçilen şehre göre ekranı anında değiştirme
+        function ekraniGuncelle() {
+            const secilenSehir = sehirSelect.value;
+            const veri = havaVerileri[secilenSehir];
+            
+            // Üstteki Ana Kartı Güncelle
+            anlikIkon.textContent = veri.anlik.ikon;
+            anlikSicaklik.textContent = veri.anlik.sicaklik + "°C";
+            anlikDurum.textContent = veri.anlik.durum;
+            anlikRuzgar.textContent = "💨 Rüzgar: " + veri.anlik.ruzgar + " km/s";
+            
+            // Alttaki 7 Günlük Grid'i Güncelle
+            haftalikKonteyner.innerHTML = ""; // Önceki kartları temizle
+            
+            veri.haftalik.forEach(gunData => {
+                let kart = document.createElement("div");
+                kart.className = "gun-kart";
+                kart.innerHTML = `
+                    <div class="gun-isim">${gunData.gun}</div>
+                    <div class="gun-ikon">${gunData.ikon}</div>
+                    <div class="gun-dereceler">
+                        <span class="derece-max">${gunData.max}°</span>
+                        <span class="derece-min">${gunData.min}°</span>
+                    </div>
+                `;
+                haftalikKonteyner.appendChild(kart);
+            });
+        }
+
+        // Her şey hazır olunca başlat
+        window.onload = baslat;
+    </script>
 </body>
 </html>
