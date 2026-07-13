@@ -1,209 +1,193 @@
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
-import json
-import os
+import time
 import re
-from tqdm import tqdm
-import urllib3
-import subprocess
-from datetime import datetime
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-# --- AYARLAR ---
+# Ayarlar
 BASE_URL = "https://www.kanald.com.tr"
-ROOT_DIR = "kanald"
-DIRS = {
-    "series": os.path.join(ROOT_DIR, "dizi"),
-    "programs": os.path.join(ROOT_DIR, "program")
-}
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Referer": BASE_URL
-}
+# Taranacak URL Listesi
+TARGETS = [
+    {"url": "https://www.kanald.com.tr/diziler", "type": "DIZI", "is_archive": False},
+    {"url": "https://www.kanald.com.tr/programlar", "type": "PROGRAM", "is_archive": False},
+    {"url": "https://www.kanald.com.tr/diziler/arsiv?page=", "type": "DIZI", "is_archive": True},
+    {"url": "https://www.kanald.com.tr/programlar/arsiv?page=", "type": "PROGRAM", "is_archive": True}
+]
 
-def run_command(command):
+def get_real_m3u8(scraper, bolum_url):
+    """Bölüm sayfasından ve embed içinden gerçek M3U8 linkini bulur"""
     try:
-        subprocess.run(command, shell=True, check=False)
-    except: 
-        pass
+        # 1. Aşama: Bölüm sayfasından Embed URL'yi çek
+        r1 = scraper.get(bolum_url, timeout=15)
+        embed_match = re.search(r'<link[^>]+itemprop=["\']embedURL["\'][^>]+href=["\']([^"\']+)["\']', r1.text)
 
-def get_stream_url(page_url):
-    """Video sayfasından m3u8 linkini regex ile söker"""
-    try:
-        r = requests.get(page_url, headers=HEADERS, verify=False, timeout=10)
-        # KanalD genelde "mediaSourcesList" içinde tutar
-        match = re.search(r'"Path":"(https:.*?\.m3u8.*?)"', r.text)
-        if match:
-            return match.group(1).replace("\\/", "/")
-        
-        # Alternatif: data-media-sources
-        match2 = re.search(r"data-media-sources='(.*?)'", r.text)
-        if match2:
-            try:
-                data = json.loads(match2.group(1))
-                # Hls > Path
-                return data.get("Hls", {}).get("Path", "")
-            except: 
-                pass
-            
-    except: 
-        pass
-    return None
+        if not embed_match:
+            # Alternatif: Iframe src içinde ara
+            soup = BeautifulSoup(r1.text, 'html.parser')
+            iframe = soup.find('iframe', src=re.compile(r'embed'))
+            if iframe:
+                embed_url = iframe['src']
+                if embed_url.startswith('//'): embed_url = "https:" + embed_url
+            else:
+                return None
+        else:
+            embed_url = embed_match.group(1)
 
-def get_episodes(show_url, show_name):
-    """Bir dizinin tüm bölümlerini tarar"""
-    episodes = []
-    page = 1
-    # KanalD sayfalama yapısı: /dizi/bolumler?page=1
-    # Bazen direkt hepsi tek sayfadadır.
-    
-    # Önce ana bölüm sayfasına gidelim
-    bolumler_url = show_url + "/bolumler"
-    print(f"   🔎 Bölümler aranıyor: {show_name}")
-    
-    try:
-        while True:
-            target_url = f"{bolumler_url}?page={page}"
-            r = requests.get(target_url, headers=HEADERS, verify=False, timeout=10)
-            soup = BeautifulSoup(r.content, "html.parser")
-            
-            cards = soup.select(".listing-holder .item")
-            if not cards: 
-                break
-            
-            print(f"      Sayfa {page}: {len(cards)} içerik bulundu.")
-            
-            new_found = 0
-            for card in cards:
-                try:
-                    a_tag = card.find("a")
-                    if not a_tag: 
-                        continue
-                    link = BASE_URL + a_tag.get("href")
-                    
-                    title_tag = card.find("h3")
-                    title = title_tag.get_text(strip=True) if title_tag else "Bolum"
-                    
-                    img_tag = card.find("img")
-                    img = img_tag.get("data-src") or img_tag.get("src") if img_tag else ""
-                    
-                    # Video Linkini Çek (Her bölüm için istek atar - Biraz yavaş olabilir)
-                    stream = get_stream_url(link)
-                    
-                    if stream:
-                        episodes.append({
-                            "name": title,
-                            "img": img,
-                            "stream_url": stream
-                        })
-                        new_found += 1
-                except: 
-                    continue
-            
-            if new_found == 0: 
-                break # Bu sayfada hiç video bulamadıysak bitir
-            page += 1
-            
+        # 2. Aşama: Embed sayfasının içine girip M3U8 pattern'lerini ara
+        r2 = scraper.get(embed_url, timeout=15, headers={"Referer": BASE_URL})
+        embed_html = r2.text
+
+        # Regex Pattern'leri
+        patterns = [
+            r'https?://vod[0-9]*\.cf\.dmcdn\.net/[^\s"\']+\.m3u8', # DMCDN Pattern
+            r'https?://[^\s"\']+\.m3u8',                          # Genel M3U8
+            r'["\']videoUrl["\']\s*:\s*["\']([^"\']+)["\']',      # JS VideoURL
+            r'src=["\']([^"\']+\.m3u8)["\']'                      # Src tag
+        ]
+
+        for p in patterns:
+            m = re.search(p, embed_html)
+            if m:
+                found_url = m.group(1) if "(" in p else m.group(0)
+                return found_url.replace('\\/', '/') # Unescape yap
+
+        return None
     except Exception as e:
-        print(f"   ⚠️ Hata: {e}")
+        print(f"      Link bulma hatası: {e}")
+        return None
 
-    print(f"   ✅ Toplam {len(episodes)} oynatılabilir bölüm.")
+def get_episodes(scraper, show_url, max_episodes=10):
+    """Bir dizinin/programın bölümlerini çeker"""
+    episodes = []
+    try:
+        # Bölümler sayfasına git
+        bolumler_url = show_url.rstrip('/') + "/bolumler"
+        resp = scraper.get(bolumler_url, timeout=15)
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        
+        # Kartları bul (Hem yeni hem eski tasarımları kapsar)
+        cards = soup.select('.story-card, .content-card, .video-card, .card-item')
+
+        for card in cards[:max_episodes]: # Son X bölümü al
+            link_tag = card.find('a', href=True) or (card if card.name == 'a' else None)
+            
+            # Başlık bulma denemeleri
+            name_tag = card.select_one('.title, h3, h2, .caption, .card-title')
+            
+            if link_tag and name_tag:
+                b_url = link_tag['href']
+                if not b_url.startswith('http'):
+                    b_url = BASE_URL + b_url if b_url.startswith('/') else BASE_URL + '/' + b_url
+                
+                ep_name = name_tag.get_text(strip=True)
+                
+                # M3U8 Linkini bul
+                m3u8 = get_real_m3u8(scraper, b_url)
+                
+                if m3u8:
+                    episodes.append({
+                        "name": ep_name,
+                        "url": m3u8
+                    })
+                    print(f"      🔗 Link bulundu: {ep_name[:30]}...")
+                else:
+                    print(f"      ⚠️ Stream bulunamadı: {ep_name[:30]}...")
+                    
+    except Exception as e:
+        print(f"    Bölümler çekilirken hata: {e}")
+    
     return episodes
 
-def collect_shows(category_url):
-    print(f"🌍 Kategori Taranıyor: {category_url}")
-    shows = []
-    try:
-        r = requests.get(category_url, headers=HEADERS, verify=False, timeout=15)
-        soup = BeautifulSoup(r.content, "html.parser")
-        # Kartları bul
-        cards = soup.select(".listing-holder .item, .program-list .item")
+def run_scraper():
+    print("🚀 Kanal D M3U8 Scraper Başlatıldı...")
+    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True})
+    
+    all_content = {} # { "Dizi Adı": { "poster": "url", "type": "DIZI", "bolumler": [] } }
+
+    for target in TARGETS:
+        print(f"\n📂 Kategori Taranıyor: {target['url']} ({target['type']})")
         
-        for card in cards:
-            a = card.find("a")
-            if not a: 
+        # Arşiv ise sayfalama yap, değilse tek sayfa
+        page_range = range(1, 6) if target['is_archive'] else range(1, 2)
+        
+        for page in page_range:
+            current_url = f"{target['url']}{page}" if target['is_archive'] else target['url']
+            if target['is_archive']: print(f"  📄 Sayfa {page}...")
+            
+            try:
+                resp = scraper.get(current_url, timeout=15)
+                soup = BeautifulSoup(resp.text, 'html.parser')
+                
+                # Poster kartlarını bul
+                cards = soup.select('a.poster-card, .program-card a, .series-card a')
+                
+                if not cards and target['is_archive']:
+                    print("    Bu sayfada içerik yok, döngüden çıkılıyor.")
+                    break
+                
+                for card in cards:
+                    href = card.get('href')
+                    if not href: continue
+                    
+                    full_url = BASE_URL + href if href.startswith('/') else href
+                    
+                    # Başlık ve Resim
+                    img_tag = card.find('img')
+                    title = card.get('title')
+                    if not title and img_tag: title = img_tag.get('alt')
+                    if not title: 
+                        # URL'den başlık çıkar
+                        title = href.strip('/').split('/')[-1].replace('-', ' ').title()
+                    
+                    poster = ""
+                    if img_tag:
+                        poster = img_tag.get('data-src') or img_tag.get('src') or ""
+                    
+                    # Eğer daha önce işlenmemişse listeye ekle
+                    if title not in all_content:
+                        print(f"  📺 İşleniyor: {title}")
+                        episodes = get_episodes(scraper, full_url, max_episodes=10) # Her içerikten son 10 bölüm
+                        
+                        if episodes:
+                            all_content[title] = {
+                                "poster": poster,
+                                "type": target['type'],
+                                "bolumler": episodes
+                            }
+                            
+            except Exception as e:
+                print(f"  ❌ Sayfa hatası: {e}")
                 continue
-            url = BASE_URL + a.get("href")
-            
-            t_tag = card.find("h3") or card.find("img")
-            name = t_tag.get_text(strip=True) if t_tag else "Bilinmeyen"
-            if not name and t_tag.name == "img": 
-                name = t_tag.get("alt")
-            
-            img_tag = card.find("img")
-            img = img_tag.get("data-src") or img_tag.get("src") if img_tag else ""
-            
-            shows.append({"name": name, "url": url, "img": img})
-            
-    except Exception as e:
-        print(f"❌ Kategori Hatası: {e}")
-        
-    print(f"✅ {len(shows)} dizi/program bulundu.")
-    return shows
 
-def save_and_push(data, category):
-    target_dir = DIRS[category]
-    all_list = []
+    create_m3u(all_content)
+
+def create_m3u(data):
+    file_name = "kanald.m3u"
+    print(f"\n📝 {file_name} dosyası oluşturuluyor...")
     
-    for show in data:
-        if not show.get("episodes"): 
-            continue
-        
-        slug = re.sub(r'[^a-z0-9-]', '', show['name'].lower().replace(" ", "-").replace("ç","c").replace("ğ","g").replace("ı","i").replace("ö","o").replace("ş","s").replace("ü","u"))
-        
-        # JSON
-        with open(os.path.join(target_dir, f"{slug}.json"), "w", encoding="utf-8") as f:
-            json.dump(show, f, ensure_ascii=False, indent=4)
-        
-        # M3U
-        try:
-            with open(os.path.join(target_dir, f"{slug}.m3u"), "w", encoding="utf-8") as f:
-                f.write("#EXTM3U\n")
-                for ep in show["episodes"]:
-                    f.write(f'#EXTINF:-1 tvg-logo="{ep["img"]}",{ep["name"]}\n{ep["stream_url"]}\n')
-        except: 
-            pass
-        
-        all_list.append(show)
-
-    # Toplu
-    with open(os.path.join(ROOT_DIR, f"kanald-{category}.json"), "w", encoding="utf-8") as f:
-        json.dump(all_list, f, ensure_ascii=False, indent=4)
-    with open(os.path.join(ROOT_DIR, f"kanald-{category}.m3u"), "w", encoding="utf-8") as f:
+    with open(file_name, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for show in all_list:
-            for ep in show["episodes"]:
-                f.write(f'#EXTINF:-1 tvg-logo="{ep["img"]}" group-title="{show["name"]}",{ep["name"]}\n{ep["stream_url"]}\n')
-
-def main():
-    for d in DIRS.values(): 
-        os.makedirs(d, exist_ok=True)
-    
-    targets = [
-        {"url": f"{BASE_URL}/diziler", "type": "series"},
-        {"url": f"{BASE_URL}/programlar", "type": "programs"}
-    ]
-    
-    for t in targets:
-        shows = collect_shows(t["url"])
-        processed = []
         
-        for show in tqdm(shows, desc=f"{t['type']} İşleniyor"):
-            episodes = get_episodes(show["url"], show["name"])
-            if episodes:
-                show["episodes"] = episodes
-                processed.append(show)
-        
-        save_and_push(processed, t["type"])
+        for title, content in data.items():
+            group_title = title
+            poster = content['poster']
+            # category = content['type'] # İstenirse group-title içine eklenebilir
+            
+            # Bölümleri ters çevir (Eskiden yeniye veya tam tersi isteğe bağlı, şu an geldiği gibi yazıyoruz)
+            # Genelde sitede en yeni en üsttedir.
+            
+            for ep in content['bolumler']:
+                ep_name = ep['name']
+                link = ep['url']
+                
+                # M3U Satırı
+                # Format: #EXTINF:-1 group-title="Dizi Adı" tvg-logo="resim", Dizi Adı - Bölüm Adı
+                display_name = f"{group_title} - {ep_name}"
+                
+                f.write(f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{poster}",{display_name}\n')
+                f.write(f'{link}\n')
 
-    # GITHUB
-    print("\n🚀 GitHub'a Yükleniyor...")
-    run_command("git add --all")
-    run_command(f'git commit -m "KanalD Guncelleme {datetime.now().strftime("%Y-%m-%d")}"')
-    run_command("git push")
-    print("✅ İşlem Tamamlandı.")
+    print("✅ M3U dosyası hazır!")
 
 if __name__ == "__main__":
-    main()
+    run_scraper()
