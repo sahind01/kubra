@@ -5,7 +5,7 @@ import json
 import os
 
 # GitHub RAW URL - JSON dosyasının bulunduğu yer
-GITHUB_RAW_URL = "https://raw.githubusercontent.com/braveheart1983/atakseries/main/diziler/atv.json"
+GITHUB_RAW_URL = "https://raw.githubusercontent.com/sahind01/kubra/refs/heads/main/diziler/atv.json"
 
 def slugify(text):
     text = text.lower()
