@@ -1,0 +1,57 @@
+name: kamald TV Arşiv Güncelleme
+
+# Ne zaman çalışacak?
+on:
+  schedule:
+    # Her gün Türkiye saatiyle sabah 07:00 civarı (UTC 04:00) çalışır
+    - cron: '0 4 * * *'
+  # GitHub üzerinden "Run workflow" butonu ile elle tetiklemek için:
+  workflow_dispatch:
+
+# Repoya dosya yükleyebilmesi (Push) için izinler
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Adım: Kodları depodan çek
+    - name: Depoyu Çek (Checkout Repository)
+      uses: actions/checkout@v4
+
+    # 2. Adım: Python ortamını kur
+    - name: Python Kurulumu
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9'
+
+    # 3. Adım: Gerekli Kütüphaneleri Yükle (Kütüphaneler buraya gömüldü)
+    - name: Kütüphaneleri Yükle (Install Dependencies)
+      run: |
+        python -m pip install --upgrade pip
+        # Senin scriptin için gerekli olan kütüphaneler:
+        pip install requests tqdm beautifulsoup4
+
+    # 4. Adım: Python Scriptini Çalıştır
+    - name: kanald Scriptini Çalıştır
+      run: |
+        # Scriptin ana dizinde (root) olduğunu varsayıyorum. 
+        # Eğer bir klasör içindeyse (örn: scripts/) başına 'cd scripts &&' ekle.
+        python kanald.py
+
+    # 5. Adım: Oluşan m3u ve json dosyalarını GitHub'a yükle
+    - name: Değişiklikleri Kaydet ve Gönder (Commit & Push)
+      run: |
+        git config --global user.name "GitHub Actions Otomatik"
+        git config --global user.email "actions@github.com"
+        
+        # Tüm yeni klasörleri (dizi/program) ve dosyaları ekle
+        git add .
+        
+        # Değişiklik varsa commit et, yoksa hata verme (|| echo)
+        git commit -m "Otomatik Güncelleme: kanald TV Arşivi [Dizi ve Programlar]" || echo "Değişiklik bulunamadı."
+        
+        # Değişiklikleri ana repoya gönder
+        git push
