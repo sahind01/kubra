@@ -26,7 +26,8 @@ HEADERS = {
 def run_command(command):
     try:
         subprocess.run(command, shell=True, check=False)
-    except: pass
+    except: 
+        pass
 
 def get_stream_url(page_url):
     """Video sayfasından m3u8 linkini regex ile söker"""
@@ -44,9 +45,11 @@ def get_stream_url(page_url):
                 data = json.loads(match2.group(1))
                 # Hls > Path
                 return data.get("Hls", {}).get("Path", "")
-            except: pass
+            except: 
+                pass
             
-    except: pass
+    except: 
+        pass
     return None
 
 def get_episodes(show_url, show_name):
@@ -67,7 +70,8 @@ def get_episodes(show_url, show_name):
             soup = BeautifulSoup(r.content, "html.parser")
             
             cards = soup.select(".listing-holder .item")
-            if not cards: break
+            if not cards: 
+                break
             
             print(f"      Sayfa {page}: {len(cards)} içerik bulundu.")
             
@@ -75,7 +79,8 @@ def get_episodes(show_url, show_name):
             for card in cards:
                 try:
                     a_tag = card.find("a")
-                    if not a_tag: continue
+                    if not a_tag: 
+                        continue
                     link = BASE_URL + a_tag.get("href")
                     
                     title_tag = card.find("h3")
@@ -94,9 +99,11 @@ def get_episodes(show_url, show_name):
                             "stream_url": stream
                         })
                         new_found += 1
-                except: continue
+                except: 
+                    continue
             
-            if new_found == 0: break # Bu sayfada hiç video bulamadıysak bitir
+            if new_found == 0: 
+                break # Bu sayfada hiç video bulamadıysak bitir
             page += 1
             
     except Exception as e:
@@ -116,12 +123,14 @@ def collect_shows(category_url):
         
         for card in cards:
             a = card.find("a")
-            if not a: continue
+            if not a: 
+                continue
             url = BASE_URL + a.get("href")
             
             t_tag = card.find("h3") or card.find("img")
             name = t_tag.get_text(strip=True) if t_tag else "Bilinmeyen"
-            if not name and t_tag.name == "img": name = t_tag.get("alt")
+            if not name and t_tag.name == "img": 
+                name = t_tag.get("alt")
             
             img_tag = card.find("img")
             img = img_tag.get("data-src") or img_tag.get("src") if img_tag else ""
@@ -139,7 +148,8 @@ def save_and_push(data, category):
     all_list = []
     
     for show in data:
-        if not show.get("episodes"): continue
+        if not show.get("episodes"): 
+            continue
         
         slug = re.sub(r'[^a-z0-9-]', '', show['name'].lower().replace(" ", "-").replace("ç","c").replace("ğ","g").replace("ı","i").replace("ö","o").replace("ş","s").replace("ü","u"))
         
@@ -153,7 +163,8 @@ def save_and_push(data, category):
                 f.write("#EXTM3U\n")
                 for ep in show["episodes"]:
                     f.write(f'#EXTINF:-1 tvg-logo="{ep["img"]}",{ep["name"]}\n{ep["stream_url"]}\n')
-        except: pass
+        except: 
+            pass
         
         all_list.append(show)
 
@@ -167,7 +178,8 @@ def save_and_push(data, category):
                 f.write(f'#EXTINF:-1 tvg-logo="{ep["img"]}" group-title="{show["name"]}",{ep["name"]}\n{ep["stream_url"]}\n')
 
 def main():
-    for d in DIRS.values(): os.makedirs(d, exist_ok=True)
+    for d in DIRS.values(): 
+        os.makedirs(d, exist_ok=True)
     
     targets = [
         {"url": f"{BASE_URL}/diziler", "type": "series"},
