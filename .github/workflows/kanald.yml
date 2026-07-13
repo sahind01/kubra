@@ -1,36 +1,57 @@
-name: kanald TV İçerik Güncelleyici
+name: KanalD Scraper
 
 on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
   schedule:
-    - cron: '0 0 * * *' # Her gece 00:00 UTC'de çalışır
-  workflow_dispatch: # Manuel tetiklemek için
+    - cron: '0 9 * * *' # Her gün saat 09:00 UTC (TSİ 12:00)
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-    - name: Depoyu Çek (Checkout)
-      uses: actions/checkout@v3
+      - name: Repo'yu checkout et
+        uses: actions/checkout@v4
 
-    - name: Python Kurulumu
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-    - name: Kütüphaneleri Yükle
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests beautifulsoup4 tqdm
+      - name: Paketleri yükle
+        run: |
+          pip install requests beautifulsoup4 cloudscraper
 
-    - name: Scripti Çalıştır
-      run: python kanald.py
+      - name: Scripti çalıştır
+        run: python kanald.py
 
-    - name: Değişiklikleri Kaydet ve Gönder
-      run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-        git add .
-        # Eğer değişiklik yoksa hata verme, varsa commit et
-        git commit -m "Otomatik içerik güncellemesi: $(date)" || echo "Değişiklik yok"
-        git push
+      - name: Git yapılandırması
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name  "GitHub Actions"
+
+      # --- ÇÖZÜM BÖLÜMÜ (Çakışma Önleyici) ---
+      - name: Çakışmayı önlemek için değişiklikleri stash'e al
+        run: |
+          git add -A
+          git stash
+
+      - name: Uzaktaki (remote) son değişiklikleri çek
+        run: |
+          git pull --rebase
+
+      - name: Stash'teki değişiklikleri geri yükle
+        run: |
+          git stash pop || true
+      # --- ÇÖZÜM BİTİŞ ---
+
+      - name: M3U Çıktısını Commit Et
+        run: |
+          git add kanald.m3u
+          # Eğer değişiklik varsa commit at, yoksa hata verme
+          git diff --staged --quiet || git commit -m "Kanal D playlist güncellendi [$(date +"%Y-%m-%d %H:%M:%S")]"
+          git push
