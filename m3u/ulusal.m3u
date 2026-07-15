@@ -1,1 +1,117 @@
-
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="TRT 1 8K" group-title="ULUSAL",TRT 1 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196699&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="ATV 8K" group-title="ULUSAL",ATV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196698&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SHOW TV 8K" group-title="ULUSAL",SHOW TV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196697&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL D 8K" group-title="ULUSAL",KANAL D 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196696&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="STAR TV 8K" group-title="ULUSAL",STAR TV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196695&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="NOW TV 8K" group-title="ULUSAL",NOW TV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196694&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 8 8K" group-title="ULUSAL",TV 8 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196693&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 8.5 8K" group-title="ULUSAL",TV 8.5 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196692&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BEYAZ TV 8K" group-title="ULUSAL",BEYAZ TV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196675&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL 7 8K" group-title="ULUSAL",KANAL 7 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196690&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TEVE 2 8K" group-title="ULUSAL",TEVE 2 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196689&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT 2 8K" group-title="ULUSAL",TRT 2 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196688&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT 4K 8K" group-title="ULUSAL",TRT 4K 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197438&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A2 8K" group-title="ULUSAL",A2 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196687&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="360 8K" group-title="ULUSAL",360 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196686&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SHOW MAX 8K" group-title="ULUSAL",SHOW MAX 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196700&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="☰☰☰☰ ULUSAL 4K ☰☰☰☰" group-title="ULUSAL",☰☰☰☰ ULUSAL 4K ☰☰☰☰
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196684&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT 1 4K" group-title="ULUSAL",TRT 1 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196683&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="ATV 4K" group-title="ULUSAL",ATV 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196682&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SHOW TV 4K" group-title="ULUSAL",SHOW TV 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196681&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL D 4K" group-title="ULUSAL",KANAL D 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196680&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="STAR TV 4K" group-title="ULUSAL",STAR TV 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196679&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="NOW TV 4K" group-title="ULUSAL",NOW TV 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196678&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 8 4K" group-title="ULUSAL",TV 8 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196677&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 8.5 4K" group-title="ULUSAL",TV 8.5 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196676&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BEYAZ TV 4K" group-title="ULUSAL",BEYAZ TV 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196691&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL 7 4K" group-title="ULUSAL",KANAL 7 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196674&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TEVE 2 4K" group-title="ULUSAL",TEVE 2 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196673&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT 2 4K" group-title="ULUSAL",TRT 2 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196672&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A2 4K" group-title="ULUSAL",A2 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196671&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="360 4K" group-title="ULUSAL",360 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196670&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SHOW MAX 4K" group-title="ULUSAL",SHOW MAX 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196669&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="☰☰☰☰ ULUSAL HD ☰☰☰☰" group-title="ULUSAL",☰☰☰☰ ULUSAL HD ☰☰☰☰
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196716&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT 1 HD" group-title="ULUSAL",TRT 1 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196715&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="ATV HD" group-title="ULUSAL",ATV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196714&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SHOW TV HD" group-title="ULUSAL",SHOW TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196713&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL D HD" group-title="ULUSAL",KANAL D HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196712&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="STAR TV HD" group-title="ULUSAL",STAR TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196711&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="NOW TV HD" group-title="ULUSAL",NOW TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196710&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 8 HD" group-title="ULUSAL",TV 8 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196709&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 8.5 HD" group-title="ULUSAL",TV 8.5 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196708&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BEYAZ TV HD" group-title="ULUSAL",BEYAZ TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196707&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL 7 HD" group-title="ULUSAL",KANAL 7 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196706&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TEVE 2 HD" group-title="ULUSAL",TEVE 2 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196705&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT 2 HD" group-title="ULUSAL",TRT 2 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196704&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A2 HD" group-title="ULUSAL",A2 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196703&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="360 HD" group-title="ULUSAL",360 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196702&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SHOW MAX HD" group-title="ULUSAL",SHOW MAX HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196701&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="☰☰☰☰ KANALLAR SD ☰☰☰☰" group-title="ULUSAL",☰☰☰☰ KANALLAR SD ☰☰☰☰
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196667&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="ATV AVRUPA" group-title="ULUSAL",ATV AVRUPA
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196666&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SHOW TURK" group-title="ULUSAL",SHOW TURK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196664&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="EURO D" group-title="ULUSAL",EURO D
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196663&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 8 INT" group-title="ULUSAL",TV 8 INT
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196662&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL 7 AVRUPA" group-title="ULUSAL",KANAL 7 AVRUPA
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196661&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL FIRAT" group-title="ULUSAL",KANAL FIRAT
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196660&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV1" group-title="ULUSAL",TV1
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196659&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BRT 1 HD" group-title="ULUSAL",BRT 1 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196657&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BRT 2 HD" group-title="ULUSAL",BRT 2 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=196656&extension=ts
