@@ -1,0 +1,55 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="AKIT TV" group-title="YEREL",AKIT TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197233&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="AKILLI TV" group-title="YEREL",AKILLI TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197231&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BENGÜ TÜRK" group-title="YEREL",BENGÜ TÜRK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197227&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="CEM TV" group-title="YEREL",CEM TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197223&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="EKOTURK TV" group-title="YEREL",EKOTURK TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197215&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL 68" group-title="YEREL",KANAL 68
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197200&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL AVRUPA" group-title="YEREL",KANAL AVRUPA
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197199&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KANAL B" group-title="YEREL",KANAL B
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197198&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KRT TV" group-title="YEREL",KRT TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197195&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KÖY TV" group-title="YEREL",KÖY TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197193&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KON TV" group-title="YEREL",KON TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197191&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="RUMELI TV" group-title="YEREL",RUMELI TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197188&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="MAVI KARADENIZ" group-title="YEREL",MAVI KARADENIZ
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197183&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="MELTEM TV" group-title="YEREL",MELTEM TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197182&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="PAMUKKALE TV" group-title="YEREL",PAMUKKALE TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197179&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="ULUSAL KANAL" group-title="YEREL",ULUSAL KANAL
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197178&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SAT7 TURK" group-title="YEREL",SAT7 TURK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197177&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="MC EU" group-title="YEREL",MC EU
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197176&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TGRT EU" group-title="YEREL",TGRT EU
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197175&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KAYSERI TV" group-title="YEREL",KAYSERI TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197173&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 1 KAYSERI" group-title="YEREL",TV 1 KAYSERI
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197171&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="VAV TV" group-title="YEREL",VAV TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197167&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="VIZYON 58" group-title="YEREL",VIZYON 58
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197166&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="YOL TV" group-title="YEREL",YOL TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197164&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="YILDIZ EN" group-title="YEREL",YILDIZ EN
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197163&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="UZAY HABER" group-title="YEREL",UZAY HABER
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197161&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 5" group-title="YEREL",TV 5
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197160&extension=ts
