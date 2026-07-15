@@ -1,0 +1,1173 @@
+#EXTM3U
+
+#EXTINF:-1,TRT 1 
+https://andro.okan9gote10sokan.cfd/checklist/androstreamlivetrt1.m3u8
+
+#EXTINF:-1,TRT 1 HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=229&extension=ts
+
+#EXTINF:-1,TRT 1
+http://46.32.176.50/trt1/playlist.m3u8
+#EXTINF:-1,TRT 4K
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=244&extension=ts
+#EXTINF:-1,TRT 4K
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=245&extension=ts
+
+#EXTINF:-1,TRT2 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=215&extension=ts  
+
+#EXTINF:-1,ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
+
+#EXTINF:-1,ATV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=231&extension=ts
+
+
+#EXTINF:-1,Kanal D 
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
+
+
+#EXTINF:-1,KANAL D HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=225&extension=ts
+
+#EXTINF:-1,STAR
+https://dogus.daioncdn.net/startv/startv_720p.m3u8?&app=startv_web&ce=3
+#EXTINF:-1,STAR TV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=232&extension=ts
+
+
+#EXTINF:-1,SHOW TV HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=233&extension=ts
+#EXTINF:-1,SHOW TV HD
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" tvg-id=",NOW
+https://dogus.tecostream.xyz/now.m3u8
+
+#EXTINF:-1,FOX/NOW TV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=234&extension=ts
+
+#EXTINF:-1,SHOW TURK
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=209141&extension=ts
+#EXTINF:-1,ATV AVRUPA
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=240&extension=ts
+#EXTINF:-1,EURO STAR
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=241&extension=ts
+#EXTINF:-1,EURO D
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=213&extension=ts
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CNN TURK HD" tvg-logo=",CNN TURK HD
+http://umperisn.mywire.org/index.php?id=594252&token=DeaTHLesS
+
+#EXTINF:-1 tvg-id="" tvg-name="CNN TURK HD" tvg-logo=",CNN TURK HD
+http://umperisn.mywire.org/index.php?id=594253&token=DeaTHLesS
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="CNN TURK HD" tvg-logo=",CNN TURK HD
+http://46.32.176.50/cnnturk/playlist.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wdwm0fn/haberturk.png",HABER TÜRK
+https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wdwm0fn/haberturk.png",HABER TÜRK 
+https://tv.ensonhaber.com/haberturk/haberturk.m3u8
+
+
+
+
+
+#EXTINF:-1,HABER GLOBAL
+https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+
+
+#EXTINF:-1,HABER GLOBAL
+http://umperisn.mywire.org/index.php?id=594246&token=DeaTHLesS
+#EXTINF:-1,HABER GLOBAL
+http://umperisn.mywire.org/index.php?id=594247&token=DeaTHLesS
+
+
+#EXTINF:-1,TV 100
+http://umperisn.mywire.org/index.php?id=594240&token=DeaTHLesS
+#EXTINF:-1,TV 100
+http://umperisn.mywire.org/index.php?id=594241&token=DeaTHLesS
+
+
+
+
+#EXTINF:-1,NTV TÜRK
+http://dygvideo.dygdigital.com/live/hls/ntv4puhu?m3u8
+
+
+#EXTINF:1,24 TV
+https://ensonhaber-live.ercdn.net/tv24/tv24.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1RWhvy4/tvnet.png",TV NET
+https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/ZXts607/ulketv.png",ÜLKE
+https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/B4XX5Vx/akittv.png",AKIT TV
+http://akittv-live.ercdn.net/akittv/akittv.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/B4XX5Vx/akittv.png",AKIT TV
+http://umperisn.mywire.org/index.php?id=594236&token=DeaTHLesS
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/B4XX5Vx/akittv.png",AKIT TV
+http://umperisn.mywire.org/index.php?id=594237&token=DeaTHLesS
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Bt6frts/trthaber.png",TRT HABER
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1X8nWHc/ahaber.png",A HABER 
+http://umperisn.mywire.org/index.php?id=594254&token=DeaTHLesS
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1X8nWHc/ahaber.png",A HABER 
+http://umperisn.mywire.org/index.php?id=594255&token=DeaTHLesS
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1X8nWHc/ahaber.png",A HABER 
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/HXKrJRC/blght22.png",BLOOMBERG HT
+https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8?app=web&ce=3
+
+
+#EXTINF:-1,BEYAZ TV
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
+
+
+#EXTINF:-1,TYT Türk
+https://streams.uzunmuhalefet.com/stream/7ca72bbc-449a-4521-80e2-b891f1964493.m3u8
+
+#EXTINF:-1,KANAL 7
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
+
+
+
+
+#EXTINF:-1,kanal 7 avrupa
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/chunklist.m3u8
+
+#EXTINF:-1,TRT TÜRK
+https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.canlitv.me/poster/kanal-avrupa.png" ,KANAL AVRUP	
+https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="TV 8 HD" tvg-logo=",TV 8 
+http://149.13.0.66:4002/tv8hd
+#EXTINF:-1 tvg-logo="https://i.ibb.co/B40rjP3/szc1.png",SÖZCÜ TV
+http://umperisn.mywire.org/index.php?id=594228&token=DeaTHLesS
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BtYMK4q/halk21a.png",HALK TV
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CKSd9c5h/tele2.png",TELE 2 HABER
+https://video.twimg.com/amplify_video/1988933245791096832/pl/-LYtCesCNPKsSJDS.m3u8?variant_version=1&tag=14
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/jZShqBM/Krt24v2.png",KRT
+https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Krt_Tv.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/tXdf2YF/ulusal22.png",ULUSAL KANAL
+https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Ulusal_Kanal.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0MHPk8y/benguturk.png",BENGÜ TÜRK
+https://tv.ensonhaber.com/benguturk/benguturk.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/vJJzR8G/tgrthab22.png",TGRT HABER
+https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Ln92Dj2/Ekoltv.png",EKOL TV
+https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gLhpBRK8/ilke.png",İLKE
+https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F5FcvbZ/flash4ok.png",FLASH HABER
+https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4Mhmggc/tele1.png",TELE 1
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png",LİDER HABER TV
+http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/j9Pmc2qN/thhaber.jpg",TÜRK HABER
+https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/9s9YKYT/gzt.png",GZT
+https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/fGnRLnLM/yenicag.png",YENİ ÇAĞ TV
+https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1,NEO TV
+https://edge1.socialsmart.tv/neohaber/bant1/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/LhcxMxJ9/telenews.png",TELE NEWS
+https://cdn-telenews.yayin.com.tr/telenews/index.m3u8
+
+#EXTINF:-1 tvg-logo=" https://i.ibb.co/wrMn5rgQ/mktv.png",MK TV
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/k2vyJRC5/noktatv.jpg",NOKTA TV
+https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Nokta_Tv.m3u8
+
+
+#EXTINF:-1,beIN Sport 1
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=286&extension=ts
+
+#EXTINF:-1,Sport 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=262&extension=ts
+#EXTINF:-1,beIN Sport 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=289&extension=ts
+
+#EXTINF:-1,beIN Sport 3
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=263&extension=ts
+#EXTINF:-1,beIN Sport 3
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=290&extension=ts
+
+
+#EXTINF:-1,beIN Sport 4
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=264&extension=ts
+#EXTINF:-1,beIN Sport 4
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=291&extension=ts
+
+
+
+
+#EXTINF:-1,beIN Sport 1 MaX
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=265&extension=ts
+#EXTINF:-1,beIN Sport 1 MaX
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=292&extension=ts
+
+#EXTINF:-1,beIN Sport 2 MaX
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=266&extension=ts
+#EXTINF:-1,beIN Sport 2 MaX
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=293&extension=ts
+
+
+#EXTINF:-1,beIN Sport Haber
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=267&extension=ts
+#EXTINF:-1,beIN Sport Haber
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=285&extension=ts
+
+#EXTINF:-1,Tivibusport 1
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=268&extension=ts
+#EXTINF:-1,Tivibusport 1
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=298&extension=ts
+
+#EXTINF:-1,Tivibusport 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=269&extension=ts
+#EXTINF:-1,Tivibusport 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=299&extension=ts
+
+#EXTINF:-1,Tivibusport 3
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=270&extension=ts
+#EXTINF:-1,Tivibusport 3
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=300&extension=ts
+
+
+#EXTINF:-1,Ssport
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=271&extension=ts
+#EXTINF:-1,Ssport
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=294&extension=ts
+#EXTINF:-1,Ssport
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=305&extension=ts
+
+#EXTINF:-1,Ssport 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=295&extension=ts
+
+#EXTINF:-1,Smart sport
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=297&extension=ts
+#EXTINF:-1,Smart sport
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=301&extension=ts
+#EXTINF:-1,Smart sport 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=272&extension=ts
+#EXTINF:-1,Smart sport 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=302&extension=ts
+
+#EXTINF:-1,ESPN
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=274&extension=ts
+#EXTINF:-1,Eurosport 1
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=275&extension=ts
+
+#EXTINF:-1,Eurosport 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=276&extension=ts
+
+
+#EXTINF:-1,Sport tV
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=278&extension=ts
+#EXTINF:-1,FB TV
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=259&extension=ts
+#EXTINF:-1,TJK Tv
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=279&extension=ts
+
+#EXTINF:-1,Aspor
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=280&extension=ts
+
+#EXTINF:-1,Aspor
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=284&extension=ts
+
+#EXTINF:-1,TRT SPOR
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=281&extension=ts
+
+#EXTINF:-1,TRT spor 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=282&extension=ts
+
+#EXTINF:-1, BeINSport Haber UHD
+http://apx-me.com:8880/live/live:persian_share/Hs6guU9ziF/48894.ts
+#EXTINF:-1,BeIN Sports FHD 1
+https://tavukfelsefesi.lol/static/bs1.m3u8
+
+#EXTINF:-1 ,BeIN Sports HD 1
+https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8
+
+#EXTINF:-1 tvg-logo="https://bit.ly/2X1ik08",BeIN Sports FHD 2
+http://ip.xtremetv.eu:8000/live/hizirarkadashollanda/V39WCmGCgSp8/111900.ts
+
+#EXTINF:-1 tvg-logo="https://bit.ly/30Rtjua",BeIN Sports UHD 3
+https://andro.226503.xyz/checklist/androstreamlivebs3.m3u8
+
+
+#EXTINF:-1,BeIN Sports UHD 4
+https://andro.226503.xyz/checklist/androstreamlivebs4.m3u8
+
+#EXTINF:-1,BeIN Sports UHD 5
+https://andro.226503.xyz/checklist/androstreamlivebs5.m3u8
+
+
+
+#EXTINF:-1 ,Bein Sport 3 HD
+http://live-tv.uk:8080/Crach_Iptv/Hekxbjelsofjur628264772new/585
+#EXTINF:-1,Bein Sport 2 
+http://live-tv.uk:8080/Crach_Iptv/Hekxbjelsofjur628264772new/584
+
+#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/spor/ssport-2.png",S SPORT UHD 2
+https://andro.mangeinde4.lat/checklist/androstreamlivess2.m3u8
+
+#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/spor/ssport-2.png",S SPORT FHD 2
+https://yastikkavgasi.lol/static/ss11.m3u8
+
+#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/spor/ssport-2.png",S SPORT HD 2
+https://andro.226503.xyz/checklist/androstreamlivess2.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/spor/smartspor2.png",SMARTSPOR HD 2
+http://ip.xtremetv.eu:8000/live/hizirarkadashollanda/V39WCmGCgSp8/111411.ts
+
+#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/spor/smartspor2.png",SMARTSPOR 2
+https://andro.mangeinde4.lat/checklist/androstreamlivesm2.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/qk8hffs.png", HT SPOR UHD
+https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=7vcjas3k9dur&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
+
+#EXTINF:-1 tvg-logo="https://i.hizliresim.com/qk8hffs.png", HT SPOR 
+https://ciner.daioncdn.net/ht-spor/ht-spor_720p.m3u8?ex=0&sid=7vcjas3k9dur&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1,TRT 1 HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=229&extension=ts
+#EXTINF:-1,TRT 1 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=460529&extension=ts
+#EXTINF:-1,TRT 1 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=242&extension=ts
+#EXTINF:-1,TRT 1 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=331&extension=ts
+#EXTINF:-1,TRT 1 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=351&extension=ts
+#EXTINF:-1,TRT 2 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=215&extension=ts
+
+
+#EXTINF:-1,ATV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=231&extension=ts
+#EXTINF:-1,ATV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=217&extension=ts
+
+#EXTINF:-1,STAR TV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=232&extension=ts
+#EXTINF:-1,STAR TV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=224&extension=ts
+
+#EXTINF:-1,SHOW TV HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=233&extension=ts
+#EXTINF:-1,SHOW TV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=223&extension=ts
+
+#EXTINF:-1,KANAL EURO  D HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=213&extension=ts
+#EXTINF:-1,KANAL D HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=230&extension=ts
+#EXTINF:-1,KANAL D HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=225&extension=ts
+
+#EXTINF:-1,FOX/NOW TV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=234&extension=ts
+#EXTINF:-1, FOX/NOW TV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=218&extension=ts
+
+#EXTINF:-1,TV 8 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=251&extension=ts
+#EXTINF:-1,TV 8 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=221&extension=ts
+
+
+
+#EXTINF:-1,TV 8.5 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=212&extension=ts
+#EXTINF:-1,TV 8.5 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=222&extension=ts
+
+
+
+#EXTINF:-1,BEYAZ TV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=237&extension=ts
+#EXTINF:-1,BEYAZ TV HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=219&extension=ts
+
+#EXTINF:-1,TEVE 2 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=257&extension=ts
+#EXTINF:-1,TEVE 2 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=226&extension=ts
+
+#EXTINF:-1,A2 HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=227&extension=ts
+#EXTINF:-1,A2 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=216&extension=ts
+
+
+#EXTINF:-1,KANAL 7 HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=238&extension=ts
+#EXTINF:-1,KANAL 7 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=220&extension=ts
+#EXTINF:-1,KANAL 7 AVRUPA
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=70887&extension=ts
+
+#EXTINF:-1,360 TV HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=254&extension=ts
+#EXTINF:-1,TV 4 HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=258&extension=ts
+#EXTINF:-1,TGRT EU
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=110477&extension=ts
+#EXTINF:-1,TIVI 6 HD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=404647&extension=ts
+#EXTINF:-1,TABII TV HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=404644&extension=ts
+
+#EXTINF:-1,TRT 4K 
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=245&extension=ts
+
+#EXTINF:-1,TRT 4K
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=244&extension=ts
+#EXTINF:-1,TRT 4K
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=245&extension=ts
+
+#EXTINF:-1,TRT 2 HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=215&extension=ts
+#EXTINF:-1,TRT 2 HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=257&extension=ts
+
+#EXTINF:-1,TRT TURK HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=110478&extension=ts
+#EXTINF:-1,TRT AVAZ HD+
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=110475&extension=ts
+
+#EXTINF:-1,SHOW MAX
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=239&extension=ts
+#EXTINF:-1,SHOW TURK
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=209141&extension=ts
+#EXTINF:-1,ATV AVRUPA
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=240&extension=ts
+#EXTINF:-1,EURO STAR
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=241&extension=ts
+#EXTINF:-1,EURO D
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=213&extension=ts
+#EXTINF:-1,TYT TURK
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=637916&extension=ts
+
+
+#EXTINF:-1,TV NET
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=256&extension=ts
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GQdBjZfW/finansturk.png",FİNANS TÜRK
+https://yayin30.haber100.com/live/finansturk/playlist.m3u8
+
+
+
+
+
+#EXTINF:-1, beIN Series 1
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=306&extension=ts
+#EXTINF:-1,beIN Series 1
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=309&extension=ts
+#EXTINF:-1,beIN Series 4
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=308&extension=ts
+
+#EXTINF:-1,beIN box Office
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=313&extension=ts
+
+#EXTINF:-1,beIN box Office 1
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=314&extension=ts
+#EXTINF:-1,beIN box Office 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=315&extension=ts
+
+
+#EXTINF:-1,beIN movies Premiere
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=312&extension=ts
+#EXTINF:-1, beIN movies Premiere
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=317&extension=ts
+#EXTINF:-1,beIN movies Turk
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=316&extension=ts
+
+
+
+
+
+#EXTINF:-1,filmAX Macera
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=382&extension=ts
+#EXTINF:-1,filmAX korku
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=383&extension=ts
+#EXTINF:-1,filmAX Aksiyon
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=385&extension=ts
+#EXTINF:-1,filmAX Yerli
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=385&extension=ts
+#EXTINF:-1,filmAX Komedi
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=388&extension=ts
+#EXTINF:-1,filmAX GOLD
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=389&extension=ts
+#EXTINF:-1,RedBOX
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=386&extension=ts
+#EXTINF:-1,RedBOX 1
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=390&extension=ts
+#EXTINF:-1,RedBOX MIX
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=395&extension=ts
+#EXTINF:-1,RedBOX VIZYON
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=396&extension=ts
+#EXTINF:-1,RedBOX AKSIYON
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=392&extension=ts
+#EXTINF:-1,RedBOX BILIMKURGU
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=393&extension=ts
+#EXTINF:-1,RedBOX TURK
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=391&extension=ts
+#EXTINF:-1,RedBOX TURK 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=399&extension=ts
+#EXTINF:-1,RedBOX KORKU
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=394&extension=ts
+#EXTINF:-1,RedBOX DRAMA
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=398&extension=ts
+
+
+#EXTINF:-1,BYZBOX Yerli
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=318&extension=ts
+
+
+
+#EXTINF:-1,movieSmart
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=349&extension=ts
+#EXTINF:-1,movieSmart Classic
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=350&extension=ts
+
+#EXTINF:-1,CineStar 2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=356&extension=ts
+#EXTINF:-1,Sinema Aksiyon
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=335&extension=ts
+#EXTINF:-1,Sinema Aksiyon
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=360&extension=ts
+#EXTINF:-1,Sinema tv
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=358&extension=ts
+#EXTINF:-1 ,Sinema tv2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=359&extension=ts
+#EXTINF:-1,Sinema Aile
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=362&extension=ts
+#EXTINF:-1,Sinema Aile2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=363&extension=ts
+#EXTINF:-1,Sinema komedi
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=364&extension=ts
+#EXTINF:-1,Sinema komedi2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=365&extension=ts
+#EXTINF:-1,Sinema yerli
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=366&extension=ts
+#EXTINF:-1,Sinema yerli2
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=367&extension=ts
+#EXTINF:-1,Sinema 1001
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=368&extension=ts
+#EXTINF:-1,Sinema 1002
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=369&extension=ts
+
+#EXTINF:-1,cocuksmart
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=370&extension=ts
+
+
+
+#EXTINF:-1,Dizi Smart
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=332&extension=ts
+#EXTINF:-1,Dizi Smart max
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=352&extension=ts
+#EXTINF:-1,FX
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=354&extension=ts
+
+#EXTINF:-1,Sinema Aksiyon
+http://vipplayer1.com:8080/play/live.php?mac=00:1A:79:73:3F:18&stream=335&extension=ts
+
+
+
+
+
+
+
+#EXTINF:-1, Eko_Turk
+https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Eko_Turk.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6m9Pb3t/tv5tr1.png",TV 5
+https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="SAMANYOLU TV" tvg-logo=",SAMANYOLU TV
+https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8
+
+#EXTINF:-1,Yol_Tv
+https://raw.githubusercontent.com/tecotv2025/tecotv/main/playlist/Yol_Tv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3CWV8bS.png,Mercan TV 
+https://waw2.artiyerelmedya.net/mercantv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TB5N8cN/trt2.png",TRT 2
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Cm1kp8f/sat7turk.png",SAT 7 TÜRK
+https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d6Zfm2P/trtmuzik21c.png",TRT MÜZİK
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+
+#EXTINF:1-,Arabesk TV
+https://yayin.santraltr.com/hls/arabeskyeni.m3u8
+#EXTINF:1-,Arma
+https://yayin.santraltr.com/hls/arma.m3u8
+#EXTINF:1-,aviva
+https://yayin.santraltr.com/hls/vivatv.m3u8
+
+#EXTINF:1-,Dost Müzik TV
+https://yayin.santraltr.com/hls/dost.m3u8
+#EXTINF:1-,EZO TV
+https://yayin.santraltr.com/hls/ezo.m3u8
+#EXTINF:1-,Genç SMS TV
+https://yayin.santraltr.com/hls/genctv.m3u8
+#EXTINF:1-,Sıla TV
+https://yayin.santraltr.com/hls/silatv.m3u8
+#EXTINF:1-,TV SMS
+https://yayin.santraltr.com/hls/tvsms.m3u8
+#EXTINF:1-,Top Pop TV
+https://yayin.santraltr.com/hls/toppop.m3u8
+#EXTINF:1-,Zeyno TV
+https://yayin.santraltr.com/hls/zeynotv.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6401NQw/kraltv.png",KRAL - KRAL POP
+https://dogus-live.daioncdn.net/kralpoptv/kralpoptv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4SsJS4R/dreamturk.png",DREAM TÜRK
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+
+
+#EXTINF:-1 tvg-name="BIR TV" tvg-id="" tvg-logo="https://i.ibb.co/dDdPMWq/birtv.png",BIR TV
+https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="CINE5 TV" tvg-id="" tvg-logo="https://i.ibb.co/7vNbSyP/cine5.png",CINE5 TV
+https://cdn-cine5tv.yayin.com.tr/cine5tv/cine5tv/playlist.m3u
+
+#EXTINF:-1,evren tv
+https://ondetv.ozelip.com.tr:3390/hybrid/play.m3u8
+
+
+#EXTINF:-1, tivi türk
+https://stream.tiviturk.de/live/tiviturk.m3u8
+
+
+#EXTINF:-1,DMAX TÜRK
+https://dogus-live.daioncdn.net/dmax/dmax.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/K6BKFqY/dha.png",DHA 1
+https://603c568fccdf5.streamlock.net/live/dhaweb1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/K6BKFqY/dha.png",DHA 2
+https://603c568fccdf5.streamlock.net/live2/dhaweb2/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/jLd8Fcb/aa.png",AA 
+http://mtulqxgomrllive.mediatriple.net/mtulqxgomrllive/broadcast_59f9c0c785b88.smil/playlist.m3u8
+
+#EXTINF:-1,IHA Haber Ajans
+https://live01.iha.tv/webabone/live/chunks.m3u8
+
+#EXTINF:-1,ezgi tv
+https://live.euromediacenter.com/ezgitv/index.m3u8
+
+#EXTINF:-1,lebih tv
+https://ip100.radyotelekomtv.com:3982/stream/play.m3u8
+
+
+#EXTINF:-1,sdm sinema
+https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1, movies premier
+https://tv1.arectv30.sbs/live/bspremier1.m3u8
+
+#EXTINF:-1,movies türk
+https://tv1.arectv30.sbs/live/bsturk.m3u8
+
+#EXTINF:-1, movie stars
+https://tv1.arectv30.sbs/live/bsstars.m3u8
+
+#EXTINF:-1,smart türk
+https://tv1.arectv30.sbs/live/mvturk.m3u8
+
+#EXTINF:-1,manas tv
+http://212.42.111.152:8080/hls/manas.m3u8
+
+#EXTINF:-1, bs Action
+https://tv.arectv34.sbs/live/bsaction1.m3u8
+
+#EXTINF:-1,türk sinema
+https://tv.arectv34.sbs/live/sinema2.m3u8
+
+#EXTINF:-1,türk sinema 1
+https://tv.arectv34.sbs/live/sinemayerli2.m3u8
+
+#EXTINF:-1,sinema tv
+https://tv.arectv34.sbs/live/sinema1002.m3u8
+
+#EXTINF:-1, kanal 3
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/chunks.m3u8
+
+#EXTINF:-1, mercan tv
+https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/chunks.m3u8
+
+
+
+
+
+#EXTINF:-1,ARD
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
+#EXTINF:-1,ZDF
+https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
+#EXTINF:-1,WDR
+https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8
+#EXTINF:-1,MDR
+https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8
+#EXTINF:-1,NDR
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
+#EXTINF:-1,NDR INT
+https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8
+#EXTINF:-1,RBB
+https://rbb-live.ard-mcdn.de/rbb/berlin/hls/de/master.m3u8
+#EXTINF:-1,SWR
+https://mcdn.swr.de/swr/swrbwd/master.m3u8
+#EXTINF:-1,BR
+https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
+#EXTINF:-1,HR
+https://hr-live.ard-mcdn.de/hr/live/hls/de/master.m3u8
+#EXTINF:-1,SR
+https://sr-live.ard-mcdn.de/sr/live/hls/de/master.m3u8
+#EXTINF:-1,Radio Bremen
+https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master.m3u8
+#EXTINF:-1,3sat
+https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
+#EXTINF:-1,arte
+https://arteliveext.akamaized.net/hls/live/2030993/artelive_de/master_v540.m3u8
+#EXTINF:-1,ARD-Alpha
+https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
+#EXTINF:-1,ONE
+https://mcdn-one.ard.de/ardone/hls/master-stereo.m3u8
+#EXTINF:-1,ZDF info
+https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8
+#EXTINF:-1,ZDF neo
+https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
+
+#EXTINF:-1,RTL
+https://ma.anixa.tv/clips/stream/rtl/index.m3u8
+
+
+#EXTINF:-1,ProSieben HD
+https://dash4.antik.sk/live/test_pro_sieben_tizen/playlist.m3u8
+
+
+#EXTINF:-1,SAT.1 HD
+https://dash4.antik.sk/live/test_sat_eins_tizen/playlist.m3u8
+
+#EXTINF:-1 ,SAT.1 GOLD
+https://dash4.antik.sk/live/test_sat_eins_gold_tizen/playlist.m3u8
+
+
+#EXTINF:-1,sixx HD
+https://dash4.antik.sk/live/test_sixx_tizen/playlist.m3u8
+
+#EXTINF:-1,Kabel eins HD
+https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
+
+
+
+
+
+#EXTINF:-1,KIKA HD
+https://kika-live.ard-mcdn.de/kika/live/hls/de/master.m3u8
+#EXTINF:-1,KIKA HD
+https://dash4.antik.sk/live/test_mdr_tizen/playlist.m3u8
+
+#EXTINF:-1,Phoenix
+https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8
+#EXTINF:-1,tagesschau24
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master.m3u8
+#EXTINF:-1,WELT
+https://w-live2weltcms.akamaized.net/hls/live/2041019/Welt-LivePGM/index.m3u8
+
+#EXTINF:-1,BILD 
+https://bild.personalstream.tv/v1/master.m3u8
+
+#EXTINF:-1,RT DE
+https://rt-ger.rttv.com/dvr/rtdeutsch/playlist.m3u8
+#EXTINF:-1,RT DE
+https://proxmox.loobloo.tv/memfs/0a077571-a209-44d0-aab8-0d2fd23ff694.m3u8
+#EXTINF:-1,DW
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
+#EXTINF:-1 ,EURONEWS
+https://jmp2.uk/plu-6639d7d4b18d700008da5316.m3u8
+
+
+#EXTINF:-1,RED BULL TV
+
+
+
+#EXTINF:-1,WETTER PANAROMA
+https://rbmn-live.akamaized.net/hls/live/665268/Wetterpanorama/master_6692.m3u8
+#EXTINF:-1,TERRA WILD
+https://fast.servustv.com/v1/autentic_terramaterwild_1/ohlscdn_us/V00000003/0/HLS/playlist.m3u8
+#EXTINF:-1,SCOOORE
+https://fast.servustv.com/scooore_cdn/servuson_abr_49133a15727bf628a5ac62da7d618163/scooore/scooore_360p_1_0_Mbit/chunks.m3u8
+#EXTINF:-1,MOTOR VISION
+https://fast.servustv.com/mvg/mv_de/mv_de_720p_high.m3u8
+#EXTINF:-1,MOTOR VISION CLASSIC
+https://fast.servustv.com/mvg/mv_cl/mv_cl_1080.m3u8
+
+#EXTINF:-1,MORE THAN SPORT
+https://fast.servustv.com/mvg/mts/mts_1080.m3u8
+#EXTINF:-1,WETTER
+https://streaming.meteonews.net/hls/stream.m3u8
+
+#EXTINF:-1,Sport 1
+https://oz.sport1.de/api/ottv1/2/livestream/view/sport2.m3u8
+
+
+
+
+
+#EXTINF:-1,Zee One
+https://e4955b54.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1kZV9aZWVPbmVfSExT/playlist.m3u8
+#EXTINF:-1,Rakuten - Top Movies
+https://cbb622b29f5d43b598991f3fa19de291.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5985/master.m3u8
+#EXTINF:-1,Rakuten - Action Movies
+https://284824cf70404fdfb6ddf9349009c710.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6066/master.m3u8
+#EXTINF:-1,Rakuten - Comedy Movies
+https://ecac08c9e2214375b907d6825aaf9a01.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6182/master.m3u8
+#EXTINF:-1,Rakuten - Crime Series
+https://b6244e915ee04a5aa758e863a55a6a3d.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6217/master.m3u8
+#EXTINF:-1,Rakuten - Drama Movies
+https://968754c2483045c1a9a7f677caec35b6.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6096/master.m3u8
+#EXTINF:-1,Rakuten - Family Movies
+https://af230031eeac45f3b78d4f8a13265105.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6209/master.m3u8
+#EXTINF:-1,Rakuten - German Cinema
+https://a5dc66582aa040269fd99d7d7a6ac23b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6200/master.m3u8
+#EXTINF:-1,Rakuten - Romance Movies
+https://romance-rakuten-tv-de.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6475/master.m3u8
+#EXTINF:-1,Rakuten - Romance Movies 
+https://3e0f2491d8634a58967529df3f424c0d.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6475/master.m3u8
+#EXTINF:-1,Rakuten - Thrillers
+https://thriller-rakuten-tv-de.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6481/master.m3u8
+#EXTINF:-1,Rakuten - Thrillers
+https://73e5474be2ae422487b18295a9782482.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6481/master.m3u8
+
+#EXTINF:-1,Rakuten - FilmGold
+https://mainstreamfilmgold-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1,Rakuten - Krimi
+https://4dad3dcf.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0FSRFBsdXNLcmltaV9ITFM/playlist.m3u8
+
+#EXTINF:-1,Rakuten - Top Serien
+https://amg00609-palatinmediafil-cractiontv-rakuten-dhjcp.amagi.tv/hls/amagi_hls_data_rakutenAA-cractiontv-rakuten/CDN/master.m3u8
+#EXTINF:-1,Rakuten - Serie Crime
+https://546609034c0e41d7b5852dd870ddb53b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6217/master.m3u8
+
+
+
+
+#EXTINF:-1,XITE
+https://xite-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1,PlutoTv - 21 Jump Street
+https://jmp2.uk/plu-686cffbf3ffa5e0c91cdcfb3.m3u8
+#EXTINF:-1,PlutoTv - 90210
+https://jmp2.uk/plu-65a67dd13af63d0008257f17.m3u8
+#EXTINF:-1 ,PlutoTv - Alle hassen Chris
+https://jmp2.uk/plu-622f6e1e2792150007e0b2ff.m3u8
+#EXTINF:-1,PlutoTv - Andromeda
+https://jmp2.uk/plu-663a163f8ea5560008a3f234.m3u8
+#EXTINF:-1,PlutoTv - Anger Management
+https://jmp2.uk/plu-655ca57e4261ca00080b3a04.m3u8
+#EXTINF:-1,PlutoTv - Assassination Classroom
+https://jmp2.uk/plu-65a7d99f4a10d800086083a9.m3u8
+#EXTINF:-1,PlutoTv - Auction Hunters
+https://jmp2.uk/plu-5ede45d077746000072be0fe.m3u8
+#EXTINF:-1,PlutoTv - Auf Achse
+https://jmp2.uk/plu-61fbf91afb1b10000880dd08.m3u8
+#EXTINF:-1,PlutoTv - Auto Motor Sport
+https://jmp2.uk/plu-5f760c3d41aa2d0007bfde19.m3u8
+#EXTINF:-1,PlutoTv - Avatar
+https://jmp2.uk/plu-600adbdf8c554e00072125c9.m3u8
+#EXTINF:-1,PlutoTv - Awkward
+https://jmp2.uk/plu-62bc1784120ba80007935aaa.m3u8
+#EXTINF:-1,PlutoTv - Ax Men Die Holzfäller
+https://jmp2.uk/plu-6914913274601d957ae35565.m3u8
+#EXTINF:-1,PlutoTv - Axel!
+https://jmp2.uk/plu-667d63d236a2f90008f72269.m3u8
+
+
+
+#EXTINF:-1,DELUXE MUSIC
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
+#EXTINF:-1,DELUXE MUSIC DANCE BY KONTOR
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8
+#EXTINF:-1,DELUXE MUSIC RAP
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
+#EXTINF:-1,Vevo Pop 
+https://amg00056-amg00056c7-rakuten-de-3245.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1,Vevo Schlager Pop
+https://amg00056-amg00056c15-rakuten-it-3241.playouts.now.amagi.tv/playlist.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
