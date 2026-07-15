@@ -1,1 +1,129 @@
-
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="HABER TÜRK 8K" group-title="HABER",HABER TÜRK 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197264&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TGRT HABER 8K" group-title="HABER",TGRT HABER 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197263&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT HABER 8K" group-title="HABER",TRT HABER 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197262&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT WORLD 8K" group-title="HABER",TRT WORLD 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197261&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="CNN TÜRK 8K" group-title="HABER",CNN TÜRK 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197260&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A HABER 8K" group-title="HABER",A HABER 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197259&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="ULKE TV 8K" group-title="HABER",ULKE TV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197258&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV NET 8K" group-title="HABER",TV NET 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197257&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="NTV 8K" group-title="HABER",NTV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197266&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="FLASH HABER 8K" group-title="HABER",FLASH HABER 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197265&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="HABER GLOBAL 8K" group-title="HABER",HABER GLOBAL 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197268&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BLOOMBERG 8K" group-title="HABER",BLOOMBERG 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197269&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="24 HABER 8K" group-title="HABER",24 HABER 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197270&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A NEWS 8K" group-title="HABER",A NEWS 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197271&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A PARA 8K" group-title="HABER",A PARA 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197272&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 100 8K" group-title="HABER",TV 100 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197273&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT TÜRK 8K" group-title="HABER",TRT TÜRK 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197240&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="HALK TV 8K" group-title="HABER",HALK TV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197274&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TELE 1 8K" group-title="HABER",TELE 1 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197275&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KRT 8K" group-title="HABER",KRT 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197276&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SÖZCÜ TV 8K" group-title="HABER",SÖZCÜ TV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=540949&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="☰☰☰☰ HABER 4K ☰☰☰☰" group-title="HABER",☰☰☰☰ HABER 4K ☰☰☰☰
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197256&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="HABER TÜRK 4K" group-title="HABER",HABER TÜRK 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197251&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TGRT HABER 4K" group-title="HABER",TGRT HABER 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197255&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT HABER 4K" group-title="HABER",TRT HABER 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197249&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT WORLD 4K" group-title="HABER",TRT WORLD 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197254&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="CNN TÜRK 4K" group-title="HABER",CNN TÜRK 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197253&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A HABER 4K" group-title="HABER",A HABER 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197252&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="ULKE TV 4K" group-title="HABER",ULKE TV 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197250&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV NET 4K" group-title="HABER",TV NET 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197248&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="NTV 4K" group-title="HABER",NTV 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197247&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="FLASH HABER 4K" group-title="HABER",FLASH HABER 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197246&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="HABER GLOBAL 4K" group-title="HABER",HABER GLOBAL 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197244&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BLOOMBERG 4K" group-title="HABER",BLOOMBERG 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197243&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="24 HABER 4K" group-title="HABER",24 HABER 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197241&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="EKOL TV 4K" group-title="HABER",EKOL TV 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=1257377&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A NEWS 4K" group-title="HABER",A NEWS 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197239&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A PARA 4K" group-title="HABER",A PARA 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197238&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 100 4K" group-title="HABER",TV 100 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197237&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT TÜRK 4K" group-title="HABER",TRT TÜRK 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197236&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="HALK TV 4K" group-title="HABER",HALK TV 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197235&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TELE 1 4K" group-title="HABER",TELE 1 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197277&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KRT 4K" group-title="HABER",KRT 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197278&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="☰☰☰☰ HABER HD ☰☰☰☰" group-title="HABER",☰☰☰☰ HABER HD ☰☰☰☰
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197242&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="HABER TÜRK HD" group-title="HABER",HABER TÜRK HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197283&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TGRT HABER HD" group-title="HABER",TGRT HABER HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197284&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT HABER HD" group-title="HABER",TRT HABER HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197285&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT WORLD HD" group-title="HABER",TRT WORLD HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197286&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="CNN TÜRK HD" group-title="HABER",CNN TÜRK HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197287&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A HABER HD" group-title="HABER",A HABER HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197288&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="ULKE TV HD" group-title="HABER",ULKE TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197289&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV NET HD" group-title="HABER",TV NET HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197290&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="NTV HD" group-title="HABER",NTV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197291&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="FLASH HABER HD" group-title="HABER",FLASH HABER HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197292&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="HABER GLOBAL HD" group-title="HABER",HABER GLOBAL HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197294&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BLOOMBERG HD" group-title="HABER",BLOOMBERG HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197295&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="24 HABER HD" group-title="HABER",24 HABER HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197296&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A NEWS HD" group-title="HABER",A NEWS HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197297&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A PARA HD" group-title="HABER",A PARA HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197298&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV 100 HD" group-title="HABER",TV 100 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197299&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="HALK TV HD" group-title="HABER",HALK TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197301&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TELE 1 HD" group-title="HABER",TELE 1 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197302&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KRT HD" group-title="HABER",KRT HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197303&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT TÜRK HD" group-title="HABER",TRT TÜRK HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197300&extension=ts
