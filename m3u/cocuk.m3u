@@ -1,1 +1,63 @@
-
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="NICK JR HD" group-title="COCUK",NICK JR HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197419&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BABY TV HD" group-title="COCUK",BABY TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197418&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT COCUK HD" group-title="COCUK",TRT COCUK HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197417&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="COCUKSMART HD" group-title="COCUK",COCUKSMART HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197391&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="DISNEY JR HD" group-title="COCUK",DISNEY JR HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197416&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="MINIKA GO" group-title="COCUK",MINIKA GO
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197415&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="MINIKA COCUK" group-title="COCUK",MINIKA COCUK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197414&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="NICKELODEON HD" group-title="COCUK",NICKELODEON HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197412&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="CARTOON NETWORK" group-title="COCUK",CARTOON NETWORK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197411&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="CBEEBIES HD" group-title="COCUK",CBEEBIES HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197366&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="DA VINCI KIDS HD" group-title="COCUK",DA VINCI KIDS HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197390&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT EBA TV ILKOKUL HD" group-title="COCUK",TRT EBA TV ILKOKUL HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197369&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT EBA TV ORTAOKUL HD" group-title="COCUK",TRT EBA TV ORTAOKUL HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197368&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT EBA TV LISE HD" group-title="COCUK",TRT EBA TV LISE HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197367&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BARBIE TV HD" group-title="COCUK",BARBIE TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197408&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="PEPPA PIG HD" group-title="COCUK",PEPPA PIG HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197407&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KUZUCUK HD" group-title="COCUK",KUZUCUK HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197405&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KARE HD" group-title="COCUK",KARE HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197404&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="RAFADAN TAYFA HD" group-title="COCUK",RAFADAN TAYFA HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197403&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KRAL SAKIR HD" group-title="COCUK",KRAL SAKIR HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197401&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="PIJAMASKELILER HD" group-title="COCUK",PIJAMASKELILER HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197400&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="MASA ILE KOCA AYI HD" group-title="COCUK",MASA ILE KOCA AYI HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197399&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="BARBIE HD" group-title="COCUK",BARBIE HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197398&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KUKULI HD" group-title="COCUK",KUKULI HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197397&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="NILOYA HD" group-title="COCUK",NILOYA HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197396&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="PEPPE HD" group-title="COCUK",PEPPE HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197395&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SIRINLER HD" group-title="COCUK",SIRINLER HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197394&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="CINE COCUK HD" group-title="COCUK",CINE COCUK HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197392&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KONUSAN TOM HD" group-title="COCUK",KONUSAN TOM HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197386&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="DORU HD" group-title="COCUK",DORU HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197385&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="CAILLOU HD" group-title="COCUK",CAILLOU HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197382&extension=ts
