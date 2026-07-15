@@ -233,6 +233,8 @@ https://kanaldvod.duhnet.tv/hls/6/Nc/omuz_omuza_252_bolum/omuz_omuza_252_bolum.s
 https://kanaldvod.duhnet.tv/hls/e/-l/omuz_omuza_251bolum/omuz_omuza_251bolum.smil/playlist.m3u8
 #EXTINF:-1 group-title="Arda ile Omuz Omuza" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/61535c5f4453951504a95c4b.jpg",Arda ile Omuz Omuza - Arda ile Omuz Omuza 250. Bölüm - Turgut Tunçalp
 https://kanaldvod.duhnet.tv/hls/Y/fT/omuz_omuza_250_blm/omuz_omuza_250_blm.smil/playlist.m3u8
+#EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 14.07.2026
+https://kanaldvod.duhnet.tv/hls/K/N5/anahaber_14072026/anahaber_14072026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 13.07.2026
 https://kanaldvod.duhnet.tv/hls/O/_g/anahaber_13072026/anahaber_13072026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 10.07.2026
@@ -251,8 +253,6 @@ https://kanaldvod.duhnet.tv/hls/Q/DJ/anahaber_03072026/anahaber_03072026.smil/pl
 https://kanaldvod.duhnet.tv/hls/b/cc/anahaber_02072026/anahaber_02072026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 01.07.2026
 https://kanaldvod.duhnet.tv/hls/9/X8/anahaber_01072026/anahaber_01072026.smil/playlist.m3u8
-#EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 30.06.2026
-https://kanaldvod.duhnet.tv/hls/5/NI/anahaber_30062026/anahaber_30062026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 12.07.2026
 https://kanaldvod.duhnet.tv/hls/V/he/anahaber_120726/anahaber_120726.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 11.07.2026
@@ -273,8 +273,10 @@ https://kanaldvod.duhnet.tv/hls/J/iw/haber2006blm/haber2006blm.smil/playlist.m3u
 https://kanaldvod.duhnet.tv/hls/p/8J/anahaber_140626/anahaber_140626.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 13.06.2026
 https://kanaldvod.duhnet.tv/hls/x/jb/anahaber_130626/anahaber_130626.smil/playlist.m3u8
-#EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 321. Bölüm
+#EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 322. Bölüm
 https://kanaldvod.duhnet.tv/hls/-/bC/mg_1226blm/mg_1226blm.smil/playlist.m3u8
+#EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 321. Bölüm
+https://kanaldvod.duhnet.tv/hls/u/u_/magdyaz_130726/magdyaz_130726.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 320. Bölüm
 https://kanaldvod.duhnet.tv/hls/9/nu/magdyaz_bol10_2026/magdyaz_bol10_2026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 319. Bölüm
@@ -291,8 +293,6 @@ https://kanaldvod.duhnet.tv/hls/L/1m/magd_yaz_5bolum/magd_yaz_5bolum.smil/playli
 https://kanaldvod.duhnet.tv/hls/5/P3/magyaz_bol4_2026/magyaz_bol4_2026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 313. Bölüm
 https://kanaldvod.duhnet.tv/hls/V/JW/magdyaz_bol3_2026/magdyaz_bol3_2026.smil/playlist.m3u8
-#EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 312. Bölüm
-https://kanaldvod.duhnet.tv/hls/1/qU/magdyaz_bol2_2026/magdyaz_bol2_2026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68722884ff79654e7d12b5b1.jpg",Magazin D Cumartesi - 11.07.2026 / Magazin D Cumartesi
 https://kanaldvod.duhnet.tv/hls/e/DL/magdc_443/magdc_443.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68722884ff79654e7d12b5b1.jpg",Magazin D Cumartesi - 04.07.2026 / Magazin D Cumartesi
@@ -593,6 +593,8 @@ http://kanaldvod.duhnet.tv/hls/s/hU/ycs13_fnl_blm/ycs13_fnl_blm.smil/playlist.m3
 http://kanaldvod.duhnet.tv/hls/p/Bq/ycs_12_blm_site/ycs_12_blm_site.smil/playlist.m3u8
 #EXTINF:-1 group-title="Ya Çok Seversen" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6491bef8ebc8303b7ca9ad9e.jpg",Ya Çok Seversen - Ya Çok Seversen 11. Bölüm
 http://kanaldvod.duhnet.tv/hls/T/Yf/ycs11blm/ycs11blm.smil/playlist.m3u8
+#EXTINF:-1 group-title="Ya Çok Seversen" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6491bef8ebc8303b7ca9ad9e.jpg",Ya Çok Seversen - Ya Çok Seversen 10. Bölüm
+http://kanaldvod.duhnet.tv/hls/b/sG/ycs10_blm_com/ycs10_blm_com.smil/playlist.m3u8
 #EXTINF:-1 group-title="Ya Çok Seversen" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6491bef8ebc8303b7ca9ad9e.jpg",Ya Çok Seversen - Ya Çok Seversen 9. Bölüm
 http://kanaldvod.duhnet.tv/hls/k/Ud/ya_cok_9_blm/ya_cok_9_blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Ya Çok Seversen" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6491bef8ebc8303b7ca9ad9e.jpg",Ya Çok Seversen - Ya Çok Seversen 8. Bölüm
