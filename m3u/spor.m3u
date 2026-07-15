@@ -1,1 +1,43 @@
-
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="HT SPOR 8K" group-title="SPOR",HT SPOR 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=1245942&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT SPOR 8K" group-title="SPOR",TRT SPOR 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=709&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT SPOR YILDIZ 8K" group-title="SPOR",TRT SPOR YILDIZ 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=18644&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT 3 SPOR 8K" group-title="SPOR",TRT 3 SPOR 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=615829&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A SPOR 8K" group-title="SPOR",A SPOR 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=710&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TAY TV 8K" group-title="SPOR",TAY TV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=18646&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TJK TV 8K" group-title="SPOR",TJK TV 8K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=18648&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="☰☰☰☰ PAKET SPOR 4K ☰☰☰☰ " group-title="SPOR",☰☰☰☰ PAKET SPOR 4K ☰☰☰☰ 
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=705&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="HT SPOR 4K" group-title="SPOR",HT SPOR 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=1245940&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT SPOR 4K" group-title="SPOR",TRT SPOR 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=701&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT SPOR YILDIZ 4K" group-title="SPOR",TRT SPOR YILDIZ 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=18645&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A SPOR 4K" group-title="SPOR",A SPOR 4K
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=702&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="☰☰☰☰ PAKET SPOR HD ☰☰☰☰" group-title="SPOR",☰☰☰☰ PAKET SPOR HD ☰☰☰☰
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=615825&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="HT SPOR HD" group-title="SPOR",HT SPOR HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=1245941&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT SPOR HD" group-title="SPOR",TRT SPOR HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=615826&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT SPOR YILDIZ HD" group-title="SPOR",TRT SPOR YILDIZ HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=615827&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="A SPOR HD" group-title="SPOR",A SPOR HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=615828&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="FENERBACHE TV HD" group-title="SPOR",FENERBACHE TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=695&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="GALATASARAY TV HD" group-title="SPOR",GALATASARAY TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=696&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TAY TV HD" group-title="SPOR",TAY TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=18647&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="SPORTS TV" group-title="SPOR",SPORTS TV
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=694&extension=ts
