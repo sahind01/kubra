@@ -1,1 +1,63 @@
-
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="POWER TÜRK HD" group-title="MÜZIK",POWER TÜRK HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197364&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="POWER TV HD" group-title="MÜZIK",POWER TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197362&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KRAL POP HD" group-title="MÜZIK",KRAL POP HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197361&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="KRAL TV HD" group-title="MÜZIK",KRAL TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197360&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="NR1 HD" group-title="MÜZIK",NR1 HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197359&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="NR1 TÜRK HD" group-title="MÜZIK",NR1 TÜRK HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197358&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="DREAM TURK" group-title="MÜZIK",DREAM TURK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724290&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TMB HD" group-title="MÜZIK",TMB HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197344&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRT MUZIK HD" group-title="MÜZIK",TRT MUZIK HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197363&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="VATAN TV HD" group-title="MÜZIK",VATAN TV HD
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=197349&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU TURKCE POP" group-title="MÜZIK",TIVIBU TURKCE POP
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724311&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU TURKCE SLOW" group-title="MÜZIK",TIVIBU TURKCE SLOW
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724310&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU TURK HALK MUZIK" group-title="MÜZIK",TIVIBU TURK HALK MUZIK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724309&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU TURK SANAT MUZIK" group-title="MÜZIK",TIVIBU TURK SANAT MUZIK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724308&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU TAS PLAK" group-title="MÜZIK",TIVIBU TAS PLAK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724307&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU DİNİ MUSİKİ" group-title="MÜZIK",TIVIBU DİNİ MUSİKİ
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724306&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU ARABESK" group-title="MÜZIK",TIVIBU ARABESK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724305&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU 90 LAR" group-title="MÜZIK",TIVIBU 90 LAR
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724304&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU YABANCI POP" group-title="MÜZIK",TIVIBU YABANCI POP
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724303&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU YABANCI ROCK" group-title="MÜZIK",TIVIBU YABANCI ROCK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724302&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU YABANCI SLOW" group-title="MÜZIK",TIVIBU YABANCI SLOW
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724301&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU FİLM MÜZİKLERİ" group-title="MÜZIK",TIVIBU FİLM MÜZİKLERİ
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724300&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU OLDIES" group-title="MÜZIK",TIVIBU OLDIES
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724299&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU BLUES" group-title="MÜZIK",TIVIBU BLUES
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724298&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU JAZZ" group-title="MÜZIK",TIVIBU JAZZ
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724297&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU KLASİK MÜZİK" group-title="MÜZIK",TIVIBU KLASİK MÜZİK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724296&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU RETRO" group-title="MÜZIK",TIVIBU RETRO
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724295&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU AKUSTİK" group-title="MÜZIK",TIVIBU AKUSTİK
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724294&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU LOUNGE" group-title="MÜZIK",TIVIBU LOUNGE
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724293&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU MUTLU" group-title="MÜZIK",TIVIBU MUTLU
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724292&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="TIVIBU ÇALIŞIRKEN" group-title="MÜZIK",TIVIBU ÇALIŞIRKEN
+http://mag.nando2025.vip/play/live.php?mac=00%3A1A%3A79%3AD8%3A2F%3A52&stream=724291&extension=ts
