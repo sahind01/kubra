@@ -26,7 +26,7 @@ jobs:
 
       - name: EPG Verisini Güncelle
         run: |
-          python update_epg.py
+          python epg_scraper.py
           ls -lah
 
       - name: Commit & Push
