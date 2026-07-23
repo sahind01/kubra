@@ -1,0 +1,257 @@
+#EXTM3U
+#EXTINF:-1,1TV Armenia H1
+https://trn03.tulix.tv/gt-1tvar/index.m3u8?token=mutlumedya
+#EXTINF:-1,A Haber - (EPG)
+https://trn03.tulix.tv/gt-ahabertv/index.m3u8?token=mutlumedya
+#EXTINF:-1,A News
+https://trn03.tulix.tv/gt-anews/index.m3u8?token=mutlumedya
+#EXTINF:-1,A Para
+https://trn03.tulix.tv/gt-apara/index.m3u8?token=mutlumedya
+#EXTINF:-1,A Spor (EPG)
+https://trn03.tulix.tv/gt-aspor/index.m3u8?token=mutlumedya
+#EXTINF:-1,A2 (EPG)
+https://trn03.tulix.tv/gt-atv-a2tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,ABC TV
+https://glb.bozztv.com/glb/hondu/hondu-rick-abc/index.m3u8
+#EXTINF:-1,ARB 24 TV
+https://trn03.tulix.tv/gt-arb24-tv1/index.m3u8?token=mutlumedya
+#EXTINF:-1,ARB TV
+https://trn03.tulix.tv/gt-arb-tv1/index.m3u8?token=mutlumedya
+#EXTINF:-1,ATV (EPG)
+https://trn03.tulix.tv/gt-atv-live/index.m3u8?token=mutlumedya
+#EXTINF:-1,ATV Avrupa (EPG)
+https://trn03.tulix.tv/gt-atv-avrupa-tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Al Jazeera
+https://glb.bozztv.com/glb/gin-aljazeeraint/index.m3u8
+#EXTINF:-1,Armnews TV 
+https://36bay4.tulix.tv/am3abr/index.m3u8
+#EXTINF:-1,AzStar TV
+https://live.livestreamtv.ca/azstar/amlst:azstar/playlist.m3u8
+#EXTINF:-1,BBC World News
+https://rpn.bozztv.com/GCN-Fwtrn03Ixgt0/gin-bbcworld/index.m3u8
+#EXTINF:-1,Baku TV
+https://rtmp.baku.tv/hls/bakutv.m3u8
+#EXTINF:-1,Bein Sports Xtra
+https://trn03.tulix.tv/BeinSportsXtra/index.m3u8?token=mutlumedya
+#EXTINF:-1,Beyaz TV (EPG)
+https://trn03.tulix.tv/gt-beyaztv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Bloomberg Haber Turk
+https://trn03.tulix.tv/gt-bloomberght/index.m3u8?token=mutlumedya
+#EXTINF:-1,Bosnia Arena Sport1
+https://trn03.tulix.tv/gt-BosniaArenaSport1/index.m3u8?token=mutlumedya
+#EXTINF:-1,Bosnia BHT1
+https://trn03.tulix.tv/gt-BosniaBHT1/index.m3u8?token=mutlumedya
+#EXTINF:-1,Bosnia Hayat
+https://trn03.tulix.tv/gt-BosniaHayat1/index.m3u8?token=mutlumedya
+#EXTINF:-1,CBC Sport Azerbaijan (EPG)
+https://trn03.tulix.tv/gt-cbcsport/index.m3u8?token=mutlumedya
+#EXTINF:-1,CBS
+https://glb.bozztv.com/glb/giniko/giniko-cbs/index.m3u8
+#EXTINF:-1,CNBC-E Turk
+https://trn03.tulix.tv/gt-cnbce/index.m3u8?token=mutlumedya
+#EXTINF:-1,CNN Turk (EPG)
+https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,CW HD
+https://glb.bozztv.com/glb/hondu/hondu-ovair1-cwhd/index.m3u8
+#EXTINF:-1,Can TV
+https://livetv.canbroadcast.com:7443/canlican/tv.m3u8
+#EXTINF:-1,Cartoon Network TR (EPG)
+https://trn03.tulix.tv/gt-cartoontr/index.m3u8?token=mutlumedya
+#EXTINF:-1,Cay TV (Rize)
+https://edge1.socialsmart.tv/caytv/bant1/chunks.m3u8
+#EXTINF:-1,Cekmekoy TV
+https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/amlst:cekmekoybeltv/index.m3u8
+#EXTINF:-1,DMAX Turkiye
+https://trn03.tulix.tv/gt-dmax-tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Deha TV  - Denizli
+https://live.artidijitalmedya.com/artidijital_dehatv/dehatv/playlist.m3u8
+#EXTINF:-1,Diyanet TV (EPG)
+https://trn03.tulix.tv/gt-trtdiyanet/index.m3u8?token=mutlumedya
+#EXTINF:-1,Dost TV
+https://dost.stream.emsal.im/tv/live.m3u8
+#EXTINF:-1,Dream Turk
+https://trn03.tulix.tv/gt-dreamturk/index.m3u8?token=mutlumedya
+#EXTINF:-1,EkoTurk(EPG)
+https://trn03.tulix.tv/gt-ekoturk/index.m3u8?token=mutlumedya
+#EXTINF:-1,Exxen 1
+https://trn03.tulix.tv/gt-exxen--1/index.m3u8?token=mutlumedya
+#EXTINF:-1,Finans Turk
+https://yayin3.haber100.com/live/finansturk/playlist.m3u8
+#EXTINF:-1,Fox 5
+https://glb.bozztv.com/glb/hondu/hondu-rick-fox5/index.m3u8
+#EXTINF:-1,France 24 English
+https://glb.bozztv.com/glb/gin-france24english/index.m3u8
+#EXTINF:-1,Fresh TV
+https://freshtv-live.ru/FreshTV/index.m3u8?token=armfilm-live
+#EXTINF:-1,HT Spor
+https://trn03.tulix.tv/gt-htspor/index.m3u8?token=mutlumedya
+#EXTINF:-1,Haber 61 (Trabzon)
+https://cdn1-haber61tv.yayin.com.tr/haber61tv/haber61tv/playlist.m3u8
+#EXTINF:-1,Haber Global (EPG)
+https://trn03.tulix.tv/gt-haber-globaltv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Haber Turk (EPG)
+https://trn03.tulix.tv/gt-haberturktv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Halk TV (EPG)
+https://trn03.tulix.tv/gt-halk-tvs/index.m3u8?token=mutlumedya
+#EXTINF:-1,Ictimai TV
+https://trn03.tulix.tv/gt-ictimaitv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Idman TV (EPG)
+https://trn03.tulix.tv/gt-idmantv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Ilke TV
+https://trn03.tulix.tv/gt-ilketv/index.m3u8?token=mutlumedya
+#EXTINF:-1,KRT Kultur TV (EPG)
+https://trn03.tulix.tv/gt-krt--tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Kanal 24 (EPG)
+https://trn03.tulix.tv/gt-kanal24/index.m3u8?token=mutlumedya
+#EXTINF:-1,Kanal 3 (Afyon)
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8
+#EXTINF:-1,Kanal 7 (EPG)
+https://trn03.tulix.tv/gt-kanal7/index.m3u8?token=mutlumedya
+#EXTINF:-1,Kanal Avrupa
+https://trn03.tulix.tv/gt-kanalavrupa/index.m3u8?token=mutlumedya
+#EXTINF:-1,Kanal D (EPG)
+https://trn03.tulix.tv/gt-kanald-1tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Kanal Urfa
+https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8
+#EXTINF:-1,Kayseri TV1
+https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
+#EXTINF:-1,Kepez TV
+https://trn03.tulix.tv/gt-kepez-tv-azeri/index.m3u8?token=mutlumedya
+#EXTINF:-1,Kibris BRT1
+https://trn03.tulix.tv/gt-brt1/index.m3u8?token=mutlumedya
+#EXTINF:-1,Kibris BRT2
+https://trn03.tulix.tv/gt-brt2/index.m3u8?token=mutlumedya
+#EXTINF:-1,Kudus TV
+https://yayin3.haber100.com/kudustvapp/kudustv/playlist.m3u8
+#EXTINF:-1,LUYS TV
+https://trn03.tulix.tv/gt-luystv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Lalegul TV
+https://lbl.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1,Life TV HD  
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
+#EXTINF:-1,Medeniyyet TV
+https://trn03.tulix.tv/gt-medeniyyet/index.m3u8?token=mutlumedya
+#EXTINF:-1,Meltem TV
+https://trn03.tulix.tv/gt-meltemtv/index.m3u8?token=mutlumedya
+#EXTINF:-1,NBC
+https://glb.bozztv.com/glb/giniko/giniko-nbcatl/index.m3u8
+#EXTINF:-1,NOW TV (EPG)
+https://trn03.tulix.tv/gt-nowtv-live/index.m3u8?token=mutlumedya
+#EXTINF:-1,NTV (EPG)
+https://trn03.tulix.tv/gt-ntv-tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Number 1 Ask
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
+#EXTINF:-1,Number 1 Damar
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
+#EXTINF:-1,ON 4 TV 
+https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
+#EXTINF:-1,Power Turk
+https://trn03.tulix.tv/gt-powerturk/index.m3u8?token=mutlumedya
+#EXTINF:-1,PowerTurk Akustik
+https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+#EXTINF:-1,PowerTurk Slow
+https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1,PowerTurk Taptaze
+https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1,Real TV
+https://trn03.tulix.tv/gt-realtv/index.m3u8?token=mutlumedya
+#EXTINF:-1,S SPORT
+https://trn03.tulix.tv/gt-ssport1/index.m3u8?token=mutlumedya
+#EXTINF:-1,S SPORT+
+https://trn03.tulix.tv/gt-ssportplus/index.m3u8?token=mutlumedya
+#EXTINF:-1,Sat7 Turk
+https://trn03.tulix.tv/gt-sat7turk/index.m3u8?token=mutlumedya
+#EXTINF:-1,Semerkand TV
+http://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
+#EXTINF:-1,Show Max (EPG)
+https://trn03.tulix.tv/gt-showmax/index.m3u8?token=mutlumedya
+#EXTINF:-1,Show TV (EPG)
+https://trn03.tulix.tv/gt-shows-tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Sky 360 (EPG)
+https://trn03.tulix.tv/gt-sky360/index.m3u8?token=mutlumedya
+#EXTINF:-1,Slow Karadeniz TV
+https://yayin.slowkaradeniztv.com:3390/hybrid/play.m3u8
+#EXTINF:-1,Song TV
+https://songtv.hls.iptvdc.com/web-armenia/playlist.m3u8
+#EXTINF:-1,Sozcu TV (EPG)
+https://trn03.tulix.tv/gt-sozcu-livetv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Space TV
+https://trn03.tulix.tv/gt-spacetv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Spor Smart 2 HD
+https://trn03.tulix.tv/gt-sporsmarthd2/index.m3u8?token=mutlumedya
+#EXTINF:-1,Spor Smart HD
+https://trn03.tulix.tv/gt-sporsmarthd/index.m3u8?token=mutlumedya
+#EXTINF:-1,Sports TV (EPG)
+https://trn03.tulix.tv/gt-sporttv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Star TV (EPG)
+https://trn03.tulix.tv/gt-star-tv1/index.m3u8?token=mutlumedya
+#EXTINF:-1,Start TV
+https://trn03.tulix.tv/gt-startv-azer/index.m3u8?token=mutlumedya
+#EXTINF:-1,TIVI6
+https://trn03.tulix.tv/gt-tivi6/index.m3u8?token=mutlumedya
+#EXTINF:-1,TLC Turkiye (EPG)
+https://trn03.tulix.tv/gt-tlc-tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT 1 (EPG)
+https://trn03.tulix.tv/gt-trt1/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT 2 (EPG)
+https://trn03.tulix.tv/gt-trt2/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT 4K
+https://trn03.tulix.tv/gt-trt4k/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT Belgesel (EPG)
+https://trn03.tulix.tv/gt-trtbelgesel/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT Cocuk (EPG)
+https://trn03.tulix.tv/gt-trtcocuk/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT Haber (EPG)
+https://trn03.tulix.tv/gt-trthaber/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT Muzik (EPG)
+https://trn03.tulix.tv/gt-trtmusic/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT Spor (EPG)
+https://trn03.tulix.tv/gt-trt-sportv/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT Spor Yildiz (EPG)
+https://trn03.tulix.tv/gt-trt-spor2/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT Turk (EPG)
+https://trn03.tulix.tv/gt-trtturk/index.m3u8?token=mutlumedya
+#EXTINF:-1,TRT World (EPG)
+https://trn03.tulix.tv/gt-trtworld/index.m3u8?token=mutlumedya
+#EXTINF:-1,TV100 (EPG)
+https://trn03.tulix.tv/gt-tv100/index.m3u8?token=mutlumedya
+#EXTINF:-1,TV4
+https://trn03.tulix.tv/gt-tv4/index.m3u8?token=mutlumedya
+#EXTINF:-1,TV8  Int (EPG)
+https://trn03.tulix.tv/gt-tv8international/index.m3u8?token=mutlumedya
+#EXTINF:-1,TV8 (EPG)
+https://trn03.tulix.tv/tv8-hd-tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,TV8.5 (EPG)
+https://trn03.tulix.tv/gt-tv8_5/index.m3u8?token=mutlumedya
+#EXTINF:-1,TVNET (EPG)
+https://trn03.tulix.tv/gt-tvnettv/index.m3u8?token=mutlumedya
+#EXTINF:-1,TYTTURK
+https://trn03.tulix.tv/gt-tytturk/index.m3u8?token=mutlumedya
+#EXTINF:-1,Tarim TV
+https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/master.m3u8
+#EXTINF:-1,Tivibu Spor
+https://trn03.tulix.tv/gt-tivibuspor1/index.m3u8?token=mutlumedya
+#EXTINF:-1,Turk Muzik Birligi TV
+https://trn03.tulix.tv/gt-tmb-azer/index.m3u8?token=mutlumedya
+#EXTINF:-1,Turkmeneli TV
+https://trn09.bozztv.com/gt-turkmeneli/index.m3u8
+#EXTINF:-1,Ulke TV (EPG)
+https://trn03.tulix.tv/gt-ulketv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Ulusal TV (EPG)
+https://trn03.tulix.tv/gt-ulusal-tv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Yaban TV (EPG)
+https://trn03.tulix.tv/gt-yabantv/index.m3u8?token=mutlumedya
+#EXTINF:-1,Zexer Xeber
+https://trn03.tulix.tv/gt-zexer-xeber/index.m3u8?token=mutlumedya
+#EXTINF:-1,beIN Sports Haber (EPG)
+https://trn03.tulix.tv/gt-beinsportshaber/index.m3u8?token=mutlumedya
+#EXTINF:-1,beIN Sports Lig Tv1
+https://trn03.tulix.tv/gt-ligtv-1/index.m3u8?token=mutlumedya
+#EXTINF:-1,beIN Sports Lig Tv2
+https://trn03.tulix.tv/gt-ligtv2/index.m3u8?token=mutlumedya
+#EXTINF:-1,beIN Sports Lig Tv3
+https://trn03.tulix.tv/gt-ligtv3/index.m3u8?token=mutlumedya
+#EXTINF:-1,minika Cocuk (EPG)
+https://trn03.tulix.tv/gt-minikacocuk/index.m3u8?token=mutlumedya
+#EXTINF:-1,minika GO (EPG)
+https://trn03.tulix.tv/gt-minikago/index.m3u8?token=mutlumedya
