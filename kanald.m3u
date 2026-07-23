@@ -275,6 +275,8 @@ https://kanaldvod.duhnet.tv/hls/T/-U/anahaber_27062026/anahaber_27062026.smil/pl
 https://kanaldvod.duhnet.tv/hls/A/3W/haber_2106/haber_2106.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 20.06.2026
 https://kanaldvod.duhnet.tv/hls/J/iw/haber2006blm/haber2006blm.smil/playlist.m3u8
+#EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 329. Bölüm
+https://kanaldvod.duhnet.tv/hls/5/q7/magdyazbol19_2026/magdyazbol19_2026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 328. Bölüm
 https://kanaldvod.duhnet.tv/hls/x/YD/magdyaz18_2026/magdyaz18_2026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 327. Bölüm
@@ -293,8 +295,6 @@ https://kanaldvod.duhnet.tv/hls/-/bC/mg_1226blm/mg_1226blm.smil/playlist.m3u8
 https://kanaldvod.duhnet.tv/hls/u/u_/magdyaz_130726/magdyaz_130726.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 320. Bölüm
 https://kanaldvod.duhnet.tv/hls/9/nu/magdyaz_bol10_2026/magdyaz_bol10_2026.smil/playlist.m3u8
-#EXTINF:-1 group-title="Magazin D Yaz" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/668269d80e55a65e086897c1.jpg",Magazin D Yaz - Magazin D Yaz 319. Bölüm
-https://kanaldvod.duhnet.tv/hls/R/Fg/magdyaz_bol9_2026/magdyaz_bol9_2026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68722884ff79654e7d12b5b1.jpg",Magazin D Cumartesi - 18.07.2026 / Magazin D Cumartesi
 https://kanaldvod.duhnet.tv/hls/Q/sG/mg444blm/mg444blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68722884ff79654e7d12b5b1.jpg",Magazin D Cumartesi - 11.07.2026 / Magazin D Cumartesi
