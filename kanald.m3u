@@ -161,8 +161,10 @@ https://kanaldvod.duhnet.tv/hls/H/nZ/ks_17_bolum/ks_17_bolum.smil/playlist.m3u8
 https://kanaldvod.duhnet.tv/hls/q/K0/ks16_blm/ks16_blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kuralsız Sokaklar" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/685414d9b85953a3a6d9df99.jpg",Kuralsız Sokaklar - Kuralsız Sokaklar 15. Bölüm
 https://kanaldvod.duhnet.tv/hls/i/4O/kuralsiz_sokaklar_15bolum/kuralsiz_sokaklar_15bolum.smil/playlist.m3u8
-#EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1902. Bölüm / 8 Eylül 2026
+#EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1903. Bölüm / 9 Eylül 2026
 https://kanaldvod.duhnet.tv/hls/P/9z/gm_1903/gm_1903.smil/playlist.m3u8
+#EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1902. Bölüm / 8 Eylül 2026
+https://kanaldvod.duhnet.tv/hls/m/SJ/gm_1902/gm_1902.smil/playlist.m3u8
 #EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1901. Bölüm / 7 Eylül 2026
 https://kanaldvod.duhnet.tv/hls/5/qv/gm_1901blm/gm_1901blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1900. Bölüm / 4 Eylül 2026
@@ -171,16 +173,12 @@ https://kanaldvod.duhnet.tv/hls/4/pQ/gm_1900blm/gm_1900blm.smil/playlist.m3u8
 https://kanaldvod.duhnet.tv/hls/D/_D/gm_bol1899/gm_bol1899.smil/playlist.m3u8
 #EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1898. Bölüm / 2 Eylül 2026
 https://kanaldvod.duhnet.tv/hls/7/BI/gm_1898blm/gm_1898blm.smil/playlist.m3u8
-#EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1897. Bölüm / 1 Eylül 2026
-https://kanaldvod.duhnet.tv/hls/m/vc/gm_1897blm/gm_1897blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1896. Bölüm / 31 Ağustos 2026
 https://kanaldvod.duhnet.tv/hls/F/fX/gm_1896/gm_1896.smil/playlist.m3u8
 #EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1895. Bölüm / 28 Ağustos 2026
 https://kanaldvod.duhnet.tv/hls/R/cw/gm_1895/gm_1895.smil/playlist.m3u8
 #EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1894. Bölüm / 27 Ağustos 2026
 https://kanaldvod.duhnet.tv/hls/Y/X3/gm_1894/gm_1894.smil/playlist.m3u8
-#EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1893. Bölüm / 26 Ağustos 2026
-https://kanaldvod.duhnet.tv/hls/h/Wx/gm_1893/gm_1893.smil/playlist.m3u8
 #EXTINF:-1 group-title="Neler Oluyor Hayatta?" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c18fc88b0ee3a869cbf026.jpg",Neler Oluyor Hayatta? - Neler Oluyor Hayatta? / 26.06.2026 - Sezon Finali
 https://kanaldvod.duhnet.tv/hls/X/Ti/noh_1587/noh_1587.smil/playlist.m3u8
 #EXTINF:-1 group-title="Neler Oluyor Hayatta?" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c18fc88b0ee3a869cbf026.jpg",Neler Oluyor Hayatta? - Neler Oluyor Hayatta? / 25.06.2026
@@ -241,6 +239,8 @@ https://kanaldvod.duhnet.tv/hls/6/Nc/omuz_omuza_252_bolum/omuz_omuza_252_bolum.s
 https://kanaldvod.duhnet.tv/hls/e/-l/omuz_omuza_251bolum/omuz_omuza_251bolum.smil/playlist.m3u8
 #EXTINF:-1 group-title="Arda ile Omuz Omuza" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/61535c5f4453951504a95c4b.jpg",Arda ile Omuz Omuza - Arda ile Omuz Omuza 250. Bölüm - Turgut Tunçalp
 https://kanaldvod.duhnet.tv/hls/Y/fT/omuz_omuza_250_blm/omuz_omuza_250_blm.smil/playlist.m3u8
+#EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 09.09.2026
+https://kanaldvod.duhnet.tv/hls/f/rN/anahaber_09092026/anahaber_09092026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 08.09.2026
 https://kanaldvod.duhnet.tv/hls/t/63/anahaber_08092026/anahaber_08092026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 07.09.2026
@@ -259,8 +259,6 @@ https://kanaldvod.duhnet.tv/hls/8/ND/anahaber_310826/anahaber_310826.smil/playli
 https://kanaldvod.duhnet.tv/hls/y/6t/anahaber_28082026/anahaber_28082026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 27.08.2026
 https://kanaldvod.duhnet.tv/hls/Z/NE/anahaber_27082026/anahaber_27082026.smil/playlist.m3u8
-#EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 26.08.2026
-https://kanaldvod.duhnet.tv/hls/r/BG/anahaber_26082026/anahaber_26082026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 06.09.2026
 https://kanaldvod.duhnet.tv/hls/p/sW/haber0609/haber0609.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 05.09.2026
@@ -535,8 +533,6 @@ https://kanaldvod.duhnet.tv/hls/Y/7b/bdv3_blm/bdv3_blm.smil/playlist.m3u8
 https://kanaldvod.duhnet.tv/hls/O/04/bdv2_blm/bdv2_blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Bir Derdim Var" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/65292c18ebc83018bc978e52.jpg",Bir Derdim Var - Bir Derdim Var İlk Bölüm
 https://kanaldvod.duhnet.tv/hls/_/Uj/bdv1_blm/bdv1_blm.smil/playlist.m3u8
-#EXTINF:-1 group-title="Dilek Taşı" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/64ec9de53ab16614341fc3b1.jpg",Dilek Taşı - Dilek Taşı 20. Bölüm - Final
-https://kanaldvod.duhnet.tv/hls/a/7S/dt20blmfnl/dt20blmfnl.smil/playlist.m3u8
 #EXTINF:-1 group-title="Dilek Taşı" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/64ec9de53ab16614341fc3b1.jpg",Dilek Taşı - Dilek Taşı 19. Bölüm
 https://kanaldvod.duhnet.tv/hls/y/uj/dt19blm/dt19blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Dilek Taşı" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/64ec9de53ab16614341fc3b1.jpg",Dilek Taşı - Dilek Taşı 18. Bölüm
