@@ -246,7 +246,7 @@ https://kanaldvod.duhnet.tv/hls/Y/fT/omuz_omuza_250_blm/omuz_omuza_250_blm.smil/
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 16.09.2026
 https://kanaldvod.duhnet.tv/hls/5/KC/anahaber_160926/anahaber_160926.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 15.09.2026
-https://kanaldvod.duhnet.tv/hls/5/KC/anahaber_160926/anahaber_160926.smil/playlist.m3u8
+https://kanaldvod.duhnet.tv/hls/f/fJ/anahaber_150926/anahaber_150926.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 14.09.2026
 https://kanaldvod.duhnet.tv/hls/A/aj/anahaber_140926/anahaber_140926.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 11.09.2026
@@ -377,6 +377,8 @@ https://kanaldvod.duhnet.tv/hls/u/sy/turnike_20_bolum/turnike_20_bolum.smil/play
 https://kanaldvod.duhnet.tv/hls/N/5N/turnike_19_bolumm/turnike_19_bolumm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Turnike" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c914a11071aaa596823906.jpg",Turnike - Turnike 18. Bölüm / 7 Temmuz 2025
 https://kanaldvod.duhnet.tv/hls/J/N4/turnike_18_bolum/turnike_18_bolum.smil/playlist.m3u8
+#EXTINF:-1 group-title="Turnike" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c914a11071aaa596823906.jpg",Turnike - Turnike 17. Bölüm / 10 Kasım 2024
+https://kanaldvod.duhnet.tv/hls/k/cE/tur17_blms/tur17_blms.smil/playlist.m3u8
 #EXTINF:-1 group-title="Turnike" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c914a11071aaa596823906.jpg",Turnike - Turnike 16. Bölüm / 3 Kasım 2024
 https://kanaldvod.duhnet.tv/hls/k/k8/turnike_16blm/turnike_16blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Turnike" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c914a11071aaa596823906.jpg",Turnike - Turnike 15. Bölüm / 22 Ekim 2024
@@ -569,8 +571,6 @@ https://kanaldvod.duhnet.tv/hls/h/-W/ukk80blm/ukk80blm.smil/playlist.m3u8
 https://kanaldvod.duhnet.tv/hls/W/he/ukk_79_blm/ukk_79_blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Üç Kız Kardeş" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/651becf1933ccb1740938ac8.jpg",Üç Kız Kardeş - Üç Kız Kardeş 78. Bölüm
 https://kanaldvod.duhnet.tv/hls/A/s2/ukk78blm/ukk78blm.smil/playlist.m3u8
-#EXTINF:-1 group-title="Üç Kız Kardeş" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/651becf1933ccb1740938ac8.jpg",Üç Kız Kardeş - Üç Kız Kardeş 77. Bölüm
-https://kanaldvod.duhnet.tv/hls/V/95/ukk_77blm/ukk_77blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Üç Kız Kardeş" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/651becf1933ccb1740938ac8.jpg",Üç Kız Kardeş - Üç Kız Kardeş 76. Bölüm
 https://kanaldvod.duhnet.tv/hls/X/kj/ukk76blm/ukk76blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Üç Kız Kardeş" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/651becf1933ccb1740938ac8.jpg",Üç Kız Kardeş - Üç Kız Kardeş 75. Bölüm
