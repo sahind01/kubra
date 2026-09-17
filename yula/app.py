@@ -1,84 +1,129 @@
-# app.py
+# app.py — Giniko API tabanlı M3U proxy
+# Ana endpoint: https://ginikoturkish.com/api/droid/service.php?operation=getChannels
+# Tek istekte tüm kanal listesi gelir → çok hızlı
+
 from flask import Flask, Response, request, jsonify
 from flask_cors import CORS
-import requests, re, time
-from concurrent.futures import ThreadPoolExecutor
+import requests
+import json
+import time
 
 app = Flask(__name__)
 CORS(app)
 
-TOTAL = 1000
-WORKERS = 30
-ALLOWED_DOMAIN = "trn03.tulix.tv"
+API_URL = "https://ginikoturkish.com/api/droid/service.php?operation=getChannels"
 BASE_URL = "https://ginikoturkish.com"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
-    "Referer": "https://www.ginikoturkish.com/"
+    "Referer": "https://www.ginikoturkish.com/",
+    "Accept": "application/json, */*"
 }
 
-CACHE = {"channels": [], "ts": 0}
-CACHE_TTL = 1800  # 30 dk
+CACHE = {"channels": [], "ts": 0, "raw": None}
+CACHE_TTL = 1800
 
 
-def check_channel(ch_id):
-    url = f"{BASE_URL}/xml/secure/plist.php?ch={ch_id}"
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=8)
-        if r.status_code != 200 or "HlsStreamURL" not in r.text:
-            return None
-        text = r.text
-        stream_url = None
-        lines = [l.strip() for l in text.split("\n") if l.strip()]
-        last_isvod = None
-        for i, line in enumerate(lines):
-            if line == "isVOD" and i+1 < len(lines):
-                last_isvod = lines[i+1]
-            if line == "HlsStreamURL" and i+1 < len(lines):
-                u = lines[i+1]
-                if u.startswith("http") and last_isvod == "false":
-                    stream_url = u
-                    break
-        if not stream_url:
-            m = re.search(r'<key>isVOD</key>\s*<string>false</string>.*?<key>HlsStreamURL</key>\s*<string>(.*?)</string>', text, re.DOTALL)
-            if m:
-                stream_url = m.group(1)
-        if not stream_url:
-            return None
-        if ALLOWED_DOMAIN not in stream_url:
-            return None
-        name = None
-        for i, line in enumerate(lines):
-            if line == "name" and i+1 < len(lines) and not lines[i+1].startswith("http"):
-                name = lines[i+1].replace(" - Live", "").strip()
-                break
-        if not name:
-            m = re.search(r'<key>name</key>\s*<string>(.*?)</string>', text)
-            name = m.group(1).replace(" - Live", "").strip() if m else f"Kanal {ch_id}"
-        logo = None
-        for i, line in enumerate(lines):
-            if line == "logoUrlHD" and i+1 < len(lines) and lines[i+1].startswith("http"):
-                logo = lines[i+1]
-                break
-        if not logo:
-            m = re.search(r'<key>logoUrlHD</key>\s*<string>(.*?)</string>', text)
-            logo = m.group(1) if m else f"https://www.giniko.com/logos/190x110/{ch_id}.jpg"
-        return {"id": ch_id, "name": name, "logo": logo, "stream": stream_url}
-    except Exception:
-        return None
-
-
-def get_all(force=False):
-    if not force and CACHE["channels"] and (time.time() - CACHE["ts"]) < CACHE_TTL:
+# ============ TÜM KANALLARI API'DEN ÇEK ============
+def fetch_all_channels(force=False):
+    now = time.time()
+    if not force and CACHE["channels"] and (now - CACHE["ts"]) < CACHE_TTL:
         return CACHE["channels"]
-    with ThreadPoolExecutor(max_workers=WORKERS) as ex:
-        results = [c for c in ex.map(check_channel, range(1, TOTAL+1)) if c]
-    results.sort(key=lambda x: x["id"])
-    CACHE["channels"] = results
-    CACHE["ts"] = time.time()
-    return results
+
+    try:
+        r = requests.get(API_URL, headers=HEADERS, timeout=15)
+        if r.status_code != 200:
+            print(f"API hata: {r.status_code}")
+            return CACHE["channels"] or []
+
+        # JSON mu, HTML mi?
+        text = r.text.strip()
+        CACHE["raw"] = text[:5000]  # debug için sakla
+
+        data = None
+        try:
+            data = r.json()
+        except Exception:
+            # JSON değilse HTML/XML olabilir
+            print("JSON parse hatası, ham veri:")
+            print(text[:500])
+            return CACHE["channels"] or []
+
+        # Farklı JSON formatlarını dene
+        channels = []
+
+        # Format 1: {"channels": [...]}
+        if isinstance(data, dict):
+            if "channels" in data and isinstance(data["channels"], list):
+                channels = data["channels"]
+            elif "data" in data and isinstance(data["data"], list):
+                channels = data["data"]
+            elif "result" in data and isinstance(data["result"], list):
+                channels = data["result"]
+            else:
+                # dict içindeki ilk listeyi bul
+                for v in data.values():
+                    if isinstance(v, list) and v and isinstance(v[0], dict):
+                        channels = v
+                        break
+
+        # Format 2: direkt liste
+        elif isinstance(data, list):
+            channels = data
+
+        # Alan isimlerini normalize et
+        normalized = []
+        for ch in channels:
+            if not isinstance(ch, dict):
+                continue
+
+            # Farklı olası alan adları
+            cid = ch.get("id") or ch.get("channel_id") or ch.get("channelId") or ch.get("ch")
+            name = ch.get("name") or ch.get("channel_name") or ch.get("channelName") or ch.get("title")
+            logo = ch.get("logo") or ch.get("logoUrl") or ch.get("logoUrlHD") or ch.get("icon") or ch.get("image")
+            stream = ch.get("stream") or ch.get("stream_url") or ch.get("streamUrl") or ch.get("url") or ch.get("hls") or ch.get("HlsStreamURL")
+            is_vod = ch.get("isVOD") or ch.get("is_vod") or ch.get("isVod")
+
+            if not cid or not stream:
+                continue
+
+            # VOD değilse
+            if is_vod is not None:
+                if str(is_vod).lower() in ("true", "1"):
+                    continue
+
+            if not name:
+                name = f"Kanal {cid}"
+
+            normalized.append({
+                "id": int(cid) if str(cid).isdigit() else cid,
+                "name": str(name).replace(" - Live", "").strip(),
+                "logo": logo or f"https://www.giniko.com/logos/190x110/{cid}.jpg",
+                "stream": stream,
+                "isVOD": is_vod
+            })
+
+        normalized.sort(key=lambda x: (isinstance(x["id"], str), x["id"]))
+        CACHE["channels"] = normalized
+        CACHE["ts"] = now
+        print(f"[API] {len(normalized)} kanal alındı")
+        return normalized
+
+    except Exception as e:
+        print(f"API fetch hatası: {e}")
+        return CACHE["channels"] or []
 
 
+# ============ TEK KANAL ============
+def get_channel(cid):
+    all_ch = fetch_all_channels()
+    for ch in all_ch:
+        if str(ch["id"]) == str(cid):
+            return ch
+    return None
+
+
+# ============ M3U ============
 def build_m3u(channels, host):
     out = "#EXTM3U\n"
     out += f"#TOTAL:{len(channels)}\n\n"
@@ -94,37 +139,57 @@ def build_m3u(channels, host):
 
 def norm(s):
     return (s or "").lower().strip()\
-        .replace("ı","i").replace("ş","s").replace("ğ","g")\
-        .replace("ü","u").replace("ö","o").replace("ç","c")\
-        .replace(" ","")
+        .replace("ı", "i").replace("ş", "s").replace("ğ", "g")\
+        .replace("ü", "u").replace("ö", "o").replace("ç", "c")\
+        .replace(" ", "")
 
 
+# ============ ENDPOINT'LER ============
 @app.route("/")
 def home():
+    ch = fetch_all_channels()
     return jsonify({
         "status": "ok",
+        "total": len(ch),
+        "api": API_URL,
         "endpoints": {
             "/index.m3u": "tüm kanallar",
             "/1.m3u": "ID 1",
-            "/trtbelgesel.m3u": "isimle",
+            "/trt.m3u": "isimle",
             "/channel/1": "JSON",
-            "/list": "JSON liste"
+            "/list": "JSON liste",
+            "/raw": "API ham yanıt (debug)",
+            "/refresh": "cache temizle ve yenile"
         }
     })
 
 
-@app.route("/channel/<int:cid>")
+@app.route("/raw")
+def raw():
+    fetch_all_channels(force=True)
+    return Response(CACHE["raw"] or "bos", mimetype="text/plain")
+
+
+@app.route("/refresh")
+def refresh():
+    CACHE["channels"] = []
+    CACHE["ts"] = 0
+    ch = fetch_all_channels(force=True)
+    return jsonify({"status": "ok", "total": len(ch)})
+
+
+@app.route("/channel/<cid>")
 def channel(cid):
-    ch = check_channel(cid)
+    ch = get_channel(cid)
     if not ch:
-        return jsonify({"hata": "bulunamadı", "id": cid}), 404
+        return jsonify({"hata": "bulunamadi", "id": cid}), 404
     return jsonify(ch)
 
 
 @app.route("/list")
 def list_all():
     force = request.args.get("refresh") == "true"
-    ch = get_all(force)
+    ch = fetch_all_channels(force)
     return jsonify({"total": len(ch), "channels": ch})
 
 
@@ -135,21 +200,28 @@ def m3u(q=None):
     host = request.host_url.rstrip("/")
     ch_param = request.args.get("ch") or request.args.get("kanal") or q
     force = request.args.get("refresh") == "true"
+    all_ch = fetch_all_channels(force)
 
     if ch_param and ch_param != "index":
         if ch_param.isdigit():
-            ch = check_channel(int(ch_param))
+            ch = next((c for c in all_ch if str(c["id"]) == ch_param), None)
             if not ch:
-                return Response(f"#EXTM3U\n# ID {ch_param} bulunamadi\n", status=404, mimetype="audio/x-mpegurl")
+                return Response(
+                    f"#EXTM3U\n# ID {ch_param} bulunamadi\n",
+                    status=404, mimetype="audio/x-mpegurl"
+                )
             return Response(build_m3u([ch], host), mimetype="audio/x-mpegurl")
-        all_ch = get_all(force)
+
         n = norm(ch_param)
-        matches = [c for c in all_ch if n in norm(c["name"]) or str(c["id"]) == ch_param]
+        matches = [c for c in all_ch if n in norm(c["name"])]
         if not matches:
-            return Response(f"#EXTM3U\n# {ch_param} bulunamadi\n", status=404, mimetype="audio/x-mpegurl")
+            return Response(
+                f"#EXTM3U\n# {ch_param} bulunamadi\n",
+                status=404, mimetype="audio/x-mpegurl"
+            )
         return Response(build_m3u(matches, host), mimetype="audio/x-mpegurl")
 
-    return Response(build_m3u(get_all(force), host), mimetype="audio/x-mpegurl")
+    return Response(build_m3u(all_ch, host), mimetype="audio/x-mpegurl")
 
 
 @app.route("/proxy")
@@ -161,11 +233,11 @@ def proxy():
         r = requests.get(u, headers=HEADERS, stream=True, timeout=20, allow_redirects=True)
         ct = r.headers.get("content-type", "")
 
-        # m3u8 ise içeriği işle, segmentleri de proxy'le
         if "mpegurl" in ct or u.split("?")[0].endswith(".m3u8"):
             text = r.text
             base = "/".join(u.split("/")[:-1]) + "/"
             host = request.host_url.rstrip("/")
+            import re as _re
             out_lines = []
             for line in text.split("\n"):
                 t = line.strip()
@@ -179,33 +251,42 @@ def proxy():
                             if not uri.startswith("http"):
                                 uri = base + uri
                             return f'URI="{host}/proxy?url={requests.utils.quote(uri, safe="")}"'
-                        t = re.sub(r'URI="([^"]+)"', repl, t)
+                        t = _re.sub(r'URI="([^"]+)"', repl, t)
                     out_lines.append(t)
                     continue
                 if not t.startswith("http"):
                     t = base + t
                 out_lines.append(f'{host}/proxy?url={requests.utils.quote(t, safe="")}')
-            return Response("\n".join(out_lines),
-                          mimetype="application/vnd.apple.mpegurl",
-                          headers={"Access-Control-Allow-Origin": "*"})
+            return Response(
+                "\n".join(out_lines),
+                mimetype="application/vnd.apple.mpegurl",
+                headers={"Access-Control-Allow-Origin": "*"}
+            )
 
-        # Diğer içerik (ts, jpg) — direkt stream
         def gen():
             for chunk in r.iter_content(16384):
                 yield chunk
-        return Response(gen(), status=r.status_code, content_type=ct,
-                       headers={"Access-Control-Allow-Origin": "*"})
+        return Response(
+            gen(), status=r.status_code, content_type=ct,
+            headers={"Access-Control-Allow-Origin": "*"}
+        )
     except Exception as e:
         return f"proxy error: {e}", 502
 
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("Giniko Turkish M3U Proxy başlatılıyor...")
+    print("Giniko API M3U Proxy")
+    print(f"API: {API_URL}")
     print("=" * 60)
-    print("Test için:")
-    print("  http://127.0.0.1:8080/index.m3u")
-    print("  http://127.0.0.1:8080/1.m3u")
-    print("  http://127.0.0.1:8080/list")
+    print("İlk kanal listesi çekiliyor...")
+    fetch_all_channels(force=True)
+    print(f"Toplam {len(CACHE['channels'])} kanal hazır")
+    print("=" * 60)
+    print("Test:")
+    print("  http://127.0.0.1:8080/")
+    print("  http://127.0.0.1:8080/raw       <- API ham yanıt")
+    print("  http://127.0.0.1:8080/list      <- JSON")
+    print("  http://127.0.0.1:8080/index.m3u <- M3U")
     print("=" * 60)
     app.run(host="0.0.0.0", port=8080, threaded=True)
