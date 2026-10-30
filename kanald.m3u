@@ -155,6 +155,8 @@ https://kanaldvod.duhnet.tv/hls/t/bZ/bj_24blm/bj_24blm.smil/playlist.m3u8
 https://kanaldvod.duhnet.tv/hls/Z/Cp/bj_23blm/bj_23blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Beyaz'la Joker" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a8da9f9b91dc8a83ebb616d.jpg",Beyaz'la Joker - Beyaz'la Joker 22. Bölüm
 https://kanaldvod.duhnet.tv/hls/S/V3/bj_22blm/bj_22blm.smil/playlist.m3u8
+#EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1940. Bölüm / 30 Ekim 2026
+https://kanaldvod.duhnet.tv/hls/1/D6/gm_1940blm/gm_1940blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1939. Bölüm / 29 Ekim 2026
 https://kanaldvod.duhnet.tv/hls/G/25/gm_1939/gm_1939.smil/playlist.m3u8
 #EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1938. Bölüm / 28 Ekim 2026
@@ -173,8 +175,8 @@ https://kanaldvod.duhnet.tv/hls/s/Ti/gm_1933/gm_1933.smil/playlist.m3u8
 https://kanaldvod.duhnet.tv/hls/3/Ur/gm_1932/gm_1932.smil/playlist.m3u8
 #EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1931. Bölüm / 19 Ekim 2026
 https://kanaldvod.duhnet.tv/hls/z/Hv/gm_1931/gm_1931.smil/playlist.m3u8
-#EXTINF:-1 group-title="Gelinim Mutfakta" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a731ac1800655e3162c7b5d.jpg",Gelinim Mutfakta - Gelinim Mutfakta 1930. Bölüm / 16 Ekim 2026
-https://kanaldvod.duhnet.tv/hls/R/jl/gm_1930blm/gm_1930blm.smil/playlist.m3u8
+#EXTINF:-1 group-title="Neler Oluyor Hayatta?" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c18fc88b0ee3a869cbf026.jpg",Neler Oluyor Hayatta? - Neler Oluyor Hayatta? / 30.10.2026
+https://kanaldvod.duhnet.tv/hls/i/0J/noh_1617/noh_1617.smil/playlist.m3u8
 #EXTINF:-1 group-title="Neler Oluyor Hayatta?" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c18fc88b0ee3a869cbf026.jpg",Neler Oluyor Hayatta? - Neler Oluyor Hayatta? / 29.10.2026
 https://kanaldvod.duhnet.tv/hls/M/6m/noh_1616blm/noh_1616blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Neler Oluyor Hayatta?" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c18fc88b0ee3a869cbf026.jpg",Neler Oluyor Hayatta? - Neler Oluyor Hayatta? / 28.10.2026
@@ -193,8 +195,6 @@ https://kanaldvod.duhnet.tv/hls/T/qm/noh_1610blm/noh_1610blm.smil/playlist.m3u8
 https://kanaldvod.duhnet.tv/hls/l/KW/noh_1609blm/noh_1609blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Neler Oluyor Hayatta?" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c18fc88b0ee3a869cbf026.jpg",Neler Oluyor Hayatta? - Neler Oluyor Hayatta? / 19.10.2026
 https://kanaldvod.duhnet.tv/hls/X/Yc/noh_1608blm/noh_1608blm.smil/playlist.m3u8
-#EXTINF:-1 group-title="Neler Oluyor Hayatta?" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/68c18fc88b0ee3a869cbf026.jpg",Neler Oluyor Hayatta? - Neler Oluyor Hayatta? / 16.10.2026
-https://kanaldvod.duhnet.tv/hls/K/VJ/noh_1607/noh_1607.smil/playlist.m3u8
 #EXTINF:-1 group-title="Arda'nın Mutfağı" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/61535cfe4453951504a95c64.jpg",Arda'nın Mutfağı - Arda'nın Mutfağı 294. Bölüm
 https://kanaldvod.duhnet.tv/hls/t/W6/ardamutfak_bolum294/ardamutfak_bolum294.smil/playlist.m3u8
 #EXTINF:-1 group-title="Arda'nın Mutfağı" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/61535cfe4453951504a95c64.jpg",Arda'nın Mutfağı - Arda'nın Mutfağı 293. Bölüm
@@ -235,6 +235,8 @@ https://kanaldvod.duhnet.tv/hls/l/U1/omuz_omuza_258_bolum/omuz_omuza_258_bolum.s
 https://kanaldvod.duhnet.tv/hls/Y/19/omuz_257_bolum/omuz_257_bolum.smil/playlist.m3u8
 #EXTINF:-1 group-title="Arda ile Omuz Omuza" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/61535c5f4453951504a95c4b.jpg",Arda ile Omuz Omuza - Arda ile Omuz Omuza 256. Bölüm - Betül Demir
 https://kanaldvod.duhnet.tv/hls/G/eb/omuz_omuza_256_bolum/omuz_omuza_256_bolum.smil/playlist.m3u8
+#EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 29.10.2026
+https://kanaldvod.duhnet.tv/hls/f/gW/anahaber_291026/anahaber_291026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 28.10.2026
 https://kanaldvod.duhnet.tv/hls/C/ad/anahaber_28102026/anahaber_28102026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 27.10.2026
@@ -253,8 +255,6 @@ https://kanaldvod.duhnet.tv/hls/I/kj/anahaber_20102026/anahaber_20102026.smil/pl
 https://kanaldvod.duhnet.tv/hls/a/aE/anahaber_19102026/anahaber_19102026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 16.10.2026
 https://kanaldvod.duhnet.tv/hls/J/kO/anahaber_161026/anahaber_161026.smil/playlist.m3u8
-#EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 15.10.2026
-https://kanaldvod.duhnet.tv/hls/E/tH/anahaber_151026/anahaber_151026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 25.10.2026
 https://kanaldvod.duhnet.tv/hls/D/Mo/anahaber_251026/anahaber_251026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 24.10.2026
