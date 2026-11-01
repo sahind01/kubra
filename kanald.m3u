@@ -255,6 +255,8 @@ https://kanaldvod.duhnet.tv/hls/R/d_/anahaber_21102026/anahaber_21102026.smil/pl
 https://kanaldvod.duhnet.tv/hls/I/kj/anahaber_20102026/anahaber_20102026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Ana Haber" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a439d449b15a3cbd4002aba.jpg",Kanal D Ana Haber - Kanal D Ana Haber - 19.10.2026
 https://kanaldvod.duhnet.tv/hls/a/aE/anahaber_19102026/anahaber_19102026.smil/playlist.m3u8
+#EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 31.10.2026
+https://kanaldvod.duhnet.tv/hls/4/Vt/habr_3110blm/habr_3110blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 25.10.2026
 https://kanaldvod.duhnet.tv/hls/D/Mo/anahaber_251026/anahaber_251026.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 24.10.2026
@@ -273,10 +275,10 @@ https://kanaldvod.duhnet.tv/hls/6/1U/haber0410_blm/haber0410_blm.smil/playlist.m
 https://kanaldvod.duhnet.tv/hls/_/6V/haber_0310_bolum/haber_0310_bolum.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 27.09.2026
 https://kanaldvod.duhnet.tv/hls/_/Ps/anahaber_270926/anahaber_270926.smil/playlist.m3u8
-#EXTINF:-1 group-title="Kanal D Haber Hafta Sonu" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6a43c7b29b15a3cbd4002bd0.jpg",Kanal D Haber Hafta Sonu - Kanal D Haber Hafta Sonu - 26.09.2026
-https://kanaldvod.duhnet.tv/hls/V/mb/anahaber_260926/anahaber_260926.smil/playlist.m3u8
-#EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6aa3e00bdb6b70dfad8c821d.jpg",Magazin D Cumartesi - 24.10.2026 / Magazin D Cumartesi
+#EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6aa3e00bdb6b70dfad8c821d.jpg",Magazin D Cumartesi - 31.10.2026 / Magazin D Cumartesi
 https://kanaldvod.duhnet.tv/hls/d/Fk/mg_cum459blm/mg_cum459blm.smil/playlist.m3u8
+#EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6aa3e00bdb6b70dfad8c821d.jpg",Magazin D Cumartesi - 24.10.2026 / Magazin D Cumartesi
+https://kanaldvod.duhnet.tv/hls/X/ay/magdc_458blm/magdc_458blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6aa3e00bdb6b70dfad8c821d.jpg",Magazin D Cumartesi - 17.10.2026 / Magazin D Cumartesi
 https://kanaldvod.duhnet.tv/hls/q/5l/magazindc_457/magazindc_457.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6aa3e00bdb6b70dfad8c821d.jpg",Magazin D Cumartesi - 10.10.2026 / Magazin D Cumartesi
@@ -293,8 +295,6 @@ https://kanaldvod.duhnet.tv/hls/-/bB/mdcmt_bol452/mdcmt_bol452.smil/playlist.m3u
 https://kanaldvod.duhnet.tv/hls/o/Hq/mg_451blm/mg_451blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6aa3e00bdb6b70dfad8c821d.jpg",Magazin D Cumartesi - 29.08.2026 / Magazin D Cumartesi
 https://kanaldvod.duhnet.tv/hls/Q/GF/magazindc_450/magazindc_450.smil/playlist.m3u8
-#EXTINF:-1 group-title="Magazin D Cumartesi" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6aa3e00bdb6b70dfad8c821d.jpg",Magazin D Cumartesi - 22.08.2026 / Magazin D Cumartesi
-https://kanaldvod.duhnet.tv/hls/J/p5/magdcmt_449/magdcmt_449.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Pazar" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6aa3e0e4db6b70dfad8c8237.jpg",Magazin D Pazar - 25.10.2026 / Magazin D Pazar
 https://kanaldvod.duhnet.tv/hls/W/o2/magdp_438blm/magdp_438blm.smil/playlist.m3u8
 #EXTINF:-1 group-title="Magazin D Pazar" tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6aa3e0e4db6b70dfad8c8237.jpg",Magazin D Pazar - 18.10.2026 / Magazin D Pazar
