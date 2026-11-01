@@ -1,6 +1,1343 @@
-===== XTREAM PANEL YETKİLENDİRME KAYNAKLARI =====
-Tarih: Sun Nov  1 09:44:22 PM UTC 2026
+======================================================
+ XTREAM PANEL - TAM SISTEM VE GUVENLIK TARAMASI
+======================================================
+Sun Nov  1 10:00:09 PM UTC 2026
+Sunucu: 45-143-11-26
+Proje: /var/www/xtream
+Rapor: /root/XTREAM-TUM-SORUNLAR-20261101-220009.txt
 
+
+======================================================
+ 1. SUNUCU VE PHP BILGILERI
+======================================================
+Linux 45-143-11-26 6.8.0-147-generic #147-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 24 11:33:16 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.5 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+PHP 8.3.6 (cli) (built: Oct 19 2026 15:16:58) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.6, Copyright (c) Zend Technologies
+[PHP Modules]
+calendar
+Core
+ctype
+curl
+date
+dom
+exif
+FFI
+fileinfo
+filter
+ftp
+gettext
+hash
+iconv
+json
+libxml
+mbstring
+mysqli
+mysqlnd
+openssl
+pcntl
+pcre
+PDO
+pdo_mysql
+Phar
+posix
+random
+readline
+Reflection
+session
+shmop
+SimpleXML
+sockets
+sodium
+SPL
+standard
+sysvmsg
+sysvsem
+sysvshm
+tokenizer
+xml
+xmlreader
+xmlwriter
+xsl
+Zend OPcache
+zlib
+
+[Zend Modules]
+Zend OPcache
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       345G   25G  306G   8% /
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.3Gi        19Gi        14Mi        11Gi        30Gi
+Swap:          3.1Gi        43Mi       3.1Gi
+ 22:00:09 up 2 days, 23:29,  1 user,  load average: 0.85, 1.37, 1.68
+
+======================================================
+ 2. PROJE DOSYALARI
+======================================================
+-rw-r----- | root:root | 14711 bytes | /var/www/xtream/stream.php.yedek-paket-20261101-132704
+-rw-r----- | root:root | 14729 bytes | /var/www/xtream/connections.php.backup-blacklist-20261101-042414
+-rw-r----- | root:root | 22804 bytes | /var/www/xtream/index.php.backup-20261101-043306
+-rw-r----- | root:root | 22804 bytes | /var/www/xtream/index.php.backup-stats-20261101-042852
+-rw-r----- | root:root | 22871 bytes | /var/www/xtream/index.php.backup-20261101-043833
+-rw-r----- | root:root | 23925 bytes | /var/www/xtream/index.php.backup-20261101-044223
+-rw-r----- | root:root | 26322 bytes | /var/www/xtream/index.php.epg-oncesi-20261101-095932.bak
+-rw-r----- | root:root | 28164 bytes | /var/www/xtream/streams.php.backup-20261101-021520
+-rw-r----- | root:root | 28164 bytes | /var/www/xtream/streams.php.before-type-fix-20261101-015455
+-rw-r----- | root:root | 28936 bytes | /var/www/xtream/customers.php.backup-20261101-044631
+-rw-r----- | root:root | 30614 bytes | /var/www/xtream/customers.php.backup-renewal-20261101-050043
+-rw-r----- | root:root | 34857 bytes | /var/www/xtream/_content.php.yedek-paket-20261101-125154
+-rw-r----- | root:root | 3779 bytes | /var/www/xtream/get.php.yedek-paket-20261101-132407
+-rw-r----- | root:root | 39727 bytes | /var/www/xtream/_content.php.yedek-m3u-20261101-171541
+-rw-r----- | root:root | 39727 bytes | /var/www/xtream/_content.php.yedek-m3u-buton-20261101-171943
+-rw-r----- | root:root | 39961 bytes | /var/www/xtream/_content.php.bak_language_20261101_200856
+-rw-r----- | root:root | 40999 bytes | /var/www/xtream/customers.php.backup-renewal-20261101-050133
+-rw-r----- | root:root | 44551 bytes | /var/www/xtream/customers.php.epg-oncesi.bak
+-rw-r----- | root:root | 55360 bytes | /var/www/xtream/series.php.epg-oncesi.bak
+-rw-r----- | root:root | 9787 bytes | /var/www/xtream/session_common.php.backup-blacklist-20261101-042414
+-rw-r----- | root:www-data | 10179 bytes | /var/www/xtream/session_common.php
+-rw-r----- | root:www-data | 15598 bytes | /var/www/xtream/stream.php
+-rw-r----- | root:www-data | 17940 bytes | /var/www/xtream/streams.php
+-rw-r----- | root:www-data | 17940 bytes | /var/www/xtream/streams.php.backup_20261101_063407
+-rw-r----- | root:www-data | 22815 bytes | /var/www/xtream/index.php.backup
+-rw-r----- | root:www-data | 22819 bytes | /var/www/xtream/index.php.backup2
+-rw-r----- | root:www-data | 22835 bytes | /var/www/xtream/index.php.backup-session-20261101-014840
+-rw-r----- | root:www-data | 24194 bytes | /var/www/xtream/connections.php
+-rw-r----- | root:www-data | 26299 bytes | /var/www/xtream/index.php
+-rw-r----- | root:www-data | 3215 bytes | /var/www/xtream/api_common.php
+-rw-r----- | root:www-data | 34857 bytes | /var/www/xtream/_content.php.yedek-20261101-124901
+-rw-r----- | root:www-data | 39604 bytes | /var/www/xtream/series.php.backup_20261101_063407
+-rw-r----- | root:www-data | 42897 bytes | /var/www/xtream/_content.php
+-rw-r----- | root:www-data | 44554 bytes | /var/www/xtream/customers.php
+-rw-r----- | root:www-data | 4583 bytes | /var/www/xtream/subscription_reminders.php
+-rw-r----- | root:www-data | 4623 bytes | /var/www/xtream/get.php
+-rw-r----- | root:www-data | 55325 bytes | /var/www/xtream/series.php
+-rw-r----- | root:www-data | 5662 bytes | /var/www/xtream/player_api.php
+-rw-r----- | root:www-data | 6152 bytes | /var/www/xtream/tmdb.php.backup-session-20261101-014840
+-rw-r----- | root:www-data | 6156 bytes | /var/www/xtream/tmdb.php
+-rw-r----- | root:www-data | 61 bytes | /var/www/xtream/live.php
+-rw-r----- | root:www-data | 62 bytes | /var/www/xtream/movies.php
+-rw-r----- | root:www-data | 662 bytes | /var/www/xtream/streams-test.html
+-rw-r--r-- | root:root | 0 bytes | /var/www/xtream/0
+-rw-r--r-- | root:root | 18585 bytes | /var/www/xtream/m3u_import.php.yedek-logo-20261101-172734
+-rw-r--r-- | root:root | 19209 bytes | /var/www/xtream/m3u_import.php.yedek-otomatik-kategori-20261101-174116
+-rw-r--r-- | root:root | 2003 bytes | /var/www/xtream/admin_auth.php
+-rw-r--r-- | root:root | 22800 bytes | /var/www/xtream/epg.php
+-rw-r--r-- | root:root | 22839 bytes | /var/www/xtream/index.php.backup-connections-20261101-040955
+-rw-r--r-- | root:root | 23027 bytes | /var/www/xtream/m3u_import.php.yedek-m3u-adres-20261101-175558
+-rw-r--r-- | root:root | 23707 bytes | /var/www/xtream/packages.php
+-rw-r--r-- | root:root | 24525 bytes | /var/www/xtream/customers.php.backup-telegram-20261101-035333
+-rw-r--r-- | root:root | 2618 bytes | /var/www/xtream/access_common.php.yedek-canli-erisim-20261101-132253
+-rw-r--r-- | root:root | 3016 bytes | /var/www/xtream/get.php.backup-m3u-20261101-035016
+-rw-r--r-- | root:root | 35373 bytes | /var/www/xtream/m3u_import.php.bak_language_20261101_200856
+-rw-r--r-- | root:root | 35517 bytes | /var/www/xtream/m3u_import.php.bak_country_language_20261101_201402
+-rw-r--r-- | root:root | 3554 bytes | /var/www/xtream/access_common.php
+-rw-r--r-- | root:root | 36889 bytes | /var/www/xtream/m3u_import.php.bak_arab_country_20261101_201718
+-rw-r--r-- | root:root | 37110 bytes | /var/www/xtream/m3u_import.php.bak_packageids_20261101_202709
+-rw-r--r-- | root:root | 37110 bytes | /var/www/xtream/m3u_import.php.bak_top_import_20261101_203505
+-rw-r--r-- | root:root | 37226 bytes | /var/www/xtream/m3u_import.php
+-rw-r--r-- | root:root | 37267 bytes | /var/www/xtream/m3u_import.php.bak_remove_default_url_20261101_203753
+-rw-r--r-- | root:root | 6204 bytes | /var/www/xtream/session_common.php.backup-telegram-20261101-035656
+-rw-r--r-- | root:root | 7442 bytes | /var/www/xtream/epg_import.php
+
+======================================================
+ 3. BUTUN PHP DOSYALARININ SÖZDIZIM KONTROLU
+======================================================
+
+--- /var/www/xtream/subscription_reminders.php ---
+No syntax errors detected in /var/www/xtream/subscription_reminders.php
+
+--- /var/www/xtream/streams.php ---
+No syntax errors detected in /var/www/xtream/streams.php
+
+--- /var/www/xtream/player_api.php ---
+No syntax errors detected in /var/www/xtream/player_api.php
+
+--- /var/www/xtream/epg_import.php ---
+No syntax errors detected in /var/www/xtream/epg_import.php
+
+--- /var/www/xtream/tmdb.php ---
+No syntax errors detected in /var/www/xtream/tmdb.php
+
+--- /var/www/xtream/api_common.php ---
+No syntax errors detected in /var/www/xtream/api_common.php
+
+--- /var/www/xtream/epg.php ---
+No syntax errors detected in /var/www/xtream/epg.php
+
+--- /var/www/xtream/admin_auth.php ---
+No syntax errors detected in /var/www/xtream/admin_auth.php
+
+--- /var/www/xtream/m3u_import.php ---
+No syntax errors detected in /var/www/xtream/m3u_import.php
+
+--- /var/www/xtream/index.php ---
+No syntax errors detected in /var/www/xtream/index.php
+
+--- /var/www/xtream/get.php ---
+No syntax errors detected in /var/www/xtream/get.php
+
+--- /var/www/xtream/stream.php ---
+No syntax errors detected in /var/www/xtream/stream.php
+
+--- /var/www/xtream/movies.php ---
+No syntax errors detected in /var/www/xtream/movies.php
+
+--- /var/www/xtream/live.php ---
+No syntax errors detected in /var/www/xtream/live.php
+
+--- /var/www/xtream/packages.php ---
+No syntax errors detected in /var/www/xtream/packages.php
+
+--- /var/www/xtream/connections.php ---
+No syntax errors detected in /var/www/xtream/connections.php
+
+--- /var/www/xtream/access_common.php ---
+No syntax errors detected in /var/www/xtream/access_common.php
+
+--- /var/www/xtream/session_common.php ---
+No syntax errors detected in /var/www/xtream/session_common.php
+
+--- /var/www/xtream/_content.php ---
+No syntax errors detected in /var/www/xtream/_content.php
+
+--- /var/www/xtream/customers.php ---
+No syntax errors detected in /var/www/xtream/customers.php
+
+--- /var/www/xtream/series.php ---
+No syntax errors detected in /var/www/xtream/series.php
+
+======================================================
+ 4. DOSYA HASH VE IZINLERI
+======================================================
+-rw-r----- | root:www-data | 26299 byte | index.php
+ca98a3e1918a2a31c302ac3e5e1645771e140973f5a013d8589fe638540109d7  index.php
+-rw-r--r-- | root:root | 2003 byte | admin_auth.php
+17b77aed20a2bd7ab67e6c1a751f62d6aec779d5e6f115c46983fcb1ab1471ca  admin_auth.php
+-rw-r----- | root:www-data | 44554 byte | customers.php
+efaa9440d3eed0688534b8a86d7f69560216fd41b0f94ee52a12839c917e5a0b  customers.php
+-rw-r----- | root:www-data | 24194 byte | connections.php
+6c75a947f10ec1b7e634056528328d90bea203e4ef6d6f1e717951711c93c2be  connections.php
+-rw-r----- | root:www-data | 17940 byte | streams.php
+8051fb1c817fee8e0d23bbdf90b9fa09376f5ff7ad96e10a667dc5ce32af6635  streams.php
+-rw-r--r-- | root:root | 23707 byte | packages.php
+42a085457b652443a95c5f9c39645610ba84a4592ef6dcd76ad306a0b77aca82  packages.php
+-rw-r--r-- | root:root | 22800 byte | epg.php
+d7f4cf034a007d19f552eb7cacdc6b06fb1a546f5afcc98247b8ea2209b7437a  epg.php
+-rw-r--r-- | root:root | 37226 byte | m3u_import.php
+b2ee4ecdb43eba221f23da8fc741a78aac923467cc2a50938a4e5afef4ff87c6  m3u_import.php
+-rw-r----- | root:www-data | 55325 byte | series.php
+20d34f8e8b4e1dbb0cf81d410167dcc8e72d91dd590f3b5700ba2f9491432235  series.php
+-rw-r----- | root:www-data | 42897 byte | _content.php
+46c72c1689840c06fb5f5d3330a065d09d7636f666c2d31aca47cd64e74caebf  _content.php
+-rw-r----- | root:www-data | 61 byte | live.php
+96d4556194306a6fe56546e3d784b5407a126f1cce2b732f26e5ba096bccbe6a  live.php
+-rw-r----- | root:www-data | 62 byte | movies.php
+c942df4353004d87cd253e421ced7e3c5de4e161c2126d3dac4300328dc6aa00  movies.php
+-rw-r----- | root:www-data | 6156 byte | tmdb.php
+5eced63bea4a6fcd731583785d51d59acbe53f1e1cb25a5c932fc6f9dd27b120  tmdb.php
+
+======================================================
+ 5. YONETICI OTURUM VE YETKI KONTROL NOKTALARI
+======================================================
+/var/www/xtream/streams.php:7:session_name('XTREAM_ADMIN');
+/var/www/xtream/streams.php:15:session_start();
+/var/www/xtream/streams.php:26:if (empty($_SESSION['admin_id'])) {
+/var/www/xtream/streams.php:31:if (empty($_SESSION['csrf'])) {
+/var/www/xtream/streams.php:32:    $_SESSION['csrf'] = bin2hex(random_bytes(32));
+/var/www/xtream/streams.php:36:    $token = $_POST['csrf'] ?? '';
+/var/www/xtream/streams.php:37:    if (is_string($token) && hash_equals($_SESSION['csrf'], $token)) {
+/var/www/xtream/streams.php:39:        session_destroy();
+/var/www/xtream/streams.php:361:            <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
+/var/www/xtream/player_api.php:3:require_once __DIR__ . '/api_common.php';
+/var/www/xtream/epg_import.php:13:require_once __DIR__ . '/api_common.php';
+/var/www/xtream/tmdb.php:7:session_name('XTREAM_ADMIN');
+/var/www/xtream/tmdb.php:15:session_start();
+/var/www/xtream/tmdb.php:27:if (empty($_SESSION['admin_id'])) {
+/var/www/xtream/api_common.php:33:        "SELECT id, username, password_hash, status, expires_at, max_connections
+/var/www/xtream/api_common.php:39:    if (!$customer || !password_verify($password, $customer['password_hash'])) {
+/var/www/xtream/epg.php:7:session_name('XTREAM_ADMIN');
+/var/www/xtream/epg.php:15:session_start();
+/var/www/xtream/epg.php:30:if (empty($_SESSION['admin_id'])) {
+/var/www/xtream/epg.php:35:if (empty($_SESSION['csrf'])) {
+/var/www/xtream/epg.php:36:    $_SESSION['csrf'] = bin2hex(random_bytes(32));
+/var/www/xtream/epg.php:67:    $token = $_POST['csrf'] ?? '';
+/var/www/xtream/epg.php:70:        !hash_equals((string)$_SESSION['csrf'], $token)) {
+/var/www/xtream/epg.php:332:            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/epg.php:419:            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/admin_auth.php:9:function admin_auth_current(PDO $pdo): ?array
+/var/www/xtream/admin_auth.php:11:    if (empty($_SESSION['admin_id'])) {
+/var/www/xtream/admin_auth.php:16:        'SELECT id, username, is_super_admin, is_active
+/var/www/xtream/admin_auth.php:21:    $stmt->execute([(int)$_SESSION['admin_id']]);
+/var/www/xtream/admin_auth.php:24:    if (!$admin || (int)$admin['is_active'] !== 1) {
+/var/www/xtream/admin_auth.php:28:            session_destroy();
+/var/www/xtream/admin_auth.php:38:function admin_auth_can(PDO $pdo, string $permission): bool
+/var/www/xtream/admin_auth.php:40:    $admin = admin_auth_current($pdo);
+/var/www/xtream/admin_auth.php:46:    if ((int)$admin['is_super_admin'] === 1) {
+/var/www/xtream/admin_auth.php:53:         WHERE admin_id = ? AND permission_key = ?
+/var/www/xtream/admin_auth.php:61:function admin_auth_require(PDO $pdo, string $permission): void
+/var/www/xtream/admin_auth.php:63:    if (!admin_auth_can($pdo, $permission)) {
+/var/www/xtream/admin_auth.php:69:function admin_auth_require_super(PDO $pdo): void
+/var/www/xtream/admin_auth.php:71:    $admin = admin_auth_current($pdo);
+/var/www/xtream/admin_auth.php:73:    if (!$admin || (int)$admin['is_super_admin'] !== 1) {
+/var/www/xtream/admin_auth.php:79:function admin_auth_require_any(PDO $pdo, array $permissions): void
+/var/www/xtream/admin_auth.php:82:        if (admin_auth_can($pdo, (string)$permission)) {
+/var/www/xtream/m3u_import.php:7:session_name('XTREAM_ADMIN');
+/var/www/xtream/m3u_import.php:11:session_start();
+/var/www/xtream/m3u_import.php:30:if (empty($_SESSION['admin_id'])) {
+/var/www/xtream/m3u_import.php:34:if (empty($_SESSION['csrf'])) {
+/var/www/xtream/m3u_import.php:35:    $_SESSION['csrf'] = bin2hex(random_bytes(32));
+/var/www/xtream/m3u_import.php:501:        $token = $_POST['csrf'] ?? '';
+/var/www/xtream/m3u_import.php:502:        if (!is_string($token) || !hash_equals($_SESSION['csrf'], $token)) {
+/var/www/xtream/m3u_import.php:945:<input type="hidden" name="csrf" value="<?=h($_SESSION['csrf'])?>">
+/var/www/xtream/m3u_import.php:961:<input type="hidden" name="csrf" value="<?=h($_SESSION['csrf'])?>">
+/var/www/xtream/m3u_import.php:1061:<input type="hidden" name="csrf" value="<?=h($_SESSION['csrf'])?>">
+/var/www/xtream/index.php:7:session_name('XTREAM_ADMIN');
+/var/www/xtream/index.php:15:session_start();
+/var/www/xtream/index.php:25:if (empty($_SESSION['csrf'])) {
+/var/www/xtream/index.php:26:    $_SESSION['csrf'] = bin2hex(random_bytes(32));
+/var/www/xtream/index.php:30:$loggedIn = !empty($_SESSION['admin_id']);
+/var/www/xtream/index.php:50:    $token = $_POST['csrf'] ?? '';
+/var/www/xtream/index.php:52:    if (!is_string($token) || !hash_equals($_SESSION['csrf'], $token)) {
+/var/www/xtream/index.php:56:        session_destroy();
+/var/www/xtream/index.php:63:        $stmt = $pdo->prepare('SELECT id, username, password_hash FROM admins WHERE username = ? LIMIT 1');
+/var/www/xtream/index.php:67:        if ($admin && password_verify($password, $admin['password_hash'])) {
+/var/www/xtream/index.php:68:            session_regenerate_id(true);
+/var/www/xtream/index.php:69:            $_SESSION['admin_id'] = (int)$admin['id'];
+/var/www/xtream/index.php:71:            $_SESSION['csrf'] = bin2hex(random_bytes(32));
+/var/www/xtream/index.php:80:$loggedIn = !empty($_SESSION['admin_id']);
+/var/www/xtream/index.php:300:        <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/index.php:341:            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/get.php:3:require_once __DIR__ . '/session_common.php';
+/var/www/xtream/get.php:4:require_once __DIR__ . '/access_common.php';
+/var/www/xtream/stream.php:4:require_once __DIR__ . '/session_common.php';
+/var/www/xtream/stream.php:5:require_once __DIR__ . '/access_common.php';
+/var/www/xtream/packages.php:7:session_name('XTREAM_ADMIN');
+/var/www/xtream/packages.php:15:session_start();
+/var/www/xtream/packages.php:30:if (empty($_SESSION['admin_id'])) {
+/var/www/xtream/packages.php:35:if (empty($_SESSION['csrf'])) {
+/var/www/xtream/packages.php:36:    $_SESSION['csrf'] = bin2hex(random_bytes(32));
+/var/www/xtream/packages.php:67:    $token = $_POST['csrf'] ?? '';
+/var/www/xtream/packages.php:70:        !hash_equals((string)$_SESSION['csrf'], $token)) {
+/var/www/xtream/packages.php:407:            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/packages.php:440:            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/packages.php:483:                <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/connections.php:7:session_name('XTREAM_ADMIN');
+/var/www/xtream/connections.php:15:session_start();
+/var/www/xtream/connections.php:25:if (empty($_SESSION['admin_id'])) {
+/var/www/xtream/connections.php:30:if (empty($_SESSION['csrf'])) {
+/var/www/xtream/connections.php:31:    $_SESSION['csrf'] = bin2hex(random_bytes(32));
+/var/www/xtream/connections.php:96:    $csrf = $_POST['csrf'] ?? '';
+/var/www/xtream/connections.php:98:    if (!is_string($csrf) || !hash_equals($_SESSION['csrf'], $csrf)) {
+/var/www/xtream/connections.php:472:                            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/connections.php:552:                        <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/connections.php:558:                        <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/connections.php:564:                        <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/session_common.php:3:require_once __DIR__ . '/api_common.php';
+/var/www/xtream/_content.php:17:session_name('XTREAM_ADMIN');
+/var/www/xtream/_content.php:21:session_start();
+/var/www/xtream/_content.php:43:if (empty($_SESSION['admin_id'])) contentGo('/');
+/var/www/xtream/_content.php:44:if (empty($_SESSION['csrf'])) $_SESSION['csrf']=bin2hex(random_bytes(32));
+/var/www/xtream/_content.php:65:        $token=$_POST['csrf']??'';
+/var/www/xtream/_content.php:66:        if (!is_string($token)||!hash_equals($_SESSION['csrf'],$token)) {
+/var/www/xtream/_content.php:74:            session_destroy();
+/var/www/xtream/_content.php:509:        <form method="post"><input type="hidden" name="csrf" value="<?=ce($_SESSION['csrf'])?>"><button class="logout" name="action" value="logout">↪ Güvenli Çıkış Yap</button></form>
+/var/www/xtream/_content.php:533:            <input type="hidden" name="csrf" value="<?=ce($_SESSION['csrf'])?>">
+/var/www/xtream/_content.php:609:            <input type="hidden" name="csrf" value="<?=ce($_SESSION['csrf'])?>">
+/var/www/xtream/_content.php:620:        <tr><td><div class="name"><?=ce($cat['name'])?></div><div class="sub">Kategori #<?=(int)$cat['id']?></div></td><td><?=(int)$cat['sort_order']?></td><td><div class="table-actions"><a class="small-btn" href="<?=$page?>?edit_category=<?=(int)$cat['id']?>#categories">Düzenle</a><form method="post" onsubmit="return confirm('Kategori silinsin mi? Bağlı yayın varsa işlem engellenebilir.')"><input type="hidden" name="csrf" value="<?=ce($_SESSION['csrf'])?>"><input type="hidden" name="id" value="<?=(int)$cat['id']?>"><button class="small-btn red" name="action" value="category_delete">Sil</button></form></div></td></tr>
+/var/www/xtream/_content.php:645:        <tr><td><div class="name"><?=ce($item['name'])?></div><div class="sub">Kayıt #<?=(int)$item['id']?><?=$type==='movie'&&$item['release_year']?' · '.(int)$item['release_year']:''?></div></td><td><?=ce($item['category_name']??'Kategorisiz')?></td><?php if($type==='live'):?><td><?=ce($languageNames[$item['language_code']??'']??'Bilinmeyen Dil')?></td><?php endif;?><td><div class="sub"><?=ce($item['stream_url'])?></div></td><td><span class="status <?=$item['status']==='active'?'active':'disabled'?>"><?=$item['status']==='active'?'● Aktif':'● Pasif'?></span></td><td><div class="table-actions"><a class="small-btn" href="<?=$page?>?edit=<?=(int)$item['id']?>#form">Düzenle</a><form method="post"><input type="hidden" name="csrf" value="<?=ce($_SESSION['csrf'])?>"><input type="hidden" name="id" value="<?=(int)$item['id']?>"><button class="small-btn" name="action" value="stream_toggle"><?=$item['status']==='active'?'Pasifleştir':'Aktifleştir'?></button></form><form method="post" onsubmit="return confirm('Bu kayıt kalıcı olarak silinsin mi?')"><input type="hidden" name="csrf" value="<?=ce($_SESSION['csrf'])?>"><input type="hidden" name="id" value="<?=(int)$item['id']?>"><button class="small-btn red" name="action" value="stream_delete">Sil</button></form></div></td></tr>
+/var/www/xtream/customers.php:7:session_name('XTREAM_ADMIN');
+/var/www/xtream/customers.php:15:session_start();
+/var/www/xtream/customers.php:25:if (empty($_SESSION['admin_id'])) {
+/var/www/xtream/customers.php:30:if (empty($_SESSION['csrf'])) {
+/var/www/xtream/customers.php:31:    $_SESSION['csrf'] = bin2hex(random_bytes(32));
+/var/www/xtream/customers.php:84:    $token = $_POST['csrf'] ?? '';
+/var/www/xtream/customers.php:86:    if (!is_string($token) || !hash_equals($_SESSION['csrf'], $token)) {
+/var/www/xtream/customers.php:147:                $hash = password_hash($password, PASSWORD_DEFAULT);
+/var/www/xtream/customers.php:150:                    'INSERT INTO customers (username, password_hash, status, expires_at, max_connections, package_id, adult_enabled)
+/var/www/xtream/customers.php:265:                $hash = password_hash($password, PASSWORD_DEFAULT);
+/var/www/xtream/customers.php:268:                     SET username=?, password_hash=?, status=?, expires_at=?, max_connections=?, package_id=?, adult_enabled=?
+/var/www/xtream/customers.php:450:            session_destroy();
+/var/www/xtream/customers.php:662:            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/customers.php:703:            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/customers.php:834:                                    <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/customers.php:848:                                    <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/customers.php:853:                                    <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/series.php:7:session_name('XTREAM_ADMIN');
+/var/www/xtream/series.php:15:session_start();
+/var/www/xtream/series.php:41:if (empty($_SESSION['admin_id'])) {
+/var/www/xtream/series.php:44:if (empty($_SESSION['csrf'])) {
+/var/www/xtream/series.php:45:    $_SESSION['csrf']=bin2hex(random_bytes(32));
+/var/www/xtream/series.php:100:        $token=$_POST['csrf']??'';
+/var/www/xtream/series.php:101:        if (!is_string($token)||!hash_equals($_SESSION['csrf'],$token)) {
+/var/www/xtream/series.php:743:            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/series.php:804:            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/series.php:838:            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/series.php:896:                            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/series.php:924:                        <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/series.php:953:                            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/series.php:959:                            <input type="hidden" name="csrf" value="<?=e($_SESSION['csrf'])?>">
+/var/www/xtream/series.php:1029:        const csrf=document.querySelector('input[name="csrf"]')?.value||'';
+/var/www/xtream/series.php:1033:            csrf:csrf,
+
+======================================================
+ 6. BUTUN POST VE ACTION ISLEMLERI
+======================================================
+/var/www/xtream/streams.php:35:if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'logout') {
+/var/www/xtream/streams.php:36:    $token = $_POST['csrf'] ?? '';
+/var/www/xtream/player_api.php:14:    if ($action === '') {
+/var/www/xtream/player_api.php:20:    if ($action === 'get_live_categories' ||
+/var/www/xtream/player_api.php:21:        $action === 'get_vod_categories' ||
+/var/www/xtream/player_api.php:22:        $action === 'get_series_categories') {
+/var/www/xtream/player_api.php:40:    if ($action === 'get_live_streams' ||
+/var/www/xtream/player_api.php:41:        $action === 'get_vod_streams' ||
+/var/www/xtream/player_api.php:42:        $action === 'get_series') {
+/var/www/xtream/player_api.php:86:    if ($action === 'get_vod_info') {
+/var/www/xtream/player_api.php:110:    if ($action === 'get_series_info') {
+/var/www/xtream/tmdb.php:81:    if ($action==='search') {
+/var/www/xtream/tmdb.php:116:    if ($action==='details') {
+/var/www/xtream/tmdb.php:147:    if ($action==='season') {
+/var/www/xtream/api_common.php:27:    $username = trim((string)($_REQUEST['username'] ?? ''));
+/var/www/xtream/api_common.php:28:    $password = (string)($_REQUEST['password'] ?? '');
+/var/www/xtream/api_common.php:64:                'username' => (string)($_REQUEST['username'] ?? ''),
+/var/www/xtream/epg.php:66:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+/var/www/xtream/epg.php:67:    $token = $_POST['csrf'] ?? '';
+/var/www/xtream/epg.php:76:        $action = (string)($_POST['action'] ?? '');
+/var/www/xtream/epg.php:78:        if ($action === 'map_save') {
+/var/www/xtream/epg.php:80:                $_POST['stream_id'] ?? null,
+/var/www/xtream/epg.php:84:            $channelId = trim((string)($_POST['channel_id'] ?? ''));
+/var/www/xtream/m3u_import.php:499:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+/var/www/xtream/m3u_import.php:501:        $token = $_POST['csrf'] ?? '';
+/var/www/xtream/m3u_import.php:506:        $action = (string)($_POST['action'] ?? '');
+/var/www/xtream/m3u_import.php:508:        if ($action === 'load') {
+/var/www/xtream/m3u_import.php:528:                $source = trim((string)($_POST['source_url'] ?? ''));
+/var/www/xtream/m3u_import.php:638:        if ($action === 'import') {
+/var/www/xtream/m3u_import.php:641:            $selected = $_POST['selected'] ?? [];
+/var/www/xtream/m3u_import.php:642:            $packageIds = $_POST['package_ids'] ?? [];
+/var/www/xtream/m3u_import.php:734:                    $countryId = (int)($_POST['country'][$index] ?? ($item['country_id'] ?? 0));
+/var/www/xtream/m3u_import.php:741:                    $categoryName = trim((string)($_POST['category'][$index] ?? 'Diğer'));
+/var/www/xtream/m3u_import.php:787:                    $postedLanguage = trim((string)($_POST['language'][$index] ?? ''));
+/var/www/xtream/m3u_import.php:797:                    $adult = isset($_POST['adult'][$index]) ? 1 : 0;
+/var/www/xtream/m3u_import.php:868:        if ($action === 'clear') {
+/var/www/xtream/index.php:49:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+/var/www/xtream/index.php:50:    $token = $_POST['csrf'] ?? '';
+/var/www/xtream/index.php:54:    } elseif (isset($_POST['logout'])) {
+/var/www/xtream/index.php:59:    } elseif (isset($_POST['login'])) {
+/var/www/xtream/index.php:60:        $username = trim((string)($_POST['username'] ?? ''));
+/var/www/xtream/index.php:61:        $password = (string)($_POST['password'] ?? '');
+/var/www/xtream/packages.php:66:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+/var/www/xtream/packages.php:67:    $token = $_POST['csrf'] ?? '';
+/var/www/xtream/packages.php:76:        $action = (string)($_POST['action'] ?? '');
+/var/www/xtream/packages.php:78:        if ($action === 'package_create') {
+/var/www/xtream/packages.php:79:            $name = trim((string)($_POST['name'] ?? ''));
+/var/www/xtream/packages.php:80:            $description = trim((string)($_POST['description'] ?? ''));
+/var/www/xtream/packages.php:82:                $_POST['sort_order'] ?? 1,
+/var/www/xtream/packages.php:111:        if ($action === 'package_save') {
+/var/www/xtream/packages.php:112:            $id = filter_var($_POST['id'] ?? null, FILTER_VALIDATE_INT);
+/var/www/xtream/packages.php:113:            $name = trim((string)($_POST['name'] ?? ''));
+/var/www/xtream/packages.php:114:            $description = trim((string)($_POST['description'] ?? ''));
+/var/www/xtream/packages.php:115:            $status = (string)($_POST['status'] ?? '');
+/var/www/xtream/packages.php:117:                $_POST['sort_order'] ?? 1,
+/var/www/xtream/packages.php:148:            $categoryIds = $_POST['category_ids'] ?? [];
+/var/www/xtream/connections.php:95:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+/var/www/xtream/connections.php:96:    $csrf = $_POST['csrf'] ?? '';
+/var/www/xtream/connections.php:103:    $action = (string)($_POST['action'] ?? '');
+/var/www/xtream/connections.php:106:        if ($action === 'disconnect') {
+/var/www/xtream/connections.php:107:            $id = filter_var($_POST['session_id'] ?? null, FILTER_VALIDATE_INT);
+/var/www/xtream/connections.php:133:        } elseif ($action === 'ban_device') {
+/var/www/xtream/connections.php:134:            $id = filter_var($_POST['session_id'] ?? null, FILTER_VALIDATE_INT);
+/var/www/xtream/connections.php:189:        } elseif ($action === 'unban_device') {
+/var/www/xtream/connections.php:190:            $id = filter_var($_POST['blacklist_id'] ?? null, FILTER_VALIDATE_INT);
+/var/www/xtream/connections.php:205:        } elseif ($action === 'disconnect_customer') {
+/var/www/xtream/connections.php:206:            $customerId = filter_var($_POST['customer_id'] ?? null, FILTER_VALIDATE_INT);
+/var/www/xtream/_content.php:63:if ($_SERVER['REQUEST_METHOD']==='POST') {
+/var/www/xtream/_content.php:65:        $token=$_POST['csrf']??'';
+/var/www/xtream/_content.php:70:        $action=(string)($_POST['action']??'');
+/var/www/xtream/_content.php:72:        if ($action==='logout') {
+/var/www/xtream/_content.php:78:        if ($action==='category_save') {
+/var/www/xtream/_content.php:79:            $id=(int)($_POST['id']??0);
+/var/www/xtream/_content.php:80:            $name=trim((string)($_POST['name']??''));
+/var/www/xtream/_content.php:81:            $sort=(int)($_POST['sort_order']??0);
+/var/www/xtream/_content.php:99:        if ($action==='category_delete') {
+/var/www/xtream/_content.php:101:            $st->execute([(int)($_POST['id']??0),$type]);
+/var/www/xtream/_content.php:106:        if ($action==='stream_save') {
+/var/www/xtream/_content.php:107:            $id=(int)($_POST['id']??0);
+/var/www/xtream/_content.php:108:            $name=trim((string)($_POST['name']??''));
+/var/www/xtream/_content.php:109:            $url=trim((string)($_POST['stream_url']??''));
+/var/www/xtream/_content.php:110:            $category=(int)($_POST['category_id']??0);
+/var/www/xtream/_content.php:111:            $status=(string)($_POST['status']??'active');
+/var/www/xtream/_content.php:150:                $rawPackageIds=$_POST['package_ids']??[];
+/var/www/xtream/_content.php:180:                $adultValue=(string)($_POST['is_adult']??'0');
+/var/www/xtream/_content.php:186:                $languageCode=trim((string)($_POST['language_code']??''));
+/var/www/xtream/_content.php:204:                $tmdbId=(int)($_POST['tmdb_id']??0);
+/var/www/xtream/_content.php:205:                $poster=trim((string)($_POST['poster_path']??''));
+/var/www/xtream/_content.php:206:                $backdrop=trim((string)($_POST['backdrop_path']??''));
+/var/www/xtream/_content.php:207:                $overview=trim((string)($_POST['overview']??''));
+/var/www/xtream/_content.php:208:                $releaseDate=trim((string)($_POST['release_date']??''));
+/var/www/xtream/_content.php:209:                $releaseYear=(int)($_POST['release_year']??0);
+/var/www/xtream/_content.php:210:                $vote=(float)($_POST['vote_average']??0);
+/var/www/xtream/_content.php:211:                $genres=trim((string)($_POST['genres']??''));
+/var/www/xtream/_content.php:212:                $original=trim((string)($_POST['original_name']??''));
+/var/www/xtream/_content.php:213:                $logo=trim((string)($_POST['logo_url']??''));
+/var/www/xtream/_content.php:299:        if ($action==='stream_toggle') {
+/var/www/xtream/_content.php:304:            $st->execute([(int)($_POST['id']??0),$type]);
+/var/www/xtream/_content.php:309:        if ($action==='stream_delete') {
+/var/www/xtream/_content.php:311:            $st->execute([(int)($_POST['id']??0),$type]);
+/var/www/xtream/customers.php:83:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+/var/www/xtream/customers.php:84:    $token = $_POST['csrf'] ?? '';
+/var/www/xtream/customers.php:91:    $action = (string)($_POST['action'] ?? '');
+/var/www/xtream/customers.php:94:        if ($action === 'create' || $action === 'update') {
+/var/www/xtream/customers.php:95:            $id = (int)($_POST['id'] ?? 0);
+/var/www/xtream/customers.php:96:            $username = trim((string)($_POST['username'] ?? ''));
+/var/www/xtream/customers.php:97:            $password = (string)($_POST['password'] ?? '');
+/var/www/xtream/customers.php:98:            $status = (string)($_POST['status'] ?? 'active');
+/var/www/xtream/customers.php:100:                $_POST['max_connections'] ?? null,
+/var/www/xtream/customers.php:103:            $expiresAt = validDate(trim((string)($_POST['expires_at'] ?? '')));
+/var/www/xtream/customers.php:104:            $adultEnabled = (($_POST['adult_enabled'] ?? '0') === '1') ? 1 : 0;
+/var/www/xtream/customers.php:105:            $packageInput = trim((string)($_POST['package_id'] ?? ($action === 'create' ? '1' : '')));
+/var/www/xtream/customers.php:121:                if ($action === 'create' && $packageStatus !== 'active') {
+/var/www/xtream/customers.php:142:            if ($action === 'create') {
+/var/www/xtream/customers.php:287:        if ($action === 'renew') {
+/var/www/xtream/customers.php:288:            $id = filter_var($_POST['id'] ?? null, FILTER_VALIDATE_INT);
+/var/www/xtream/customers.php:289:            $days = filter_var($_POST['days'] ?? null, FILTER_VALIDATE_INT);
+/var/www/xtream/customers.php:426:        if ($action === 'toggle') {
+/var/www/xtream/customers.php:427:            $id = (int)($_POST['id'] ?? 0);
+/var/www/xtream/customers.php:439:        if ($action === 'delete') {
+/var/www/xtream/customers.php:440:            $id = (int)($_POST['id'] ?? 0);
+/var/www/xtream/customers.php:448:        if ($action === 'logout') {
+/var/www/xtream/series.php:98:if ($_SERVER['REQUEST_METHOD']==='POST') {
+/var/www/xtream/series.php:100:        $token=$_POST['csrf']??'';
+/var/www/xtream/series.php:105:        $action=$_POST['action']??'';
+/var/www/xtream/series.php:107:        if ($action === 'import_tmdb_series') {
+/var/www/xtream/series.php:112:                $tmdbId = (int)($_POST['tmdb_id'] ?? 0);
+/var/www/xtream/series.php:139:                $categoryId = (int)($_POST['category_id'] ?? 0);
+/var/www/xtream/series.php:326:        if ($action==='save_series') {
+/var/www/xtream/series.php:327:            $id=(int)($_POST['id']??0);
+/var/www/xtream/series.php:328:            $name=trim($_POST['name']??'');
+/var/www/xtream/series.php:329:            $category=(int)($_POST['category_id']??0);
+/var/www/xtream/series.php:343:            $tmdbId=(int)($_POST['tmdb_id']??0);
+/var/www/xtream/series.php:344:            $poster=trim((string)($_POST['poster_path']??''));
+/var/www/xtream/series.php:345:            $backdrop=trim((string)($_POST['backdrop_path']??''));
+/var/www/xtream/series.php:346:            $overview=trim((string)($_POST['overview']??''));
+/var/www/xtream/series.php:347:            $releaseDate=trim((string)($_POST['release_date']??''));
+/var/www/xtream/series.php:348:            $releaseYear=(int)($_POST['release_year']??0);
+/var/www/xtream/series.php:349:            $vote=(float)($_POST['vote_average']??0);
+/var/www/xtream/series.php:350:            $genres=trim((string)($_POST['genres']??''));
+/var/www/xtream/series.php:351:            $original=trim((string)($_POST['original_name']??''));
+/var/www/xtream/series.php:352:            $logo=trim((string)($_POST['logo_url']??''));
+/var/www/xtream/series.php:396:        if ($action==='save_season') {
+/var/www/xtream/series.php:397:            $id=(int)($_POST['id']??0);
+/var/www/xtream/series.php:398:            $series=(int)($_POST['series_id']??0);
+/var/www/xtream/series.php:399:            $number=(int)($_POST['season_number']??0);
+/var/www/xtream/series.php:400:            $name=trim($_POST['name']??'');
+/var/www/xtream/series.php:418:        if ($action==='save_episode') {
+/var/www/xtream/series.php:419:            $id=(int)($_POST['id']??0);
+/var/www/xtream/series.php:420:            $season=(int)($_POST['season_id']??0);
+/var/www/xtream/series.php:421:            $number=(int)($_POST['episode_number']??0);
+/var/www/xtream/series.php:422:            $name=trim($_POST['name']??'');
+/var/www/xtream/series.php:423:            $url=trim($_POST['stream_url']??'');
+/var/www/xtream/series.php:424:            $duration=trim($_POST['duration']??'');
+/var/www/xtream/series.php:447:        if ($action==='toggle_episode') {
+/var/www/xtream/series.php:448:            $id=(int)($_POST['id']??0);
+/var/www/xtream/series.php:454:        if ($action==='delete_episode') {
+/var/www/xtream/series.php:456:            $stmt->execute([(int)($_POST['id']??0)]);
+/var/www/xtream/series.php:460:        if ($action==='delete_season') {
+/var/www/xtream/series.php:462:            $stmt->execute([(int)($_POST['id']??0)]);
+/var/www/xtream/series.php:466:        if ($action==='delete_series') {
+/var/www/xtream/series.php:468:            $stmt->execute([(int)($_POST['id']??0)]);
+
+======================================================
+ 7. YETKI KONTROLU OLMAYAN ISLEM ADAYLARI
+======================================================
+
+--- customers.php ---
+POST/ACTION SATIRLARI:
+83:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+84:    $token = $_POST['csrf'] ?? '';
+91:    $action = (string)($_POST['action'] ?? '');
+94:        if ($action === 'create' || $action === 'update') {
+95:            $id = (int)($_POST['id'] ?? 0);
+96:            $username = trim((string)($_POST['username'] ?? ''));
+97:            $password = (string)($_POST['password'] ?? '');
+98:            $status = (string)($_POST['status'] ?? 'active');
+100:                $_POST['max_connections'] ?? null,
+103:            $expiresAt = validDate(trim((string)($_POST['expires_at'] ?? '')));
+104:            $adultEnabled = (($_POST['adult_enabled'] ?? '0') === '1') ? 1 : 0;
+105:            $packageInput = trim((string)($_POST['package_id'] ?? ($action === 'create' ? '1' : '')));
+121:                if ($action === 'create' && $packageStatus !== 'active') {
+142:            if ($action === 'create') {
+287:        if ($action === 'renew') {
+288:            $id = filter_var($_POST['id'] ?? null, FILTER_VALIDATE_INT);
+289:            $days = filter_var($_POST['days'] ?? null, FILTER_VALIDATE_INT);
+426:        if ($action === 'toggle') {
+427:            $id = (int)($_POST['id'] ?? 0);
+439:        if ($action === 'delete') {
+440:            $id = (int)($_POST['id'] ?? 0);
+448:        if ($action === 'logout') {
+
+--- connections.php ---
+POST/ACTION SATIRLARI:
+95:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+96:    $csrf = $_POST['csrf'] ?? '';
+103:    $action = (string)($_POST['action'] ?? '');
+106:        if ($action === 'disconnect') {
+107:            $id = filter_var($_POST['session_id'] ?? null, FILTER_VALIDATE_INT);
+133:        } elseif ($action === 'ban_device') {
+134:            $id = filter_var($_POST['session_id'] ?? null, FILTER_VALIDATE_INT);
+189:        } elseif ($action === 'unban_device') {
+190:            $id = filter_var($_POST['blacklist_id'] ?? null, FILTER_VALIDATE_INT);
+205:        } elseif ($action === 'disconnect_customer') {
+206:            $customerId = filter_var($_POST['customer_id'] ?? null, FILTER_VALIDATE_INT);
+
+--- streams.php ---
+POST/ACTION SATIRLARI:
+35:if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'logout') {
+36:    $token = $_POST['csrf'] ?? '';
+
+--- packages.php ---
+POST/ACTION SATIRLARI:
+66:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+67:    $token = $_POST['csrf'] ?? '';
+76:        $action = (string)($_POST['action'] ?? '');
+78:        if ($action === 'package_create') {
+79:            $name = trim((string)($_POST['name'] ?? ''));
+80:            $description = trim((string)($_POST['description'] ?? ''));
+82:                $_POST['sort_order'] ?? 1,
+111:        if ($action === 'package_save') {
+112:            $id = filter_var($_POST['id'] ?? null, FILTER_VALIDATE_INT);
+113:            $name = trim((string)($_POST['name'] ?? ''));
+114:            $description = trim((string)($_POST['description'] ?? ''));
+115:            $status = (string)($_POST['status'] ?? '');
+117:                $_POST['sort_order'] ?? 1,
+148:            $categoryIds = $_POST['category_ids'] ?? [];
+
+--- epg.php ---
+POST/ACTION SATIRLARI:
+66:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+67:    $token = $_POST['csrf'] ?? '';
+76:        $action = (string)($_POST['action'] ?? '');
+78:        if ($action === 'map_save') {
+80:                $_POST['stream_id'] ?? null,
+84:            $channelId = trim((string)($_POST['channel_id'] ?? ''));
+
+--- m3u_import.php ---
+POST/ACTION SATIRLARI:
+499:if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+501:        $token = $_POST['csrf'] ?? '';
+506:        $action = (string)($_POST['action'] ?? '');
+508:        if ($action === 'load') {
+528:                $source = trim((string)($_POST['source_url'] ?? ''));
+638:        if ($action === 'import') {
+641:            $selected = $_POST['selected'] ?? [];
+642:            $packageIds = $_POST['package_ids'] ?? [];
+734:                    $countryId = (int)($_POST['country'][$index] ?? ($item['country_id'] ?? 0));
+741:                    $categoryName = trim((string)($_POST['category'][$index] ?? 'Diğer'));
+787:                    $postedLanguage = trim((string)($_POST['language'][$index] ?? ''));
+797:                    $adult = isset($_POST['adult'][$index]) ? 1 : 0;
+868:        if ($action === 'clear') {
+
+--- series.php ---
+POST/ACTION SATIRLARI:
+98:if ($_SERVER['REQUEST_METHOD']==='POST') {
+100:        $token=$_POST['csrf']??'';
+105:        $action=$_POST['action']??'';
+107:        if ($action === 'import_tmdb_series') {
+112:                $tmdbId = (int)($_POST['tmdb_id'] ?? 0);
+139:                $categoryId = (int)($_POST['category_id'] ?? 0);
+326:        if ($action==='save_series') {
+327:            $id=(int)($_POST['id']??0);
+328:            $name=trim($_POST['name']??'');
+329:            $category=(int)($_POST['category_id']??0);
+343:            $tmdbId=(int)($_POST['tmdb_id']??0);
+344:            $poster=trim((string)($_POST['poster_path']??''));
+345:            $backdrop=trim((string)($_POST['backdrop_path']??''));
+346:            $overview=trim((string)($_POST['overview']??''));
+347:            $releaseDate=trim((string)($_POST['release_date']??''));
+348:            $releaseYear=(int)($_POST['release_year']??0);
+349:            $vote=(float)($_POST['vote_average']??0);
+350:            $genres=trim((string)($_POST['genres']??''));
+351:            $original=trim((string)($_POST['original_name']??''));
+352:            $logo=trim((string)($_POST['logo_url']??''));
+396:        if ($action==='save_season') {
+397:            $id=(int)($_POST['id']??0);
+398:            $series=(int)($_POST['series_id']??0);
+399:            $number=(int)($_POST['season_number']??0);
+400:            $name=trim($_POST['name']??'');
+418:        if ($action==='save_episode') {
+419:            $id=(int)($_POST['id']??0);
+420:            $season=(int)($_POST['season_id']??0);
+421:            $number=(int)($_POST['episode_number']??0);
+422:            $name=trim($_POST['name']??'');
+423:            $url=trim($_POST['stream_url']??'');
+424:            $duration=trim($_POST['duration']??'');
+447:        if ($action==='toggle_episode') {
+448:            $id=(int)($_POST['id']??0);
+454:        if ($action==='delete_episode') {
+456:            $stmt->execute([(int)($_POST['id']??0)]);
+460:        if ($action==='delete_season') {
+462:            $stmt->execute([(int)($_POST['id']??0)]);
+466:        if ($action==='delete_series') {
+468:            $stmt->execute([(int)($_POST['id']??0)]);
+
+--- _content.php ---
+POST/ACTION SATIRLARI:
+63:if ($_SERVER['REQUEST_METHOD']==='POST') {
+65:        $token=$_POST['csrf']??'';
+70:        $action=(string)($_POST['action']??'');
+72:        if ($action==='logout') {
+78:        if ($action==='category_save') {
+79:            $id=(int)($_POST['id']??0);
+80:            $name=trim((string)($_POST['name']??''));
+81:            $sort=(int)($_POST['sort_order']??0);
+99:        if ($action==='category_delete') {
+101:            $st->execute([(int)($_POST['id']??0),$type]);
+106:        if ($action==='stream_save') {
+107:            $id=(int)($_POST['id']??0);
+108:            $name=trim((string)($_POST['name']??''));
+109:            $url=trim((string)($_POST['stream_url']??''));
+110:            $category=(int)($_POST['category_id']??0);
+111:            $status=(string)($_POST['status']??'active');
+150:                $rawPackageIds=$_POST['package_ids']??[];
+180:                $adultValue=(string)($_POST['is_adult']??'0');
+186:                $languageCode=trim((string)($_POST['language_code']??''));
+204:                $tmdbId=(int)($_POST['tmdb_id']??0);
+205:                $poster=trim((string)($_POST['poster_path']??''));
+206:                $backdrop=trim((string)($_POST['backdrop_path']??''));
+207:                $overview=trim((string)($_POST['overview']??''));
+208:                $releaseDate=trim((string)($_POST['release_date']??''));
+209:                $releaseYear=(int)($_POST['release_year']??0);
+210:                $vote=(float)($_POST['vote_average']??0);
+211:                $genres=trim((string)($_POST['genres']??''));
+212:                $original=trim((string)($_POST['original_name']??''));
+213:                $logo=trim((string)($_POST['logo_url']??''));
+299:        if ($action==='stream_toggle') {
+304:            $st->execute([(int)($_POST['id']??0),$type]);
+309:        if ($action==='stream_delete') {
+311:            $st->execute([(int)($_POST['id']??0),$type]);
+
+--- tmdb.php ---
+POST/ACTION SATIRLARI:
+81:    if ($action==='search') {
+116:    if ($action==='details') {
+147:    if ($action==='season') {
+
+======================================================
+ 8. SAYFA VE MENU BAGLANTILARI
+======================================================
+/var/www/xtream/subscription_reminders.php:69:        if ($check->fetch()) {
+/var/www/xtream/streams.php:27:    header('Location: /');
+/var/www/xtream/streams.php:41:    header('Location: /');
+/var/www/xtream/streams.php:95:<link rel="preconnect" href="https://fonts.googleapis.com">
+/var/www/xtream/streams.php:96:<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+/var/www/xtream/streams.php:97:<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+/var/www/xtream/streams.php:351:        <a href="/">◈ Genel Bakış</a>
+/var/www/xtream/streams.php:352:        <a href="/customers.php">♙ Müşteriler</a>
+/var/www/xtream/streams.php:353:        <a class="active" href="/streams.php">▦ Yayın Merkezi</a>
+/var/www/xtream/streams.php:354:        <a href="/connections.php">⌁ Bağlantılar</a>
+/var/www/xtream/streams.php:402:            <a class="card live-card" href="/live.php">
+/var/www/xtream/streams.php:418:            <a class="card movie-card" href="/movies.php">
+/var/www/xtream/streams.php:434:            <a class="card series-card" href="/series.php">
+/var/www/xtream/player_api.php:92:        $item = $stmt->fetch();
+/var/www/xtream/player_api.php:117:        $series = $stmt->fetch();
+/var/www/xtream/epg_import.php:56:    )->fetch(PDO::FETCH_ASSOC);
+/var/www/xtream/tmdb.php:78:    $action=(string)($_GET['action']??'');
+/var/www/xtream/tmdb.php:81:    if ($action==='search') {
+/var/www/xtream/tmdb.php:116:    if ($action==='details') {
+/var/www/xtream/tmdb.php:147:    if ($action==='season') {
+/var/www/xtream/api_common.php:37:    $customer = $stmt->fetch();
+/var/www/xtream/epg.php:26:    header('Location: /epg.php');
+/var/www/xtream/epg.php:31:    header('Location: /');
+/var/www/xtream/epg.php:161:)->fetch() ?: [];
+/var/www/xtream/epg.php:221:<link rel="preconnect" href="https://fonts.googleapis.com">
+/var/www/xtream/epg.php:222:<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+/var/www/xtream/epg.php:313:        <a href="/">◈ Genel Bakış</a>
+/var/www/xtream/epg.php:314:        <a href="/customers.php">♙ Müşteriler</a>
+/var/www/xtream/epg.php:315:        <a href="/streams.php">▦ Yayın Merkezi</a>
+/var/www/xtream/epg.php:316:        <a href="/live.php">◉ Canlı Kanallar</a>
+/var/www/xtream/epg.php:317:        <a href="/movies.php">▣ Filmler</a>
+/var/www/xtream/epg.php:318:        <a href="/series.php">▤ Diziler</a>
+/var/www/xtream/epg.php:319:        <a href="/packages.php">◇ Paket Yönetimi</a>
+/var/www/xtream/epg.php:320:        <a href="/connections.php">⌁ Bağlantılar</a>
+/var/www/xtream/epg.php:325:        <a href="/epg.php" class="active">▦ EPG / Yayın Akışı</a>
+/var/www/xtream/epg.php:331:        <form method="post" action="/">
+/var/www/xtream/admin_auth.php:22:    $admin = $stmt->fetch(PDO::FETCH_ASSOC);
+/var/www/xtream/admin_auth.php:31:        header('Location: /');
+/var/www/xtream/m3u_import.php:31:    header('Location: /');
+/var/www/xtream/m3u_import.php:864:            header('Location: /m3u_import.php?done=1');
+/var/www/xtream/m3u_import.php:934:<a href="/live.php">← Canlı Kanal Yönetimine Dön</a>
+/var/www/xtream/index.php:57:        header('Location: /');
+/var/www/xtream/index.php:65:        $admin = $stmt->fetch();
+/var/www/xtream/index.php:72:            header('Location: /');
+/var/www/xtream/index.php:103:            FROM streams")->fetch();
+/var/www/xtream/index.php:115:        ")->fetch();
+/var/www/xtream/index.php:133:<link rel="preconnect" href="https://fonts.googleapis.com">
+/var/www/xtream/index.php:134:<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+/var/www/xtream/index.php:135:<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+/var/www/xtream/index.php:320:        <a href="#overview" class="active"><span class="nav-icon">◈</span> Genel Bakış</a>
+/var/www/xtream/index.php:321:        <a href="/customers.php"><span class="nav-icon">♙</span> Müşteriler</a>
+/var/www/xtream/index.php:322:        <a href="/streams.php"><span class="nav-icon">▣</span> Yayın Yönetimi</a>
+/var/www/xtream/index.php:323:        <a href="/streams.php#categories"><span class="nav-icon">▤</span> Kategoriler</a>
+/var/www/xtream/index.php:324:        <a href="/connections.php"><span class="nav-icon">⌁</span> Aktif Bağlantılar</a>
+/var/www/xtream/index.php:329:        <a href="/epg.php"><span class="nav-icon">▦</span> EPG / Yayın Akışı</a>
+/var/www/xtream/index.php:330:        <a href="/packages.php"><span class="nav-icon">◇</span> Paket Yönetimi</a>
+/var/www/xtream/index.php:331:        <a href="#settings"><span class="nav-icon">⚙</span> Ayarlar <span class="nav-badge">YAKINDA</span></a>
+/var/www/xtream/index.php:444:                    <a href="/customers.php" class="quick-item"><div class="quick-icon">♙</div><div><div class="quick-text">Müşteri Yönetimi</div><div class="quick-desc">Hesaplar ve abonelikler</div></div><span class="quick-arrow">›</span></a>
+/var/www/xtream/index.php:445:                    <a href="/streams.php" class="quick-item"><div class="quick-icon">▣</div><div><div class="quick-text">Yayın Yönetimi</div><div class="quick-desc">Canlı yayın ve içerikler</div></div><span class="quick-arrow">›</span></a>
+/var/www/xtream/index.php:446:                    <a href="/epg.php" class="quick-item"><div class="quick-icon">▦</div><div><div class="quick-text">EPG Yönetimi</div><div class="quick-desc">Yayın akışı ve programlar</div></div><span class="quick-arrow">›</span></a>
+/var/www/xtream/stream.php:497:        $item = $stmt->fetch();
+/var/www/xtream/packages.php:26:    header('Location: '.$url);
+/var/www/xtream/packages.php:31:    header('Location: /');
+/var/www/xtream/packages.php:300:<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+/var/www/xtream/packages.php:395:        <a href="/"><span>◈</span> Genel Bakış</a>
+/var/www/xtream/packages.php:396:        <a href="/customers.php"><span>♙</span> Müşteriler</a>
+/var/www/xtream/packages.php:397:        <a href="/streams.php"><span>▦</span> Yayın Merkezi</a>
+/var/www/xtream/packages.php:398:        <a href="/live.php"><span>◉</span> Canlı Kanallar</a>
+/var/www/xtream/packages.php:399:        <a href="/movies.php"><span>▣</span> Filmler</a>
+/var/www/xtream/packages.php:400:        <a href="/series.php"><span>▤</span> Diziler</a>
+/var/www/xtream/packages.php:401:        <a href="/packages.php" class="active"><span>◇</span> Paket Yönetimi</a>
+/var/www/xtream/packages.php:402:        <a href="/connections.php"><span>⌁</span> Bağlantılar</a>
+/var/www/xtream/packages.php:406:        <form method="post" action="/">
+/var/www/xtream/connections.php:26:    header('Location: /');
+/var/www/xtream/connections.php:52:    header('Location: /connections.php');
+/var/www/xtream/connections.php:146:            $device = $find->fetch();
+/var/www/xtream/connections.php:255:)->fetch();
+/var/www/xtream/connections.php:422:            <a class="btn" href="/">← Kontrol Merkezi</a>
+/var/www/xtream/connections.php:423:            <a class="btn" href="/connections.php">↻ Yenile</a>
+/var/www/xtream/connections.php:424:            <a class="btn btn-blacklist" href="#blacklist">⛨ Kara Liste <span class="blacklist-mini-count"><?=count($blacklist)?></span></a>
+/var/www/xtream/access_common.php:20:    $row = $stmt->fetch(PDO::FETCH_ASSOC);
+/var/www/xtream/session_common.php:172:        $fresh = $lock->fetch();
+/var/www/xtream/session_common.php:198:        $existing = $same->fetch();
+/var/www/xtream/session_common.php:279:    $session = $stmt->fetch();
+/var/www/xtream/_content.php:40:    header('Location: '.$url);
+/var/www/xtream/_content.php:70:        $action=(string)($_POST['action']??'');
+/var/www/xtream/_content.php:72:        if ($action==='logout') {
+/var/www/xtream/_content.php:78:        if ($action==='category_save') {
+/var/www/xtream/_content.php:99:        if ($action==='category_delete') {
+/var/www/xtream/_content.php:106:        if ($action==='stream_save') {
+/var/www/xtream/_content.php:140:                if (!$st->fetch()) throw new RuntimeException('Kategori bu içerik türüne ait değil.');
+/var/www/xtream/_content.php:247:                    if (!$check->fetch()) {
+/var/www/xtream/_content.php:299:        if ($action==='stream_toggle') {
+/var/www/xtream/_content.php:309:        if ($action==='stream_delete') {
+/var/www/xtream/_content.php:339:    $edit=$st->fetch()?:null;
+/var/www/xtream/_content.php:362:    $editCategory=$st->fetch()?:null;
+/var/www/xtream/_content.php:406:<link rel="preconnect" href="https://fonts.googleapis.com">
+/var/www/xtream/_content.php:407:<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+/var/www/xtream/_content.php:500:        <a href="/"><span>◈</span> Genel Bakış</a>
+/var/www/xtream/_content.php:501:        <a href="/customers.php"><span>♙</span> Müşteriler</a>
+/var/www/xtream/_content.php:502:        <a href="/streams.php"><span>▦</span> Yayın Merkezi</a>
+/var/www/xtream/_content.php:503:        <a href="/live.php" class="<?=$type==='live'?'active':''?>"><span>◉</span> Canlı Kanallar</a>
+/var/www/xtream/_content.php:504:        <a href="/movies.php" class="<?=$type==='movie'?'active':''?>"><span>▣</span> Filmler</a>
+/var/www/xtream/_content.php:505:        <a href="/series.php"><span>▤</span> Diziler</a>
+/var/www/xtream/_content.php:506:        <a href="/connections.php"><span>⌁</span> Bağlantılar</a>
+/var/www/xtream/_content.php:522:            <a class="button secondary" href="/m3u_import.php">☷ M3U Toplu Aktarma</a>
+/var/www/xtream/_content.php:524:            <a class="button primary" href="#form">＋ Yeni <?=ce($itemLabel)?></a>
+/var/www/xtream/_content.php:530:        <?php if($edit):?><a class="button secondary" href="<?=$page?>#form">✕ Düzenlemeyi Kapat</a><?php endif;?>
+/var/www/xtream/_content.php:596:            <div class="actions"><button class="button primary" type="submit"><?=$edit?'✓ Değişiklikleri Kaydet':'＋ Kaydet'?></button><?php if($edit):?><a class="button secondary" href="<?=$page?>">İptal</a><?php endif;?></div>
+/var/www/xtream/_content.php:616:            <div class="actions"><button class="button primary" type="submit"><?=$editCategory?'Kategori Güncelle':'＋ Kategori Oluştur'?></button><?php if($editCategory):?><a class="button secondary" href="<?=$page?>#categories">İptal</a><?php endif;?></div>
+/var/www/xtream/_content.php:620:        <tr><td><div class="name"><?=ce($cat['name'])?></div><div class="sub">Kategori #<?=(int)$cat['id']?></div></td><td><?=(int)$cat['sort_order']?></td><td><div class="table-actions"><a class="small-btn" href="<?=$page?>?edit_category=<?=(int)$cat['id']?>#categories">Düzenle</a><form method="post" onsubmit="return confirm('Kategori silinsin mi? Bağlı yayın varsa işlem engellenebilir.')"><input type="hidden" name="csrf" value="<?=ce($_SESSION['csrf'])?>"><input type="hidden" name="id" value="<?=(int)$cat['id']?>"><button class="small-btn red" name="action" value="category_delete">Sil</button></form></div></td></tr>
+/var/www/xtream/_content.php:640:                <?php if($q!==''||$languageFilter!==''):?><a class="button secondary" href="<?=$page?>#items">Temizle</a><?php endif;?>
+/var/www/xtream/_content.php:645:        <tr><td><div class="name"><?=ce($item['name'])?></div><div class="sub">Kayıt #<?=(int)$item['id']?><?=$type==='movie'&&$item['release_year']?' · '.(int)$item['release_year']:''?></div></td><td><?=ce($item['category_name']??'Kategorisiz')?></td><?php if($type==='live'):?><td><?=ce($languageNames[$item['language_code']??'']??'Bilinmeyen Dil')?></td><?php endif;?><td><div class="sub"><?=ce($item['stream_url'])?></div></td><td><span class="status <?=$item['status']==='active'?'active':'disabled'?>"><?=$item['status']==='active'?'● Aktif':'● Pasif'?></span></td><td><div class="table-actions"><a class="small-btn" href="<?=$page?>?edit=<?=(int)$item['id']?>#form">Düzenle</a><form method="post"><input type="hidden" name="csrf" value="<?=ce($_SESSION['csrf'])?>"><input type="hidden" name="id" value="<?=(int)$item['id']?>"><button class="small-btn" name="action" value="stream_toggle"><?=$item['status']==='active'?'Pasifleştir':'Aktifleştir'?></button></form><form method="post" onsubmit="return confirm('Bu kayıt kalıcı olarak silinsin mi?')"><input type="hidden" name="csrf" value="<?=ce($_SESSION['csrf'])?>"><input type="hidden" name="id" value="<?=(int)$item['id']?>"><button class="small-btn red" name="action" value="stream_delete">Sil</button></form></div></td></tr>
+/var/www/xtream/_content.php:665:  const r=await fetch('tmdb.php?action=search&kind=movie&q='+encodeURIComponent(q),{credentials:'same-origin',headers:{Accept:'application/json'}});
+/var/www/xtream/_content.php:681:  const r=await fetch('tmdb.php?action=details&kind=movie&id='+encodeURIComponent(id),{credentials:'same-origin',headers:{Accept:'application/json'}});
+/var/www/xtream/customers.php:26:    header('Location: /');
+/var/www/xtream/customers.php:70:    header('Location: ' . $url);
+/var/www/xtream/customers.php:307:                $customer = $lock->fetch();
+/var/www/xtream/customers.php:479:    $edit = $stmt->fetch() ?: null;
+/var/www/xtream/customers.php:531:<link rel="preconnect" href="https://fonts.googleapis.com">
+/var/www/xtream/customers.php:532:<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+/var/www/xtream/customers.php:533:<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+/var/www/xtream/customers.php:646:        <a href="/"><span class="nav-icon">◈</span> Genel Bakış</a>
+/var/www/xtream/customers.php:647:        <a href="/customers.php" class="active"><span class="nav-icon">♙</span> Müşteriler</a>
+/var/www/xtream/customers.php:648:        <a href="/#streams"><span class="nav-icon">▣</span> Yayın Yönetimi</a>
+/var/www/xtream/customers.php:649:        <a href="/#categories"><span class="nav-icon">▤</span> Kategoriler</a>
+/var/www/xtream/customers.php:650:        <a href="/#connections"><span class="nav-icon">⌁</span> Bağlantılar</a>
+/var/www/xtream/customers.php:654:        <a href="/epg.php"><span class="nav-icon">▦</span> EPG / Yayın Akışı</a>
+/var/www/xtream/customers.php:655:        <a href="/#ads"><span class="nav-icon">▧</span> Reklam Yönetimi</a>
+/var/www/xtream/customers.php:656:        <a href="/#settings"><span class="nav-icon">⚙</span> Ayarlar</a>
+/var/www/xtream/customers.php:680:        <a class="button primary" href="#customer-form">＋ Yeni Müşteri Oluştur</a>
+/var/www/xtream/customers.php:699:            <?php if ($edit): ?><a class="button secondary" href="customers.php">✕ Düzenlemeyi Kapat</a><?php endif; ?>
+/var/www/xtream/customers.php:754:                <?php if ($edit): ?><a class="button secondary" href="customers.php">İptal</a><?php endif; ?>
+/var/www/xtream/customers.php:765:                <?php if ($search !== ''): ?><a class="button secondary" href="customers.php">Temizle</a><?php endif; ?>
+/var/www/xtream/customers.php:846:                                <a class="small-btn" href="customers.php?edit=<?=(int)$customer['id']?>#customer-form">Düzenle</a>
+/var/www/xtream/series.php:25:    header('Location: '.$url);
+/var/www/xtream/series.php:105:        $action=$_POST['action']??'';
+/var/www/xtream/series.php:154:                $existingSeries = $findSeries->fetch();
+/var/www/xtream/series.php:326:        if ($action==='save_series') {
+/var/www/xtream/series.php:338:                if (!$check->fetch()) throw new RuntimeException('Seçilen dizi kategorisi geçersiz.');
+/var/www/xtream/series.php:381:                    if (!$check->fetch()) throw new RuntimeException('Dizi kaydı bulunamadı.');
+/var/www/xtream/series.php:396:        if ($action==='save_season') {
+/var/www/xtream/series.php:404:            if (!$check->fetch()) throw new RuntimeException('Dizi bulunamadı.');
+/var/www/xtream/series.php:418:        if ($action==='save_episode') {
+/var/www/xtream/series.php:428:            if (!$check->fetch()) throw new RuntimeException('Sezon bulunamadı.');
+/var/www/xtream/series.php:447:        if ($action==='toggle_episode') {
+/var/www/xtream/series.php:454:        if ($action==='delete_episode') {
+/var/www/xtream/series.php:460:        if ($action==='delete_season') {
+/var/www/xtream/series.php:466:        if ($action==='delete_series') {
+/var/www/xtream/series.php:519:    $editSeries=$st->fetch()?:null;
+/var/www/xtream/series.php:524:    $editSeason=$st->fetch()?:null;
+/var/www/xtream/series.php:529:    $editEpisode=$st->fetch()?:null;
+/var/www/xtream/series.php:696:        <a href="/"><span class="nav-icon">◈</span> Genel Bakış</a>
+/var/www/xtream/series.php:697:        <a href="/customers.php"><span class="nav-icon">♙</span> Müşteriler</a>
+/var/www/xtream/series.php:698:        <a href="/streams.php"><span class="nav-icon">▣</span> Yayın Yönetimi</a>
+/var/www/xtream/series.php:699:        <a href="/streams.php#categories"><span class="nav-icon">▤</span> Kategoriler</a>
+/var/www/xtream/series.php:700:        <a href="/live.php"><span class="nav-icon">◉</span> Canlı Kanallar</a>
+/var/www/xtream/series.php:701:        <a href="/movies.php"><span class="nav-icon">▣</span> Filmler</a>
+/var/www/xtream/series.php:702:        <a href="/series.php" class="active"><span class="nav-icon">▤</span> Diziler</a>
+/var/www/xtream/series.php:703:        <a href="/connections.php"><span class="nav-icon">⌁</span> Aktif Bağlantılar</a>
+/var/www/xtream/series.php:707:        <a href="/epg.php"><span class="nav-icon">▦</span> EPG / Yayın Akışı</a>
+/var/www/xtream/series.php:708:        <a href="#ads"><span class="nav-icon">▧</span> Reklam Yönetimi <span class="nav-badge">YAKINDA</span></a>
+/var/www/xtream/series.php:709:        <a href="#settings"><span class="nav-icon">⚙</span> Ayarlar <span class="nav-badge">YAKINDA</span></a>
+/var/www/xtream/series.php:729:        <a class="btn secondary" href="/streams.php">Yayın Yönetimi</a>
+/var/www/xtream/series.php:793:                        <?php if($editSeries): ?><a class="btn secondary" href="/series.php">Vazgeç</a><?php endif; ?>
+/var/www/xtream/series.php:828:                        <?php if($editSeason): ?><a class="btn secondary" href="/series.php">Vazgeç</a><?php endif; ?>
+/var/www/xtream/series.php:872:                        <?php if($editEpisode): ?><a class="btn secondary" href="/series.php">Vazgeç</a><?php endif; ?>
+/var/www/xtream/series.php:894:                        <a class="btn secondary" href="?edit_series=<?=$s['id']?>">Düzenle</a>
+/var/www/xtream/series.php:922:                    <a class="btn secondary" href="?edit_season=<?=$s['id']?>">Düzenle</a>
+/var/www/xtream/series.php:951:                        <a class="btn secondary" href="?edit_episode=<?=$ep['id']?>">Düzenle</a>
+/var/www/xtream/series.php:1000:        const r=await fetch('tmdb.php?action=search&kind=tv&q='+encodeURIComponent(q),{
+/var/www/xtream/series.php:1038:        const r=await fetch('series.php',{
+/var/www/xtream/series.php:1065:        window.location.href='series.php';
+
+======================================================
+ 9. VERITABANI SEMASI VE YONETICI DURUMU
+======================================================
+DATABASE BAGLANTISI: BASARILI
+DB ADI: xtream_panel
+MYSQL: 10.11.14-MariaDB-0ubuntu0.24.04.1
+
+MEVCUT TABLOLAR:
+
+--- admin_permissions ---
+admin_id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+permission_key | varchar(64) | NULL=NO | KEY=PRI | DEFAULT=
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+SATIR SAYISI: 0
+
+--- admins ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+username | varchar(80) | NULL=NO | KEY=UNI | DEFAULT=
+password_hash | varchar(255) | NULL=NO | KEY= | DEFAULT=
+is_super_admin | tinyint(1) | NULL=NO | KEY= | DEFAULT=0
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+is_active | tinyint(1) | NULL=NO | KEY= | DEFAULT=1
+SATIR SAYISI: 1
+
+--- categories ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+name | varchar(150) | NULL=NO | KEY= | DEFAULT=
+type | enum('live','movie','series') | NULL=NO | KEY= | DEFAULT=live
+sort_order | int(11) | NULL=NO | KEY= | DEFAULT=0
+is_adult | tinyint(1) | NULL=NO | KEY= | DEFAULT=0
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+country_id | bigint(20) unsigned | NULL=YES | KEY=MUL | DEFAULT=
+SATIR SAYISI: 120
+
+--- connection_limit_events ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+customer_id | bigint(20) unsigned | NULL=NO | KEY=MUL | DEFAULT=
+username | varchar(100) | NULL=NO | KEY= | DEFAULT=
+attempted_ip | varchar(45) | NULL=YES | KEY= | DEFAULT=
+user_agent | varchar(512) | NULL=YES | KEY= | DEFAULT=
+device_hash | char(64) | NULL=NO | KEY= | DEFAULT=
+active_count | int(10) unsigned | NULL=NO | KEY= | DEFAULT=
+max_connections | int(10) unsigned | NULL=NO | KEY= | DEFAULT=
+attempted_at | datetime | NULL=NO | KEY= | DEFAULT=current_timestamp()
+telegram_sent_at | datetime | NULL=YES | KEY= | DEFAULT=
+telegram_error | varchar(500) | NULL=YES | KEY= | DEFAULT=
+SATIR SAYISI: 8
+
+--- connections ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+customer_id | bigint(20) unsigned | NULL=NO | KEY=MUL | DEFAULT=
+stream_id | bigint(20) unsigned | NULL=YES | KEY=MUL | DEFAULT=
+session_token | char(64) | NULL=NO | KEY=UNI | DEFAULT=
+ip_address | varchar(45) | NULL=NO | KEY= | DEFAULT=
+user_agent | varchar(500) | NULL=YES | KEY= | DEFAULT=
+started_at | datetime | NULL=NO | KEY= | DEFAULT=current_timestamp()
+last_seen | datetime | NULL=NO | KEY=MUL | DEFAULT=current_timestamp()
+SATIR SAYISI: 0
+
+--- countries ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+code | varchar(5) | NULL=NO | KEY=UNI | DEFAULT=
+name | varchar(100) | NULL=NO | KEY= | DEFAULT=
+SATIR SAYISI: 70
+
+--- customers ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+username | varchar(100) | NULL=NO | KEY=UNI | DEFAULT=
+password_hash | varchar(255) | NULL=NO | KEY= | DEFAULT=
+status | enum('active','disabled') | NULL=NO | KEY=MUL | DEFAULT=active
+expires_at | datetime | NULL=YES | KEY=MUL | DEFAULT=
+max_connections | int(10) unsigned | NULL=NO | KEY= | DEFAULT=1
+package_id | bigint(20) unsigned | NULL=YES | KEY=MUL | DEFAULT=
+adult_enabled | tinyint(1) | NULL=NO | KEY= | DEFAULT=0
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+SATIR SAYISI: 3
+
+--- device_blacklist ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+customer_id | bigint(20) unsigned | NULL=NO | KEY=MUL | DEFAULT=
+device_hash | char(64) | NULL=NO | KEY= | DEFAULT=
+ip_address | varchar(45) | NULL=YES | KEY= | DEFAULT=
+user_agent | varchar(512) | NULL=YES | KEY= | DEFAULT=
+blocked_at | datetime | NULL=NO | KEY= | DEFAULT=current_timestamp()
+SATIR SAYISI: 0
+
+--- epg_channels ---
+channel_id | varchar(190) | NULL=NO | KEY=PRI | DEFAULT=
+display_name | varchar(500) | NULL=NO | KEY= | DEFAULT=
+icon_url | text | NULL=YES | KEY= | DEFAULT=
+updated_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+SATIR SAYISI: 3206
+
+--- epg_programmes ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+channel_id | varchar(190) | NULL=NO | KEY=MUL | DEFAULT=
+start_time | datetime | NULL=NO | KEY= | DEFAULT=
+stop_time | datetime | NULL=YES | KEY=MUL | DEFAULT=
+title | varchar(500) | NULL=NO | KEY= | DEFAULT=
+description | text | NULL=YES | KEY= | DEFAULT=
+category | varchar(150) | NULL=YES | KEY= | DEFAULT=
+SATIR SAYISI: 160126
+
+--- epg_settings ---
+id | tinyint(3) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+feed_url | varchar(1000) | NULL=NO | KEY= | DEFAULT=
+last_updated | datetime | NULL=YES | KEY= | DEFAULT=
+status | varchar(30) | NULL=NO | KEY= | DEFAULT=waiting
+message | varchar(1000) | NULL=YES | KEY= | DEFAULT=
+channel_count | int(10) unsigned | NULL=NO | KEY= | DEFAULT=0
+programme_count | int(10) unsigned | NULL=NO | KEY= | DEFAULT=0
+SATIR SAYISI: 1
+
+--- epg_sources ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+name | varchar(190) | NULL=NO | KEY= | DEFAULT=
+url | varchar(1000) | NULL=NO | KEY=UNI | DEFAULT=
+enabled | tinyint(1) | NULL=NO | KEY= | DEFAULT=1
+priority | int(11) | NULL=NO | KEY= | DEFAULT=100
+last_updated | datetime | NULL=YES | KEY= | DEFAULT=
+status | varchar(30) | NULL=NO | KEY= | DEFAULT=pending
+message | varchar(1000) | NULL=YES | KEY= | DEFAULT=
+channel_count | int(10) unsigned | NULL=NO | KEY= | DEFAULT=0
+programme_count | int(10) unsigned | NULL=NO | KEY= | DEFAULT=0
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+SATIR SAYISI: 3
+
+--- epg_stream_map ---
+stream_id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+channel_id | varchar(190) | NULL=NO | KEY=MUL | DEFAULT=
+SATIR SAYISI: 1
+
+--- episodes ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+season_id | bigint(20) unsigned | NULL=NO | KEY=MUL | DEFAULT=
+episode_number | int(10) unsigned | NULL=NO | KEY= | DEFAULT=
+name | varchar(190) | NULL=NO | KEY= | DEFAULT=
+stream_url | text | NULL=NO | KEY= | DEFAULT=
+duration | int(10) unsigned | NULL=YES | KEY= | DEFAULT=
+status | enum('active','disabled') | NULL=NO | KEY= | DEFAULT=active
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+tmdb_id | bigint(20) unsigned | NULL=YES | KEY= | DEFAULT=
+overview | text | NULL=YES | KEY= | DEFAULT=
+still_path | varchar(500) | NULL=YES | KEY= | DEFAULT=
+air_date | varchar(20) | NULL=YES | KEY= | DEFAULT=
+vote_average | decimal(3,1) | NULL=YES | KEY= | DEFAULT=
+SATIR SAYISI: 16
+
+--- package_categories ---
+package_id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+category_id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+SATIR SAYISI: 0
+
+--- packages ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+name | varchar(100) | NULL=NO | KEY=UNI | DEFAULT=
+description | varchar(255) | NULL=YES | KEY= | DEFAULT=
+status | enum('active','disabled') | NULL=NO | KEY= | DEFAULT=active
+sort_order | int(11) | NULL=NO | KEY= | DEFAULT=0
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+SATIR SAYISI: 3
+
+--- seasons ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+series_id | bigint(20) unsigned | NULL=NO | KEY=MUL | DEFAULT=
+season_number | int(10) unsigned | NULL=NO | KEY= | DEFAULT=
+name | varchar(190) | NULL=NO | KEY= | DEFAULT=
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+tmdb_id | bigint(20) unsigned | NULL=YES | KEY= | DEFAULT=
+overview | text | NULL=YES | KEY= | DEFAULT=
+poster_path | varchar(500) | NULL=YES | KEY= | DEFAULT=
+air_date | varchar(20) | NULL=YES | KEY= | DEFAULT=
+vote_average | decimal(3,1) | NULL=YES | KEY= | DEFAULT=
+SATIR SAYISI: 2
+
+--- stream_packages ---
+stream_id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+package_id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+SATIR SAYISI: 3603
+
+--- stream_resources ---
+resource_key | char(32) | NULL=NO | KEY=PRI | DEFAULT=
+session_id | bigint(20) unsigned | NULL=NO | KEY=MUL | DEFAULT=
+content_type | enum('stream','episode') | NULL=YES | KEY=MUL | DEFAULT=
+content_id | bigint(20) unsigned | NULL=YES | KEY= | DEFAULT=
+upstream_url | text | NULL=NO | KEY= | DEFAULT=
+created_at | datetime | NULL=NO | KEY= | DEFAULT=current_timestamp()
+expires_at | datetime | NULL=NO | KEY=MUL | DEFAULT=
+SATIR SAYISI: 46452
+
+--- stream_sessions ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+customer_id | bigint(20) unsigned | NULL=NO | KEY=MUL | DEFAULT=
+token_hash | char(64) | NULL=NO | KEY=UNI | DEFAULT=
+token_cipher | text | NULL=YES | KEY= | DEFAULT=
+device_hash | char(64) | NULL=NO | KEY= | DEFAULT=
+ip_address | varchar(45) | NULL=YES | KEY= | DEFAULT=
+user_agent | varchar(512) | NULL=YES | KEY= | DEFAULT=
+current_stream_type | enum('live','movie','series') | NULL=YES | KEY= | DEFAULT=
+current_stream_id | bigint(20) unsigned | NULL=YES | KEY= | DEFAULT=
+created_at | datetime | NULL=NO | KEY= | DEFAULT=current_timestamp()
+last_seen | datetime | NULL=NO | KEY=MUL | DEFAULT=current_timestamp()
+expires_at | datetime | NULL=NO | KEY= | DEFAULT=
+revoked_at | datetime | NULL=YES | KEY= | DEFAULT=
+SATIR SAYISI: 35
+
+--- streams ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+category_id | bigint(20) unsigned | NULL=YES | KEY=MUL | DEFAULT=
+name | varchar(200) | NULL=NO | KEY= | DEFAULT=
+stream_url | text | NULL=YES | KEY= | DEFAULT=
+type | enum('live','movie','series') | NULL=NO | KEY= | DEFAULT=live
+status | enum('active','disabled') | NULL=NO | KEY=MUL | DEFAULT=active
+is_adult | tinyint(1) | NULL=NO | KEY= | DEFAULT=0
+created_at | timestamp | NULL=YES | KEY= | DEFAULT=current_timestamp()
+tmdb_id | bigint(20) unsigned | NULL=YES | KEY= | DEFAULT=
+poster_path | varchar(500) | NULL=YES | KEY= | DEFAULT=
+backdrop_path | varchar(500) | NULL=YES | KEY= | DEFAULT=
+overview | text | NULL=YES | KEY= | DEFAULT=
+release_date | varchar(20) | NULL=YES | KEY= | DEFAULT=
+release_year | smallint(5) unsigned | NULL=YES | KEY= | DEFAULT=
+vote_average | decimal(3,1) | NULL=YES | KEY= | DEFAULT=
+genres | text | NULL=YES | KEY= | DEFAULT=
+logo_url | varchar(1000) | NULL=YES | KEY= | DEFAULT=
+original_name | varchar(255) | NULL=YES | KEY= | DEFAULT=
+country_id | bigint(20) unsigned | NULL=YES | KEY=MUL | DEFAULT=
+language_code | varchar(10) | NULL=YES | KEY= | DEFAULT=
+SATIR SAYISI: 1220
+
+--- subscription_reminders ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+customer_id | bigint(20) unsigned | NULL=NO | KEY=MUL | DEFAULT=
+expiry_at | datetime | NULL=NO | KEY= | DEFAULT=
+days_before | tinyint(3) unsigned | NULL=NO | KEY= | DEFAULT=
+sent_at | datetime | NULL=NO | KEY= | DEFAULT=current_timestamp()
+SATIR SAYISI: 1
+
+--- subscription_renewals ---
+id | bigint(20) unsigned | NULL=NO | KEY=PRI | DEFAULT=
+customer_id | bigint(20) unsigned | NULL=NO | KEY=MUL | DEFAULT=
+days_added | smallint(5) unsigned | NULL=NO | KEY= | DEFAULT=
+old_expiry | datetime | NULL=NO | KEY= | DEFAULT=
+new_expiry | datetime | NULL=NO | KEY= | DEFAULT=
+admin_username | varchar(100) | NULL=YES | KEY= | DEFAULT=
+created_at | datetime | NULL=NO | KEY= | DEFAULT=current_timestamp()
+SATIR SAYISI: 2
+
+FOREIGN KEY ILISKILERI:
+device_blacklist.customer_id -> customers.id
+streams.category_id -> categories.id
+package_categories.category_id -> categories.id
+package_categories.package_id -> packages.id
+admin_permissions.admin_id -> admins.id
+customers.package_id -> packages.id
+stream_resources.session_id -> stream_sessions.id
+subscription_renewals.customer_id -> customers.id
+subscription_reminders.customer_id -> customers.id
+stream_packages.package_id -> packages.id
+stream_packages.stream_id -> streams.id
+stream_sessions.customer_id -> customers.id
+epg_stream_map.stream_id -> streams.id
+connections.customer_id -> customers.id
+connections.stream_id -> streams.id
+seasons.series_id -> streams.id
+episodes.season_id -> seasons.id
+
+YONETICI HESAPLARI (SIFRE HASHI GOSTERILMEZ):
+ID=1 USER=ismailbaba SUPER=1 ACTIVE=1 CREATED=2026-11-01 01:02:01
+
+ALT YONETICI YETKILERI:
+HENUZ YETKI KAYDI YOK
+
+======================================================
+ 10. PHP-FPM VE PHP AYARLARI
+======================================================
+Configuration File (php.ini) Path: /etc/php/8.3/cli
+Loaded Configuration File:         /etc/php/8.3/cli/php.ini
+Scan for additional .ini files in: /etc/php/8.3/cli/conf.d
+Additional .ini files parsed:      /etc/php/8.3/cli/conf.d/10-mysqlnd.ini,
+/etc/php/8.3/cli/conf.d/10-opcache.ini,
+/etc/php/8.3/cli/conf.d/10-pdo.ini,
+/etc/php/8.3/cli/conf.d/15-xml.ini,
+/etc/php/8.3/cli/conf.d/20-calendar.ini,
+/etc/php/8.3/cli/conf.d/20-ctype.ini,
+/etc/php/8.3/cli/conf.d/20-curl.ini,
+/etc/php/8.3/cli/conf.d/20-dom.ini,
+/etc/php/8.3/cli/conf.d/20-exif.ini,
+/etc/php/8.3/cli/conf.d/20-ffi.ini,
+/etc/php/8.3/cli/conf.d/20-fileinfo.ini,
+/etc/php/8.3/cli/conf.d/20-ftp.ini,
+/etc/php/8.3/cli/conf.d/20-gettext.ini,
+/etc/php/8.3/cli/conf.d/20-iconv.ini,
+/etc/php/8.3/cli/conf.d/20-mbstring.ini,
+/etc/php/8.3/cli/conf.d/20-mysqli.ini,
+/etc/php/8.3/cli/conf.d/20-pdo_mysql.ini,
+/etc/php/8.3/cli/conf.d/20-phar.ini,
+/etc/php/8.3/cli/conf.d/20-posix.ini,
+/etc/php/8.3/cli/conf.d/20-readline.ini,
+/etc/php/8.3/cli/conf.d/20-shmop.ini,
+/etc/php/8.3/cli/conf.d/20-simplexml.ini,
+/etc/php/8.3/cli/conf.d/20-sockets.ini,
+/etc/php/8.3/cli/conf.d/20-sysvmsg.ini,
+/etc/php/8.3/cli/conf.d/20-sysvsem.ini,
+/etc/php/8.3/cli/conf.d/20-sysvshm.ini,
+/etc/php/8.3/cli/conf.d/20-tokenizer.ini,
+/etc/php/8.3/cli/conf.d/20-xmlreader.ini,
+/etc/php/8.3/cli/conf.d/20-xmlwriter.ini,
+/etc/php/8.3/cli/conf.d/20-xsl.ini
+
+--- /etc/php/8.3/fpm/php.ini ---
+419:max_execution_time = 3600
+436:max_input_vars = 10000
+445:memory_limit = 512M
+518:display_errors = Off
+537:log_errors = On
+713:post_max_size = 16384M
+865:upload_max_filesize = 16384M
+1393:session.use_strict_mode = 0
+1432:session.cookie_httponly =
+--- /etc/php/8.3/cli/php.ini ---
+419:max_execution_time = 30
+445:memory_limit = -1
+518:display_errors = Off
+537:log_errors = On
+713:post_max_size = 8M
+865:upload_max_filesize = 2M
+1393:session.use_strict_mode = 0
+1432:session.cookie_httponly =
+● php8.3-fpm.service - The PHP 8.3 FastCGI Process Manager
+     Loaded: loaded (/usr/lib/systemd/system/php8.3-fpm.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-11-01 20:31:51 UTC; 1h 28min ago
+       Docs: man:php-fpm8.3(8)
+    Process: 3737556 ExecStartPost=/usr/lib/php/php-fpm-socket-helper install /run/php/php-fpm.sock /etc/php/8.3/fpm/pool.d/www.conf 83 (code=exited, status=0/SUCCESS)
+   Main PID: 3737548 (php-fpm8.3)
+     Status: "Processes active: 0, idle: 10, Requests: 1072, slow: 0, Traffic: 0req/sec"
+      Tasks: 11 (limit: 38415)
+     Memory: 72.3M (peak: 83.6M)
+        CPU: 1min 12.044s
+     CGroup: /system.slice/php8.3-fpm.service
+             ├─3737548 "php-fpm: master process (/etc/php/8.3/fpm/php-fpm.conf)"
+             ├─3737551 "php-fpm: pool www"
+             ├─3737554 "php-fpm: pool yeni"
+             ├─3737555 "php-fpm: pool yeni"
+             ├─3792791 "php-fpm: pool xtream"
+             ├─3792792 "php-fpm: pool xtream"
+             ├─3792796 "php-fpm: pool xtream"
+             ├─3792797 "php-fpm: pool xtream"
+             ├─3792798 "php-fpm: pool xtream"
+             ├─3799677 "php-fpm: pool www"
+             └─3843701 "php-fpm: pool www"
+
+Nov 01 20:31:51 45-143-11-26 systemd[1]: Starting php8.3-fpm.service - The PHP 8.3 FastCGI Process Manager...
+Nov 01 20:31:51 45-143-11-26 systemd[1]: Started php8.3-fpm.service - The PHP 8.3 FastCGI Process Manager.
+
+======================================================
+ 11. WEB SUNUCUSU VE SITE KONFIGURASYONU
+======================================================
+active
+inactive
+24:	# server_names_hash_bucket_size 64;
+25:	# server_name_in_redirect off;
+191:    server_name mutluapk.xyz www.mutluapk.xyz;
+192:    root /var/www/panel;
+194:    client_max_body_size 16384m;
+227:        fastcgi_pass unix:/run/php/php8.3-fpm.sock;
+233:        client_max_body_size 4096m;
+237:            fastcgi_pass unix:/run/php/php8.3-fpm-yeni.sock;
+244:        fastcgi_pass unix:/run/php/php8.3-fpm.sock;
+274:    server_name mutluapk.xyz www.mutluapk.xyz;
+283:    server_name panel.mutluapk.xyz;
+285:    root /var/www/panel/ismail;
+292:    client_max_body_size 16384m;
+300:        fastcgi_pass unix:/run/php/php8.3-fpm.sock;
+319:    server_name yeni.mutluapk.xyz;
+321:    root /var/www/panel/yeni;
+323:    client_max_body_size 4096m;
+331:        fastcgi_pass unix:/run/php/php8.3-fpm-yeni.sock;
+356:    server_name panel.mutluapk.xyz;
+369:    server_name yeni.mutluapk.xyz;
+413:fastcgi_param  SERVER_NAME        $server_name;
+437:    server_name xtream.mutluapk.xyz;
+439:    root /var/www/xtream;
+442:    client_max_body_size 64M;
+451:        fastcgi_pass unix:/run/php/php8.3-fpm-xtream.sock;
+458:        fastcgi_pass unix:/run/php/php8.3-fpm-xtream.sock;
+465:        fastcgi_pass unix:/run/php/php8.3-fpm-xtream.sock;
+479:        fastcgi_pass unix:/run/php/php8.3-fpm-xtream.sock;
+508:    server_name xtream.mutluapk.xyz;
+
+======================================================
+ 12. GUVENLIK VE HASSAS DOSYA KONTROLU
+======================================================
+-rw-r----- /var/www/xtream/index.php.epg-oncesi-20261101-095932.bak
+-rw-r----- /var/www/xtream/series.php.epg-oncesi.bak
+-rw-r----- /var/www/xtream/customers.php.epg-oncesi.bak
+
+Kaynaklarda olasi hassas deger bulunan SATIRLAR (degerler gizlenir):
+/var/www/xtream/streams.php:36:    $token = [GIZLENDI]
+/var/www/xtream/api_common.php:28:    $password = [GIZLENDI]
+/var/www/xtream/api_common.php:30:    if ($username === '' || $password = [GIZLENDI]
+/var/www/xtream/epg.php:67:    $token = [GIZLENDI]
+/var/www/xtream/m3u_import.php:501:        $token = [GIZLENDI]
+/var/www/xtream/index.php:50:    $token = [GIZLENDI]
+/var/www/xtream/index.php:61:        $password = [GIZLENDI]
+/var/www/xtream/get.php:36:    $token = [GIZLENDI]
+/var/www/xtream/get.php:75:        $url = XTREAM_BASE_URL . '/stream.php?token= [GIZLENDI]
+/var/www/xtream/get.php:105:        $url = XTREAM_BASE_URL . '/stream.php?token= [GIZLENDI]
+/var/www/xtream/stream.php:181:    return XTREAM_BASE_URL . '/stream.php?token= [GIZLENDI]
+/var/www/xtream/stream.php:441:    $token = [GIZLENDI]
+/var/www/xtream/packages.php:67:    $token = [GIZLENDI]
+/var/www/xtream/session_common.php:6:    static $secret = [GIZLENDI]
+/var/www/xtream/session_common.php:16:    return $secret = [GIZLENDI]
+/var/www/xtream/session_common.php:201:            $oldToken = [GIZLENDI]
+/var/www/xtream/session_common.php:240:        $token = [GIZLENDI]
+/var/www/xtream/_content.php:65:        $token= [GIZLENDI]
+/var/www/xtream/customers.php:84:    $token = [GIZLENDI]
+/var/www/xtream/customers.php:97:            $password = [GIZLENDI]
+/var/www/xtream/customers.php:177:                            '&password= [GIZLENDI]
+/var/www/xtream/series.php:73:            'api_key= [GIZLENDI]
+/var/www/xtream/series.php:100:        $token= [GIZLENDI]
+
+======================================================
+ 13. PHP KAYNAK DOSYALARI - INCELEME ICIN
+======================================================
 
 ========== DOSYA: index.php ==========
 <?php
@@ -52,7 +1389,7 @@ try {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $token = $_POST['csrf'] ?? '';
+    $token = [GIZLENDI]
 
     if (!is_string($token) || !hash_equals($_SESSION['csrf'], $token)) {
         $error = 'Güvenlik doğrulaması başarısız. Sayfayı yenileyin.';
@@ -63,9 +1400,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     } elseif (isset($_POST['login'])) {
         $username = trim((string)($_POST['username'] ?? ''));
-        $password = (string)($_POST['password'] ?? '');
+        $password = [GIZLENDI]
 
-        $stmt = $pdo->prepare('SELECT id, username, password_hash FROM admins WHERE username = ? LIMIT 1');
+        $stmt = [GIZLENDI]
         $stmt->execute([$username]);
         $admin = $stmt->fetch();
 
@@ -306,7 +1643,7 @@ a{color:inherit;text-decoration:none}
         <label>Yönetici kullanıcı adı</label>
         <input type="text" name="username" placeholder="Kullanıcı adınız" required autocomplete="username">
         <label>Yönetici şifresi</label>
-        <input type="password" name="password" placeholder="Şifreniz" required autocomplete="current-password">
+        <input type= [GIZLENDI]
         <button class="login-submit" type="submit" name="login" value="1">GÜVENLİ GİRİŞ YAP</button>
         <div class="login-foot">XTREAM CONTROL PANEL · SECURE ACCESS</div>
     </form>
@@ -674,7 +2011,7 @@ function validDate(string $value): ?string {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $token = $_POST['csrf'] ?? '';
+    $token = [GIZLENDI]
 
     if (!is_string($token) || !hash_equals($_SESSION['csrf'], $token)) {
         $_SESSION['flash'] = ['error', 'Güvenlik doğrulaması başarısız. Sayfayı yenileyin.'];
@@ -687,7 +2024,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($action === 'create' || $action === 'update') {
             $id = (int)($_POST['id'] ?? 0);
             $username = trim((string)($_POST['username'] ?? ''));
-            $password = (string)($_POST['password'] ?? '');
+            $password = [GIZLENDI]
             $status = (string)($_POST['status'] ?? 'active');
             $maxConnections = filter_var(
                 $_POST['max_connections'] ?? null,
@@ -767,7 +2104,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                         $m3uUrl = 'https://xtream.mutluapk.xyz/get.php?username=' .
                             rawurlencode($username) .
-                            '&password=' . rawurlencode($password) .
+                            '&password= [GIZLENDI]
                             '&type=m3u_plus';
 
                         $privateMessage =
@@ -850,7 +2187,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 throw new RuntimeException('Müşteri kaydı bulunamadı.');
             }
 
-            if ($password !== '') {
+            if ($password != [GIZLENDI]
                 if (strlen($password) < 8) {
                     throw new RuntimeException('Yeni şifre en az 8 karakter olmalı.');
                 }
@@ -858,7 +2195,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $hash = password_hash($password, PASSWORD_DEFAULT);
                 $stmt = $pdo->prepare(
                     'UPDATE customers
-                     SET username=?, password_hash=?, status=?, expires_at=?, max_connections=?, package_id=?, adult_enabled=?
+                     SET username= [GIZLENDI]
                      WHERE id=?'
                 );
                 $stmt->execute([$username, $hash, $status, $expiresAt, $maxConnections, $packageId, $adultEnabled, $id]);
@@ -1304,7 +2641,7 @@ h1{font-size:24px}
                 </div>
                 <div class="field">
                     <label><?=$edit ? 'Yeni şifre (isteğe bağlı)' : 'Müşteri şifresi'?></label>
-                    <input type="password" name="password" <?=$edit ? '' : 'required'?> minlength="8" placeholder="<?=$edit ? 'Değiştirmek istemiyorsan boş bırak' : 'En az 8 karakter'?>" autocomplete="new-password">
+                    <input type= [GIZLENDI]
                 </div>
                 <div class="field">
                     <label>Abonelik bitiş tarihi ve saati</label>
@@ -2139,7 +3476,7 @@ if (empty($_SESSION['csrf'])) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'logout') {
-    $token = $_POST['csrf'] ?? '';
+    $token = [GIZLENDI]
     if (is_string($token) && hash_equals($_SESSION['csrf'], $token)) {
         $_SESSION = [];
         session_destroy();
@@ -2648,7 +3985,7 @@ try {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $token = $_POST['csrf'] ?? '';
+    $token = [GIZLENDI]
 
     if (!is_string($token) ||
         !hash_equals((string)$_SESSION['csrf'], $token)) {
@@ -3227,7 +4564,7 @@ try {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $token = $_POST['csrf'] ?? '';
+    $token = [GIZLENDI]
 
     if (!is_string($token) ||
         !hash_equals((string)$_SESSION['csrf'], $token)) {
@@ -4281,7 +5618,7 @@ function parseM3u(string $content): array {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
-        $token = $_POST['csrf'] ?? '';
+        $token = [GIZLENDI]
         if (!is_string($token) || !hash_equals($_SESSION['csrf'], $token)) {
             throw new RuntimeException('Güvenlik doğrulaması başarısız.');
         }
@@ -4930,7 +6267,7 @@ function seriesTmdbApi(string $path): array {
 
     $url = 'https://api.themoviedb.org/3/' . ltrim($path, '/');
     $url .= (str_contains($url, '?') ? '&' : '?') .
-            'api_key=' . rawurlencode($key) . '&language=tr-TR';
+            'api_key= [GIZLENDI]
 
     $ch = curl_init($url);
     curl_setopt_array($ch, [
@@ -4957,7 +6294,7 @@ function seriesTmdbApi(string $path): array {
 
 if ($_SERVER['REQUEST_METHOD']==='POST') {
     try {
-        $token=$_POST['csrf']??'';
+        $token= [GIZLENDI]
         if (!is_string($token)||!hash_equals($_SESSION['csrf'],$token)) {
             throw new RuntimeException('Güvenlik doğrulaması başarısız.');
         }
@@ -6018,7 +7355,7 @@ try {
 
 if ($_SERVER['REQUEST_METHOD']==='POST') {
     try {
-        $token=$_POST['csrf']??'';
+        $token= [GIZLENDI]
         if (!is_string($token)||!hash_equals($_SESSION['csrf'],$token)) {
             throw new RuntimeException('Güvenlik doğrulaması başarısız.');
         }
@@ -6723,7 +8060,7 @@ if (!is_string($key)||trim($key)==='') {
 function tmdbRequest(string $path, array $params=[]): array {
     global $key;
 
-    $params['api_key']=$key;
+    $params['api_key']= [GIZLENDI]
     $params['language']='tr-TR';
 
     $url='https://api.themoviedb.org/3/'.$path.'?'.http_build_query($params);
@@ -6870,3 +8207,23 @@ try {
 }
 
 ========== DOSYA SONU: tmdb.php ==========
+
+======================================================
+ 14. OTOMATIK TARAMA OZETI
+======================================================
+PHP DOSYA SAYISI:
+21
+
+YETKI FONKSIYONU KULLANIM SAYISI:
+3
+
+ADMIN PERMISSION TABLOSU:
+52:         FROM admin_permissions
+
+TARAMA BITTI.
+Bu rapor otomatik analiz icindir; bulunan her aday manuel incelenmelidir.
+======================================================
+
+RAPOR DOSYASI: /root/XTREAM-TUM-SORUNLAR-20261101-220009.txt
+BOYUT:
+-rw------- 1 root root 383K Nov  1 22:00 /root/XTREAM-TUM-SORUNLAR-20261101-220009.txt
